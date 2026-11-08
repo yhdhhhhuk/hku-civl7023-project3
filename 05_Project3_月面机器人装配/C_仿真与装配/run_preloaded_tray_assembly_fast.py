@@ -21,6 +21,7 @@ MODEL=PROJECT/'B_工作空间与设计约束/构件模型'
 PARAM=json.loads((MODEL/'parameters.json').read_text(encoding='utf8'))
 COM=np.array([0.,0.,.011])
 MASS=.07
+INERTIA=MASS/12*np.array([.030**2+.025**2,.050**2+.025**2,.050**2+.030**2])
 CLOSING_FORCE_N=1.
 PHYSICS_SUBSTEPS=4
 CREATIONS=[]
@@ -31,8 +32,8 @@ def component(origin,client,visual=True):
     # Fixed multibody links ignore changeDynamics(collisionMargin) in this build.
     import shutil
     cache=ROOT/'.cache/C_仿真与装配/构件网格'; cache.mkdir(parents=True,exist_ok=True)
-    inertia=(MASS/12*np.array([.030**2+.025**2,.050**2+.025**2,.050**2+.030**2])).tolist()
-    xml='<robot name="groove_key"><link name="body"><inertial><origin xyz="0 0 .011"/><mass value=".07"/>'
+    inertia=INERTIA.tolist()
+    xml=f'<robot name="groove_key"><link name="body"><inertial><origin xyz="{COM[0]} {COM[1]} {COM[2]}"/><mass value="{MASS}"/>'
     xml+=f'<inertia ixx="{inertia[0]}" iyy="{inertia[1]}" izz="{inertia[2]}" ixy="0" ixz="0" iyz="0"/></inertial>'
     for i,filename in enumerate(PARAM['collision_parts']):
         shutil.copyfile(MODEL/filename,cache/f'part_{i}.stl')
@@ -55,9 +56,21 @@ def core_contact(pt, body, client=0):
 
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--limit',type=int,default=16); ap.add_argument('--video',action='store_true'); ap.add_argument('--gui',action='store_true'); ap.add_argument('--output',type=Path,default=ROOT/'运行验证/C_装配运行'/time.strftime('%Y%m%d_%H%M%S')); args=ap.parse_args()
+    global MASS,COM,INERTIA
+    started=time.time()
+    ap=argparse.ArgumentParser(); ap.add_argument('--compensate-grasp-offset',action='store_true'); ap.add_argument("--payload-config",choices=["legacy70g","A-candidate"],default="legacy70g"); ap.add_argument("--telemetry",action="store_true"); ap.add_argument('--limit',type=int,default=16); ap.add_argument('--video',action='store_true'); ap.add_argument('--gui',action='store_true'); ap.add_argument('--output',type=Path,default=ROOT/'运行验证/C_装配运行'/time.strftime('%Y%m%d_%H%M%S')); args=ap.parse_args()
     if not 1 <= args.limit <= 16: ap.error('--limit must be between 1 and 16')
     out=args.output; out.mkdir(parents=True,exist_ok=True)
+    candidate_path=ROOT/'A_结构设计与CAD/04_构件参数与文献/质量惯量_候选参数.json'
+    if args.payload_config=='A-candidate':
+        candidate=json.loads(candidate_path.read_text(encoding='utf8'))
+        tensor=np.array(candidate['inertia_about_COM_expressed_in_geometry_axes_kg_m2'])
+        if not np.allclose(tensor,np.diag(np.diag(tensor)),atol=1e-15,rtol=0):
+            raise ValueError('Non-diagonal tensor requires explicit inertial-frame conversion')
+        assert np.linalg.eigvalsh(tensor).min()>0
+        MASS=candidate['mass_kg'];COM=np.array(candidate['centre_of_mass_in_geometry_frame_m']);INERTIA=np.diag(tensor)
+    provenance={'started_local':time.strftime('%Y-%m-%d %H:%M:%S %z'),'argv':sys.argv,'python':sys.version,'payload_config':args.payload_config,'candidate_sha256':hashlib.sha256(candidate_path.read_bytes()).hexdigest(),'source_hashes':{str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for folder in ['B_关节与夹爪','B_基础控制与雅可比','B_第二阶段控制与评价','C_仿真与装配'] for f in (ROOT/folder).glob('*.py')}}
+    (out/'run_manifest.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2),encoding='utf8')
     import shutil
     for file in [Path(__file__),ROOT/'C_仿真与装配/gripper_release.py',ROOT/'C_仿真与装配/polygon_planning.py',ROOT/'C_仿真与装配/preloaded_planning_fast.py',ROOT/'C_仿真与装配/collision_broadphase.py',ROOT/'C_仿真与装配/motion_planning.py',ROOT/'C_仿真与装配/preloaded_tray_layout.py',ROOT/'C_仿真与装配/preloaded_tray_scene.py',ROOT/'C_仿真与装配/local_paths.py']:
         shutil.copyfile(file,out/file.name)
@@ -87,7 +100,13 @@ def main():
     initial_scene_body_count=p.getNumBodies(cid);body_count_min=initial_scene_body_count;body_count_max=initial_scene_body_count
     (out/'initial_inventory.json').write_text(json.dumps(initial_inventory,indent=2),encoding='utf8')
     inventory_rows=[]
-    inertia=(MASS/12*np.array([.030**2+.025**2,.050**2+.025**2,.050**2+.030**2])).tolist()
+    inertia=INERTIA.tolist()
+    dynamics=p.getDynamicsInfo(bodies[0],-1,physicsClientId=cid)
+    assert abs(dynamics[0]-MASS)<1e-12 and np.allclose(dynamics[2],INERTIA,atol=1e-14,rtol=0) and np.allclose(dynamics[3],COM,atol=1e-14,rtol=0)
+    assert np.allclose(dynamics[4],[0,0,0,1],atol=1e-14)
+    (out/'loaded_payload.json').write_text(json.dumps({'mass_kg':dynamics[0],'inertia_diagonal_kg_m2':dynamics[2],'inertial_position_m':dynamics[3],'inertial_orientation_xyzw':dynamics[4],'geometry_origin_reconstruction_max_error_m':max(float(np.linalg.norm(np.array(p.getBasePositionAndOrientation(b)[0])-Rotation.from_quat(p.getBasePositionAndOrientation(b)[1]).apply(COM)-pos)) for b,pos in zip(bodies,sources))},indent=2))
+    from B_第二阶段控制与评价.telemetry import Telemetry
+    telemetry=Telemetry(robot,out/'joint_full_trace.csv') if args.telemetry else None
     body=bodies[0]; active=0; placed=[]; item_results=[]; snapshots=[]
     support=None; support_shadow=None; support_checks=0; payload_checks=0; min_support_distance=1.
     planning_log=[]
@@ -107,6 +126,7 @@ def main():
         nonlocal steps,maxz,min_support_distance,body_count_min,body_count_max
         global PHYSICS_STEPS
         steps+=1;PHYSICS_STEPS=steps
+        if telemetry:telemetry.sample(steps,DT,active+1,phase,constraint)
         current_body_count=p.getNumBodies(cid);body_count_min=min(body_count_min,current_body_count);body_count_max=max(body_count_max,current_body_count)
         if current_body_count!=initial_scene_body_count:raise RuntimeError('Scene body count changed during assembly')
         op,oq=origin(); maxz=max(maxz,float(op[2]))
@@ -135,7 +155,7 @@ def main():
             image=p.getCameraImage(640,480,view,proj,renderer=p.ER_TINY_RENDERER)
             canvas=Image.fromarray(np.asarray(image[2],dtype=np.uint8).reshape(480,640,4)); draw=ImageDraw.Draw(canvas)
             draw.text((10,10),f'PRELOADED 16 | placed {len(placed)}/{count} | item {active+1} | {phase} | {steps*DT:.1f}s',fill='black')
-            draw.text((10,28),'34 CONVEX PARTS / TEMPORARY MASS / ASSISTED GRASP',fill='black')
+            draw.text((10,28),f'34 CONVEX / {args.payload_config} / ASSISTED GRASP',fill='black')
             if steps==24:canvas.save(out/'first_frame.png')
             if writer:writer.append_data(np.asarray(canvas)[:,:,:3])
         if args.gui: time.sleep(DT)
@@ -227,8 +247,25 @@ def main():
             relative=p.multiplyTransforms(*p.invertTransform(ls[0],ls[1]),bp,bo)
             constraint=p.createConstraint(robot.robot,7,body,-1,p.JOINT_FIXED,[0,0,0],relative[0],[0,0,0],parentFrameOrientation=relative[1]);p.changeConstraint(constraint,maxForce=30)
             events.append({'phase':'attach','item':active+1,'time_s':steps*DT,'bilateral_contacts':both,'instantaneous_displacement_m':float(np.linalg.norm(np.array(p.getBasePositionAndOrientation(body)[0])-bp))})
-            move('lift',[source[0],source[1],.082],source_yaws[active]);move('transfer',[target[0],target[1],.082],yaws[active])
-            move('lower',[target[0],target[1],target[2]+(.0145 if active>=8 else .016)],yaws[active])
+            move('lift',[source[0],source[1],.082],source_yaws[active])
+            placement_xy=np.array(target[:2],dtype=float)
+            if args.compensate_grasp_offset:
+                # Infer the held geometry-origin offset in the measured TCP frame.
+                # Predict it at the target tool orientation; change TCP commands only.
+                # Object poses, nominal assembly targets and contact limits are untouched.
+                tcp=measured_tcp(robot);op,_=origin()
+                local_offset=tcp[:3,:3].T@(op-tcp[:3,3])
+                target_rotation=Rotation.from_euler('z',yaws[active]).as_matrix()@np.diag([-1.,1.,-1.])
+                predicted_offset=target_rotation@local_offset
+                correction=-predicted_offset[:2]
+                if np.linalg.norm(correction)>.002:
+                    raise RuntimeError('Measured grasp XY offset exceeds 2mm compensation bound')
+                placement_xy+=correction
+                events.append({'phase':'grasp_offset_compensation','item':active+1,'time_s':steps*DT,
+                    'tcp_frame_origin_offset_m':local_offset.tolist(),'tcp_xy_correction_m':correction.tolist(),
+                    'nominal_target_m':target,'state_source':'exact simulated body and TCP poses'})
+            move('transfer',[*placement_xy,.082],yaws[active])
+            move('lower',[*placement_xy,target[2]+(.0145 if active>=8 else .016)],yaws[active])
             phase='release';control.width=.036;robot.command_gripper(.036)
             release=open_before_detach(robot,body,constraint,wait,lambda:steps*DT,release_sample,release_stall)
             events.append({'phase':'opened_before_detach','item':active+1,'time_s':steps*DT,
@@ -255,6 +292,7 @@ def main():
         error=str(exc); final={}; print(error,flush=True)
         p.saveBullet(str(out/'failure.bullet'))
     finally:
+        if telemetry:telemetry.close()
         if writer: writer.close()
         (out/'release_diagnostics.json').write_text(json.dumps(release_samples,ensure_ascii=False,indent=2),encoding='utf8')
         if release_samples:
@@ -266,6 +304,9 @@ def main():
                 with (out/name).open('w',newline='',encoding='utf-8-sig') as f:
                     w=csv.DictWriter(f,list(data[0]));w.writeheader();w.writerows(data)
         report={'contact_breaking_relative_factor':CONTACT_BREAKING_FACTOR,'release_policy':'relative contact cache factor0.00001; open1N then bounded3N retry; detach only after clear stable0.25s','release_force_stages_N':list(RELEASE_FORCES_N),'release_stage_seconds':RELEASE_STAGE_SECONDS,'release_helper_sha256':hashlib.sha256((ROOT/'C_仿真与装配/gripper_release.py').read_bytes()).hexdigest(),'initial_inventory':initial_inventory,'initial_scene_body_count':initial_scene_body_count,'body_count_min':body_count_min,'body_count_max':body_count_max,'creation_audit':CREATIONS,'preloaded_count':len(bodies),'source_yaws':source_yaws,'planning_log':planning_log,'layout_note':'Octagonal segmented enclosure; original rectangular geometry; no side connectors; center (.26,.03), centerline radius .076m' ,'sources':sources,'targets':targets,'placed_items':placed,'item_results':item_results,'scene_snapshots':snapshots,'layout':'octagon_8_per_layer','target_yaws':yaws,'requested_count':count,'feed_mode':'all16 preloaded before step zero on coplanar flat arc tray; no in-run component creation','payload_support_penetration_limit_m':.0002,'planned_payload_distance_limit_m':0.,'dense_edge_resolution_rad':.001,'exact_command_grid_preflight':False,'trajectory_validation':'quintic command-grid preflight; vertical sampled IK plus every-command guard','conservative_aabb_rejection':True,'grip_contact_position_tolerance_m':.001,'all_components_dynamic':True,'support_guard_checks':support_checks,'payload_support_guard_checks':payload_checks,'minimum_payload_support_contact_distance_m':min_support_distance if min_support_distance<1 else None,'success':success,'error':error,'source':'B handoff 2026-10-30','simulated_seconds':steps*DT,'max_bottom_height_m':maxz,'final':final,'events':events,'moves':moves,'collisions':violations,'mass_kg':MASS,'temporary_com_from_bottom_m':COM.tolist(),'temporary_bounding_box_inertia_kg_m2':inertia,'convex_parts':34,'collision_representation':'single rigid base / 34 convex children','base_collision_margin':p.getDynamicsInfo(body,-1)[-1],'gripper_force_limit_N_per_finger':CLOSING_FORCE_N,'physics_substeps':PHYSICS_SUBSTEPS,'physics_dt_s':DT,'internal_physics_dt_s':DT/PHYSICS_SUBSTEPS,'assisted_grasp':True,'self_collision_ignored_pairs':sorted(ignored),'source_hash':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
+        report.update(grasp_offset_compensation=args.compensate_grasp_offset,payload_config=args.payload_config,com_from_bottom_m=COM.tolist(),inertia_diagonal_about_com_kg_m2=INERTIA.tolist(),wall_seconds=time.time()-started,telemetry_rows=telemetry.count if telemetry else 0,exit_code=0 if success else 1)
+        if args.payload_config!='legacy70g':
+            del report['temporary_com_from_bottom_m'];del report['temporary_bounding_box_inertia_kg_m2']
         (out/'result.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf8')
         control.close();p.disconnect(cid)
     return 0 if success else 1

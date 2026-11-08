@@ -1,0 +1,74 @@
+pybullet build time: Oct 29 2026 22:54:04
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frameb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+dummy_linkb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frameb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+dummy_linkITEM 1
+1 approach reached
+1 descend reached
+1 lift reached
+1 transfer reached
+1 lower reached
+1 retreat reached
+ITEM 2
+2 approach reached
+2 descend reached
+2 lift reached
+2 transfer reached
+2 lower reached
+2 retreat reached
+ITEM 3
+3 approach reached
+3 descend reached
+3 lift reached
+3 transfer reached
+3 lower reached
+3 retreat reached
+ITEM 4
+4 approach reached
+4 descend reached
+4 lift reached
+4 transfer reached
+4 lower reached
+4 retreat reached
+ITEM 5
+5 approach reached
+5 descend reached
+5 lift reached
+5 transfer reached
+5 lower reached
+5 retreat reached
+ITEM 6
+6 approach reached
+6 descend reached
+6 lift reached
+6 transfer reached
+6 lower reached
+6 retreat reached
+ITEM 7
+7 approach reached
+7 descend reached
+7 lift reached
+7 transfer reached
+7 lower reached
+7 retreat reached
+ITEM 8
+8 approach reached
+8 descend reached
+8 lift reached
+8 transfer reached
+8 lower reached
+8 retreat reached
+ITEM 9
+9 approach reached
+9 descend reached
+9 lift reached
+9 transfer reached
+9 lower reached
+9 retreat reached
+ITEM 10
+10 approach reached
+10 descend reached
+10 lift reached
+10 transfer reached
+Vertical path blocked: ['payload_environment', 9, -0.00015800003983638787]

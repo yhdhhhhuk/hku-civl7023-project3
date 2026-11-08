@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "completed_items": 16,
+  "telemetry_rows": 145724,
+  "inventory_samples": 1214,
+  "scene_snapshots": 96,
+  "command_preflight_segments": 64,
+  "vertical_segments": 32,
+  "planner_methods": {
+    "cartesian_vertical_checked": 32,
+    "direct_checked": 64
+  },
+  "max_position_error_mm": 0.3507633416220484,
+  "max_orientation_error_deg": 0.5867857606273305,
+  "release_escalations": 0,
+  "source_hashes_match": true,
+  "nominal_targets_unchanged": true,
+  "grasp_offset_compensation": true,
+  "maximum_xy_compensation_mm": 0.8253238683506946,
+  "notes": "Discrete evidence audit; not a continuous collision or structural safety proof."
+}

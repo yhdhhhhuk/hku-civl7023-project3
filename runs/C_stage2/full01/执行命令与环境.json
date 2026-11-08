@@ -1,0 +1,22 @@
+{
+  "command": [
+    "E:\\7023\\.venv\\Scripts\\python.exe",
+    "E:\\7023\\project3_stage2\\05_Project3_月面机器人装配\\C_仿真与装配\\run_preloaded_tray_assembly_fast.py",
+    "--payload-config",
+    "A-candidate",
+    "--telemetry",
+    "--limit",
+    "16",
+    "--video",
+    "--output",
+    "E:\\7023\\project3_stage2\\runs\\C_stage2\\full01"
+  ],
+  "runtime_env": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "machine": "AMD64",
+    "pybullet": "3.2.7"
+  },
+  "started": "2026-11-07T22:09:16.374836+08:00",
+  "exit_code": 1
+}

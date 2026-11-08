@@ -1,0 +1,23 @@
+{
+  "command": [
+    "E:\\7023\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-nostdin",
+    "-i",
+    "E:\\7023\\project3_stage2\\runs\\C_stage2\\full02_compensated\\assembly.mp4",
+    "-vf",
+    "setpts=PTS/4",
+    "-r",
+    "20",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "18",
+    "E:\\7023\\project3_stage2\\runs\\C_stage2\\full02_compensated\\assembly_4x.mp4"
+  ],
+  "source_sha256": "bd3617d55a75a3f04fbfd729da34f0447777b09b0aec79d96a90791097f1f4fc",
+  "viewing_copy_sha256": "930306a6fc54df1be9404978cbc72f0df7eeaf1f0084b0baef38f84cd74d4ecf",
+  "duration_seconds": 151.8,
+  "fps": 20.0,
+  "note": "4x viewing copy of the same physical run; original retained; no restored-run concatenation."
+}

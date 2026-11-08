@@ -1,0 +1,14 @@
+pybullet build time: Oct 29 2026 22:54:04
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,152]:
+URDF file 'E:\7023\project3_stage2\05_Project3_月面机器人装配\PiPER_Load_URDF\piper_description\piper_description_pybullet.urdf' not found
+Traceback (most recent call last):
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\C_仿真与装配\run_preloaded_tray_assembly_fast.py", line 296, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\C_仿真与装配\run_preloaded_tray_assembly_fast.py", line 82, in main
+    robot=Piper(cid,self_collision=True); ignored=collision_pairs(robot)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\B_关节与夹爪\piper_robot.py", line 89, in __init__
+    self.robot = p.loadURDF(str(URDF), basePosition=base_position,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pybullet.error: Cannot load URDF file.

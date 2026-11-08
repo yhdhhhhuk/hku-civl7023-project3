@@ -1,0 +1,15 @@
+{
+  "command": [
+    "E:\\7023\\.venv\\Scripts\\python.exe",
+    "E:\\7023\\project3_stage2\\05_Project3_月面机器人装配\\B_第二阶段控制与评价\\audit_video.py",
+    "E:\\7023\\project3_stage2\\runs\\C_stage2\\full02_compensated"
+  ],
+  "runtime_env": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "machine": "AMD64",
+    "pybullet": "3.2.7"
+  },
+  "started": "2026-11-07T23:39:10.646792+08:00",
+  "exit_code": 0
+}

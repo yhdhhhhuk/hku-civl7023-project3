@@ -1,0 +1,27 @@
+pybullet build time: Oct 29 2026 22:54:04
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frameb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+dummy_linkb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frameb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+dummy_linkITEM 1
+1 approach reached
+1 descend reached
+1 lift reached
+1 transfer reached
+1 lower reached
+1 retreat reached
+Couldn't save .bullet file.
+Traceback (most recent call last):
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\C_仿真与装配\run_preloaded_tray_assembly_fast.py", line 265, in main
+    p.saveBullet(str(out/'checkpoint.bullet'))
+pybullet.error: Couldn't save .bullet file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\C_仿真与装配\run_preloaded_tray_assembly_fast.py", line 296, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "E:\7023\project3_stage2\05_Project3_月面机器人装配\C_仿真与装配\run_preloaded_tray_assembly_fast.py", line 276, in main
+    p.saveBullet(str(out/'failure.bullet'))
+pybullet.error: Couldn't save .bullet file.

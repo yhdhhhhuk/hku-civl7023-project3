@@ -1,0 +1,30 @@
+[
+  {
+    "path": "runs/C_stage2/full01/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage2/full01/joint_full_trace.csv.gz",
+    "sha256": "041e82744f9c30af42ec47747f654f6d790faf976fc90c5a80a84f1531b56d35",
+    "bytes": 150000514,
+    "compressed_bytes": 62341702
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage2/full02_compensated/joint_full_trace.csv.gz",
+    "sha256": "b76a77d2099bce6ea9ae12d5752486c791a9f778716cf13fb7b5681b8ed64ab2",
+    "bytes": 233240763,
+    "compressed_bytes": 96011445
+  },
+  {
+    "path": "runs/C_stage2/single03/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage2/single03/joint_full_trace.csv.gz",
+    "sha256": "711e4ab6f3345953cd6ef2d77104063780fead184c7a6ee634212f5f72aefeee",
+    "bytes": 18038090,
+    "compressed_bytes": 6795866
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage2/single04_compensated/joint_full_trace.csv.gz",
+    "sha256": "170d0a6328700f935c116a68cce18fdb38f73164c26087c99ea511cebe8fdf5b",
+    "bytes": 18032737,
+    "compressed_bytes": 6790617
+  }
+]

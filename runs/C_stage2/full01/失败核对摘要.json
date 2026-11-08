@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_PRESERVED",
+  "completed_items": 9,
+  "reached_moves": 58,
+  "telemetry_rows": 93816,
+  "telemetry_contiguous": true,
+  "simulated_seconds": 390.9,
+  "failed_item": 10,
+  "failed_phase": "lower preflight",
+  "error": "Vertical path blocked: ['payload_environment', 9, -0.00015800003983638787]",
+  "execution_collision_records": 0,
+  "resumed_into_success": false,
+  "lower_executed": false
+}

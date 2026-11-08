@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "completed_items": 1,
+  "telemetry_rows": 11300,
+  "inventory_samples": 94,
+  "scene_snapshots": 6,
+  "command_preflight_segments": 4,
+  "vertical_segments": 2,
+  "planner_methods": {
+    "direct_checked": 4,
+    "cartesian_vertical_checked": 2
+  },
+  "max_position_error_mm": 0.03995912509877802,
+  "max_orientation_error_deg": 0.0009773021654196205,
+  "release_escalations": 0,
+  "source_hashes_match": true,
+  "notes": "Discrete evidence audit; not a continuous collision or structural safety proof."
+}

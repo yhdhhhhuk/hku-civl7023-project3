@@ -1,0 +1,16 @@
+{
+  "command": [
+    "E:\\7023\\.venv\\Scripts\\python.exe",
+    "E:\\7023\\project3_stage2\\05_Project3_月面机器人装配\\B_第二阶段控制与评价\\verify_feedback.py",
+    "--output",
+    "E:\\7023\\project3_stage2\\05_Project3_月面机器人装配\\运行验证\\C_第二阶段复现\\本机反馈校准\\反馈字段独立核对.json"
+  ],
+  "runtime_env": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "machine": "AMD64",
+    "pybullet": "3.2.7"
+  },
+  "started": "2026-11-07T22:04:39.163395+08:00",
+  "exit_code": 0
+}

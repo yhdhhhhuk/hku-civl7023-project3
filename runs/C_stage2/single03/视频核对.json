@@ -1,0 +1,12 @@
+{
+  "frames": 236,
+  "expected_frames": 236,
+  "fps": 5,
+  "resolution": [
+    640,
+    480
+  ],
+  "video_duration_seconds": 47.2,
+  "simulation_seconds": 47.083333333333336,
+  "note": "One extra initial frame at step24, subsequent frames every48 external steps; actual physics render, no interpolation or checkpoint concatenation."
+}

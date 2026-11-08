@@ -1,0 +1,43 @@
+{
+  "started_local": "2026-11-07 22:07:22 +0800",
+  "argv": [
+    "E:\\7023\\project3_stage2\\05_Project3_月面机器人装配\\C_仿真与装配\\run_preloaded_tray_assembly_fast.py",
+    "--payload-config",
+    "A-candidate",
+    "--telemetry",
+    "--limit",
+    "1",
+    "--video",
+    "--output",
+    "E:\\7023\\project3_stage2\\runs\\C_stage2\\single03"
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "payload_config": "A-candidate",
+  "candidate_sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d",
+  "source_hashes": {
+    "B_关节与夹爪\\demo_joints.py": "b18fc6c1ea9ec8101f885738bba35e92e173afee9d943d7b192b795f18da49ed",
+    "B_关节与夹爪\\piper_robot.py": "01e4acc755c71d06f1417ac125e7731d07135eac725e9c125582e8ad93b10e83",
+    "B_关节与夹爪\\verify_joints.py": "c102396644bff8e240f22c4b97a8bb86f56547e3b376cf455cb5c98e99fa7273",
+    "B_基础控制与雅可比\\controller.py": "cbd1f0b782f6a941ea25740e387da8f3dcb96964134dbd3e82958a90aaef44ab",
+    "B_基础控制与雅可比\\kinematics.py": "733cc99ff387dd9a34a9d5e1ffb972cb5bae303d77a080ba97276cf154cff2ea",
+    "B_基础控制与雅可比\\matrix_helpers.py": "82762361d566c7dc01147eb0de758610740199df72a905b03aee145320b1b70e",
+    "B_基础控制与雅可比\\plot_results.py": "5a45aabd23a09b14daebc4552b6f2101cbed5ffc7daec26f145edbaf754a4262",
+    "B_基础控制与雅可比\\run_pose_control.py": "59acf4122b2b99406077468db1255769a8b81563b839b55b2266d8fe8c51d658",
+    "B_基础控制与雅可比\\verify_kinematics.py": "d2ba0aeb8ef00797a4ee9ec0c19e34394d708a301b082583d5eda27a3c2123ac",
+    "B_第二阶段控制与评价\\audit_video.py": "032ec225bd2b731708cba371e06f54b062a7a19f0bd4b63742c28ccf2b989e1c",
+    "B_第二阶段控制与评价\\evaluate.py": "b8a90264665921a658f2880590044365b4e9c3b84e7aeffb4e29397aa8cd9d1d",
+    "B_第二阶段控制与评价\\telemetry.py": "29b66b4bb2a0dc800db5aea99daa8cdab5b29f82411125a4ae92c9094fb8447b",
+    "B_第二阶段控制与评价\\verify_feedback.py": "47120b2556a4c73d4842c5b404df8735f3b68a3fc687df21391c8bacbf537bbc",
+    "C_仿真与装配\\collision_broadphase.py": "0d128ba0a11f76ce7aa9aafce0be5f1d9dd59f3aca0fc4c56978c2af3b64b40c",
+    "C_仿真与装配\\gripper_release.py": "ef78b7aba576f437dd38a280b560c6d48ce456cdb798841d20f96b4a5e99bdc1",
+    "C_仿真与装配\\local_paths.py": "44e232f62ffb7c30074874091f3ec81f265e163545b9f57970e45012ef235e0f",
+    "C_仿真与装配\\motion_planning.py": "1e8ca858c256c4e8718387cc6cce9adfe764e10d71f27c7a5d8e0e0db217f52a",
+    "C_仿真与装配\\polygon_planning.py": "fa144af14c004d46de8e992f9be8e63d52cb32ed05fe72404aa97eafcfc4a6f8",
+    "C_仿真与装配\\preloaded_planning_fast.py": "fcf1f69da5a69a98b13567cf4b6df5902203d8a2900ef3ffd9f5976f75a29200",
+    "C_仿真与装配\\preloaded_tray_layout.py": "ee959d5780240a7f345d0f49d8fa7d0c2f887536c2f7043fe058a517293bdecf",
+    "C_仿真与装配\\preloaded_tray_scene.py": "86e3c1970ac2122c0c130500c014f0c3a48a4330f6f86841ce70eeda4d284e8a",
+    "C_仿真与装配\\run_preloaded_tray_assembly_fast.py": "94ca01eccc6a9be97112ca376bb897f90e3cb0d7a63fe22945f6705fc5d3e56b",
+    "C_仿真与装配\\summarize_preloaded_tray.py": "eeedee4ee78dc707e6e814a41e86ca63946ff08bb6b38cc9993a203699f4c1c0",
+    "C_仿真与装配\\__init__.py": "1b2c9b73a4cb7aae545d38c64cdde7ec326406ef21cb25ee95f3356b0b3e8707"
+  }
+}

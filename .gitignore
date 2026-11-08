@@ -34,3 +34,10 @@
 .env.*
 *.pem
 *.key
+
+# C stage2 local build/cache and redundant JSON checkpoints.
+/.build/
+/.cache/
+/.chart-data-*/
+/runs/**/checkpoint.json
+/runs/**/joint_full_trace.csv
