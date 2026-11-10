@@ -1,0 +1,34 @@
+{
+  "trace_checks": {
+    "B": {
+      "rows": 145676,
+      "sample_rate_hz": 240,
+      "time_and_steps_contiguous": true,
+      "six_raw_peaks_and_calibrated_peak_RMS_matched": true,
+      "source_zip_entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/joint_full_trace.csv"
+    },
+    "C": {
+      "rows": 145724,
+      "sample_rate_hz": 240,
+      "time_and_steps_contiguous": true,
+      "six_raw_peaks_and_calibrated_peak_RMS_matched": true,
+      "source_zip_entry": "project3_stage2/runs/C_stage2/full02_compensated/joint_full_trace.csv"
+    }
+  },
+  "dwg_audit": {
+    "octagon_AutoCAD2027.dwg": {
+      "opened_with": "AutoCAD 2027 Core Console",
+      "solids": 16,
+      "insunits": "mm",
+      "dimension_note_texts": 0,
+      "audit_errors": 0
+    },
+    "octagon_dimensioned.dwg": {
+      "opened_with": "AutoCAD 2027 Core Console",
+      "solids": 16,
+      "insunits": "mm",
+      "dimension_note_texts": 8,
+      "audit_errors": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "B": {
+    "initial_target_rows_matched": 16,
+    "moves_reached": 96,
+    "placed": 16,
+    "defined_collision_count": 0,
+    "final_position_max_mm": 0.9357910435369245,
+    "final_orientation_max_deg": 0.1555978013132035,
+    "all_final_bodies_had_lower_support_contacts": true,
+    "payload_matched": true
+  },
+  "C": {
+    "initial_target_rows_matched": 16,
+    "moves_reached": 96,
+    "placed": 16,
+    "defined_collision_count": 0,
+    "final_position_max_mm": 0.3507633416220484,
+    "final_orientation_max_deg": 0.5867857606273305,
+    "all_final_bodies_had_lower_support_contacts": true,
+    "payload_matched": true
+  },
+  "C_full01": {
+    "completed": 9,
+    "next_item": 10,
+    "reason": "Vertical path blocked: ['payload_environment', 9, -0.00015800003983638787]"
+  }
+}

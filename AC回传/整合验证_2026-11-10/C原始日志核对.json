@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "compressed_telemetry": [
+    {
+      "path": "runs/C_stage2/full01/joint_full_trace.csv.gz",
+      "uncompressed_bytes": 150000514,
+      "original_sha256_passed": true
+    },
+    {
+      "path": "runs/C_stage2/full02_compensated/joint_full_trace.csv.gz",
+      "uncompressed_bytes": 233240763,
+      "original_sha256_passed": true
+    },
+    {
+      "path": "runs/C_stage2/single03/joint_full_trace.csv.gz",
+      "uncompressed_bytes": 18038090,
+      "original_sha256_passed": true
+    },
+    {
+      "path": "runs/C_stage2/single04_compensated/joint_full_trace.csv.gz",
+      "uncompressed_bytes": 18032737,
+      "original_sha256_passed": true
+    }
+  ],
+  "runs": {
+    "full01": {
+      "success": false,
+      "placed_count": 9,
+      "telemetry_rows": 93816,
+      "continuous_240Hz": true,
+      "phases": {
+        "initialize": 480,
+        "approach": 30192,
+        "descend": 7680,
+        "close": 2400,
+        "lift": 4740,
+        "transfer": 31540,
+        "lower": 6680,
+        "release": 3936,
+        "retreat": 4008,
+        "settle": 2160
+      },
+      "source_provenance_passed": true,
+      "historical_source_different_from_current": [
+        "C_仿真与装配/run_preloaded_tray_assembly_fast.py"
+      ],
+      "raw_torque_peaks_Nm": [
+        2.844228107785161,
+        3.1666159598397154,
+        2.094431861162184,
+        0.5582886818921408,
+        0.3655434384940534,
+        0.024755643013828207
+      ],
+      "last_substep_equivalent_RMS_Nm": [
+        1.6488915164308129,
+        1.7988870293201698,
+        1.1830719593423826,
+        0.33872451021685585,
+        0.14320317665870363,
+        0.018427784058375606
+      ]
+    },
+    "full02_compensated": {
+      "success": true,
+      "placed_count": 16,
+      "telemetry_rows": 145724,
+      "continuous_240Hz": true,
+      "phases": {
+        "initialize": 480,
+        "approach": 44668,
+        "descend": 12288,
+        "close": 3840,
+        "lift": 7356,
+        "transfer": 47712,
+        "lower": 11104,
+        "release": 6984,
+        "retreat": 6732,
+        "settle": 3840,
+        "final_settle": 720
+      },
+      "source_provenance_passed": true,
+      "historical_source_different_from_current": [],
+      "raw_torque_peaks_Nm": [
+        3.8058853631629623,
+        3.2834932457180126,
+        2.0944285949844827,
+        0.6480687660447447,
+        0.36555187207721374,
+        0.025056072623060994
+      ],
+      "last_substep_equivalent_RMS_Nm": [
+        2.1257618784180496,
+        1.8401468239086727,
+        1.1675397193986763,
+        0.3913559627509925,
+        0.13346499812919882,
+        0.018026166578527254
+      ]
+    },
+    "single03": {
+      "success": true,
+      "placed_count": 1,
+      "telemetry_rows": 11300,
+      "continuous_240Hz": true,
+      "phases": {
+        "initialize": 480,
+        "approach": 2532,
+        "descend": 768,
+        "close": 240,
+        "lift": 488,
+        "transfer": 4216,
+        "lower": 756,
+        "release": 432,
+        "retreat": 428,
+        "settle": 240,
+        "final_settle": 720
+      },
+      "source_provenance_passed": true,
+      "historical_source_different_from_current": [
+        "C_仿真与装配/run_preloaded_tray_assembly_fast.py"
+      ],
+      "raw_torque_peaks_Nm": [
+        1.9128858115349356,
+        3.1666159598397154,
+        2.093441193580984,
+        0.3680050581612605,
+        0.3651083791811539,
+        0.023393146989898264
+      ],
+      "last_substep_equivalent_RMS_Nm": [
+        1.8397671299684741,
+        2.298436840389471,
+        1.6095539124475602,
+        0.37542005900765657,
+        0.24716630720945781,
+        0.016333215657349912
+      ]
+    },
+    "single04_compensated": {
+      "success": true,
+      "placed_count": 1,
+      "telemetry_rows": 11300,
+      "continuous_240Hz": true,
+      "phases": {
+        "initialize": 480,
+        "approach": 2532,
+        "descend": 768,
+        "close": 240,
+        "lift": 488,
+        "transfer": 4216,
+        "lower": 756,
+        "release": 432,
+        "retreat": 428,
+        "settle": 240,
+        "final_settle": 720
+      },
+      "source_provenance_passed": true,
+      "historical_source_different_from_current": [],
+      "raw_torque_peaks_Nm": [
+        1.9126537924052776,
+        3.165902919012598,
+        2.093441193580984,
+        0.3679781447672735,
+        0.3651083791811539,
+        0.023393146989898264
+      ],
+      "last_substep_equivalent_RMS_Nm": [
+        1.839640167175845,
+        2.298314299606521,
+        1.6095734974156155,
+        0.3754098503389212,
+        0.24716162540431305,
+        0.016333202700550293
+      ]
+    }
+  },
+  "scope": "Evidence audit, not another full16 physical run; no source or sealed output modified."
+}

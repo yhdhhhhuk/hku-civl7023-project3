@@ -1,0 +1,266 @@
+[
+  {
+    "delivered_as": "AC回传/A/数据/16件初始与目标位姿.csv",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/C_仿真与装配/交接资料/16件初始与目标位姿.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/数据/质量惯量_候选参数.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/04_构件参数与文献/质量惯量_候选参数.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/单件_V2.dwg",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_V2.dwg",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/单件_mm.step",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_mm.step",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/单件_m.stl",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_m.stl",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/单件_mm.stl",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_mm.stl",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/单件_参数化.FCStd",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_参数化.FCStd",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/octagon_AutoCAD2027.dwg",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate_mm.step",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate.FCStd",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/CAD/Octagon16_Candidate_mm.stl",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate_mm.stl",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/loaded_payload.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/loaded_payload.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/分析摘要.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/分析摘要.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/视频核对.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/视频核对.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/六轴力矩统计.csv",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/六轴力矩统计.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/分阶段六轴力矩.csv",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/分阶段六轴力矩.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/result.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/result.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/run_manifest.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/run_manifest.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/B_component_errors.png",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/component_errors.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/B_joint_motion_torque.png",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/joint_motion_torque.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/B_limits_singularity.png",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/limits_singularity.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/B_tcp_tracking_errors.png",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/tcp_tracking_errors.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/B_last_frame.png",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/last_frame.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/loaded_payload.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/loaded_payload.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/分析摘要.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/分析摘要.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/视频核对.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/视频核对.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/六轴力矩统计.csv",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/六轴力矩统计.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/分阶段六轴力矩.csv",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/分阶段六轴力矩.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/result.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/result.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/run_manifest.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/run_manifest.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/C_component_errors.png",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/component_errors.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/C_joint_motion_torque.png",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/joint_motion_torque.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/C_limits_singularity.png",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/limits_singularity.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/C_tcp_tracking_errors.png",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/tcp_tracking_errors.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/图表/C_last_frame.png",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full02_compensated/last_frame.png",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/B_运动学控制与力矩章节初稿.md",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/B_第二阶段控制与评价/B_运动学控制与力矩章节初稿.md",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/验收结论与AC对接清单.md",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段复核_2026-11-04/验收结论与AC对接清单.md",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/B/独立复核结果.json",
+    "package_hash_passed": true,
+    "current_source_path": "05_Project3_月面机器人装配/运行验证/B_第二阶段复核_2026-11-04/独立复核结果.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/C_仿真规划与装配章节.md",
+    "package_hash_passed": true,
+    "current_source_path": "AC回传/C/C_仿真规划与装配章节.md",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/跨机复现记录.md",
+    "package_hash_passed": true,
+    "current_source_path": "AC回传/C/跨机复现记录.md",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/第10件阻塞诊断.json",
+    "package_hash_passed": true,
+    "current_source_path": "AC回传/C/第10件阻塞诊断.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/问题清单.csv",
+    "package_hash_passed": true,
+    "current_source_path": "AC回传/C/问题清单.csv",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/版本与环境.json",
+    "package_hash_passed": true,
+    "current_source_path": "AC回传/C/版本与环境.json",
+    "current_source_identical": true
+  },
+  {
+    "delivered_as": "AC回传/A/证据/C/full01/result.json",
+    "package_hash_passed": true,
+    "current_source_path": "runs/C_stage2/full01/result.json",
+    "current_source_identical": true
+  }
+]

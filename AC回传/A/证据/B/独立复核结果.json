@@ -1,0 +1,68 @@
+{
+  "delivery_hashes_verified": 115,
+  "runtime_sources_match_start_manifest": true,
+  "offline_scripts_changed_during_run": [
+    "B_第二阶段控制与评价/verify_feedback.py"
+  ],
+  "full_run": {
+    "pieces": 16,
+    "moves": 96,
+    "seconds": 606.9833333333333,
+    "max_position_mm": 0.9357910435369245,
+    "max_angle_deg": 0.1555978013132035
+  },
+  "release_last_five_samples_passed": 16,
+  "raw_telemetry": {
+    "rows": 145676,
+    "all16_item_phases_present": true,
+    "phase_counts": {
+      "initialize": 480,
+      "approach": 44668,
+      "descend": 12288,
+      "close": 3840,
+      "lift": 7356,
+      "transfer": 47696,
+      "lower": 11104,
+      "release": 6948,
+      "retreat": 6736,
+      "settle": 3840,
+      "final_settle": 720
+    },
+    "minimum_margin_deg": 3.7778572680848383,
+    "raw_peaks": [
+      3.799378330600426,
+      3.283108447282547,
+      2.0944133239042317,
+      0.6467280824562562,
+      0.3655429324814368,
+      0.025056072613562557
+    ],
+    "equivalent_peaks": [
+      15.197513322401704,
+      13.132433789130188,
+      8.377653295616927,
+      2.586912329825025,
+      1.4621717299257473,
+      0.10022429045425023
+    ],
+    "independent_FD_samples": 72,
+    "FD_max_error": 2.455246006505263e-10
+  },
+  "target_FK": {
+    "targets": 96,
+    "max_position_m": 9.628478295702267e-06,
+    "max_angle_rad": 1.9698510359211306e-05
+  },
+  "last_inventory_vs_final": {
+    "max_position_error_difference_m": 1.991947438490687e-06,
+    "max_angle_error_difference_rad": 5.923309258956092e-05,
+    "note": "Inventory sampled at 2Hz; final is later."
+  },
+  "video": {
+    "frames": 3035,
+    "fps": 5.0,
+    "duration_s": 607.0
+  },
+  "rerun_motor_feedback_tests": 6,
+  "passed": true
+}

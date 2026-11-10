@@ -1,0 +1,317 @@
+[
+  {
+    "zip_entry": "00_交付说明.md",
+    "local": "00_A第二阶段交付说明.md",
+    "sha256": "19cab0c081a565a0b037567c3ce4f6b53cd195549aeb48ca35e88a90adb41801"
+  },
+  {
+    "zip_entry": "AC回传/A/16件八边形结构设计说明.md",
+    "local": "AC回传/A/16件八边形结构设计说明.md",
+    "sha256": "6101f1a045516a4dfb067e665f750008adac45da97b439c616c88e623a4a8c07"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+    "local": "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+    "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+    "local": "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+    "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/Octagon16_Candidate_mm.stl",
+    "local": "AC回传/A/CAD/Octagon16_Candidate_mm.stl",
+    "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+    "local": "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+    "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/octagon_dimensioned.dwg",
+    "local": "AC回传/A/CAD/octagon_dimensioned.dwg",
+    "sha256": "5d0800aa3ef45f80e869647aa1389de43c8ff7554fc6c397a8aeac35e3c489f3"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/单件_V2.dwg",
+    "local": "AC回传/A/CAD/单件_V2.dwg",
+    "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/单件_m.stl",
+    "local": "AC回传/A/CAD/单件_m.stl",
+    "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/单件_mm.step",
+    "local": "AC回传/A/CAD/单件_mm.step",
+    "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/单件_mm.stl",
+    "local": "AC回传/A/CAD/单件_mm.stl",
+    "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7"
+  },
+  {
+    "zip_entry": "AC回传/A/CAD/单件_参数化.FCStd",
+    "local": "AC回传/A/CAD/单件_参数化.FCStd",
+    "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59"
+  },
+  {
+    "zip_entry": "AC回传/A/变更清单.csv",
+    "local": "AC回传/A/变更清单.csv",
+    "sha256": "abf8d7c1ebe592e808b51f9b15610622c3a2937706dabd567275634f6c470532"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/A_八边形CAD.png",
+    "local": "AC回传/A/图表/A_八边形CAD.png",
+    "sha256": "5ae66aa109d3dbd53ac59bddd94d38ed25e3c51886dc8717744ae32bfff9a301"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/A_八边形尺寸标注.png",
+    "local": "AC回传/A/图表/A_八边形尺寸标注.png",
+    "sha256": "94f6896bce30fcfc5c11614f2fc62a307a2a7e659d3e162473523ee88370efdf"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/A_单件三视图.png",
+    "local": "AC回传/A/图表/A_单件三视图.png",
+    "sha256": "e8aa06ee1abafde6f0afaea719f3efd037ce1a01d1541166487a98bbdbcac056"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/A_定位接口剖视.png",
+    "local": "AC回传/A/图表/A_定位接口剖视.png",
+    "sha256": "bfcff8858fe6266c9ba058b2e024a9c10edd64523488dff4339a2ab6e0df2065"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/B_component_errors.png",
+    "local": "AC回传/A/图表/B_component_errors.png",
+    "sha256": "70881447cc7e9161baee4570d9aa0d5d85065d7c5a7da63dd31b94dc13826465"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/B_joint_motion_torque.png",
+    "local": "AC回传/A/图表/B_joint_motion_torque.png",
+    "sha256": "ee68a0233505d1f1fec5151903194106329058817918a68ca6a85f087a3b7c65"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/B_last_frame.png",
+    "local": "AC回传/A/图表/B_last_frame.png",
+    "sha256": "ec2e622d9c5a9f746c14af9be8f50e5b38cd9e8d2fb5b2ba9c70a64dc117232c"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/B_limits_singularity.png",
+    "local": "AC回传/A/图表/B_limits_singularity.png",
+    "sha256": "feb9144064566aa0f592a1b8643604670ad3b9569af9462941dbf86c9690e7f8"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/B_tcp_tracking_errors.png",
+    "local": "AC回传/A/图表/B_tcp_tracking_errors.png",
+    "sha256": "2c2b7196be84b907b1698f161ac6742edcc9055aafb0421cab1084bac48d2547"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/C_component_errors.png",
+    "local": "AC回传/A/图表/C_component_errors.png",
+    "sha256": "a7a2b56437e6b3c8e0c184728833b591b7500dd1051d52ecdd90ea86332286bb"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/C_joint_motion_torque.png",
+    "local": "AC回传/A/图表/C_joint_motion_torque.png",
+    "sha256": "f0a20d2c86717fd327d0d1c6c1751cecc9ba012d7b61b2487e2670b617109754"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/C_last_frame.png",
+    "local": "AC回传/A/图表/C_last_frame.png",
+    "sha256": "84b5795f75a786c3f11703ee0080c78185f271933fb28f28830c6a88aecb7c63"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/C_limits_singularity.png",
+    "local": "AC回传/A/图表/C_limits_singularity.png",
+    "sha256": "62cf7c718487e5edf29f494f0e6faffc8cd480ef6a4fe5ed518b2e483f3816b4"
+  },
+  {
+    "zip_entry": "AC回传/A/图表/C_tcp_tracking_errors.png",
+    "local": "AC回传/A/图表/C_tcp_tracking_errors.png",
+    "sha256": "3c68000d71b8638d5c2ca4b954bb882861682ac9346d3318a58cec675f52d1b0"
+  },
+  {
+    "zip_entry": "AC回传/A/报告整合记录.md",
+    "local": "AC回传/A/报告整合记录.md",
+    "sha256": "4346353019babfd1b612bcb2bc526fb4313f4a70e35d14dd42cfd82f514429db"
+  },
+  {
+    "zip_entry": "AC回传/A/数据/16件初始与目标位姿.csv",
+    "local": "AC回传/A/数据/16件初始与目标位姿.csv",
+    "sha256": "9fde2670448eb70fa90eb8ae7ddb4ae8448ce72a57aabe563ed3fc9170496309"
+  },
+  {
+    "zip_entry": "AC回传/A/数据/96段TCP端点_B与C.json",
+    "local": "AC回传/A/数据/96段TCP端点_B与C.json",
+    "sha256": "e5ff4ae8eba6b7df716a66551293f823ac9a1b4dfdb55c703fced33f5c67fcd9"
+  },
+  {
+    "zip_entry": "AC回传/A/数据/质量惯量_候选参数.json",
+    "local": "AC回传/A/数据/质量惯量_候选参数.json",
+    "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+  },
+  {
+    "zip_entry": "AC回传/A/材料假设确认.md",
+    "local": "AC回传/A/材料假设确认.md",
+    "sha256": "be5cffbd93ed20228d0315a34b2c959d572e834879e84470b25a60f1c64ca128"
+  },
+  {
+    "zip_entry": "AC回传/A/第二阶段总报告初稿.md",
+    "local": "AC回传/A/第二阶段总报告初稿.md",
+    "sha256": "24b3d11d79f4030293b7d17151e2e3d8581a1d44ec0b8ca2e8bb2116d9a0bad7"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/B_运动学控制与力矩章节初稿.md",
+    "local": "AC回传/A/证据/B/B_运动学控制与力矩章节初稿.md",
+    "sha256": "e211e2def2937f1b2c90c02fd6062a8728c756c006ad98caed647ff154445ee6"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/loaded_payload.json",
+    "local": "AC回传/A/证据/B/loaded_payload.json",
+    "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/result.json",
+    "local": "AC回传/A/证据/B/result.json",
+    "sha256": "cb823bd312c79909bbc5f5955dc932c8f8ecba7a79a503d057f7b42ead3228db"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/run_manifest.json",
+    "local": "AC回传/A/证据/B/run_manifest.json",
+    "sha256": "d5f5c429aaea5e43211fb48295cbb4b2c13c3ff34d2dc21af3f98091ce41e3c8"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/六轴力矩统计.csv",
+    "local": "AC回传/A/证据/B/六轴力矩统计.csv",
+    "sha256": "b67dcb17bdb7e843fcabce7ae8b3fd0cee590301e4d19b40d0525267020b6d41"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/分析摘要.json",
+    "local": "AC回传/A/证据/B/分析摘要.json",
+    "sha256": "c5531af0c04dbd3e4a2670937fb6388fea44d94b06f02a6c707c05de102c7906"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/分阶段六轴力矩.csv",
+    "local": "AC回传/A/证据/B/分阶段六轴力矩.csv",
+    "sha256": "e5e0992617b52dd9725c0a26b2eaf24f5ac9fb667fe6fae9ce6dcae2b434d0ba"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/独立复核结果.json",
+    "local": "AC回传/A/证据/B/独立复核结果.json",
+    "sha256": "0d82162adae0a785a466ebea6f623af9bed1467231b04b757a642f2d4439b640"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/视频核对.json",
+    "local": "AC回传/A/证据/B/视频核对.json",
+    "sha256": "4a75ada3ad5ee19547022e65d1fcad1d6ae4411e00a48acb287999460d37bfef"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B/验收结论与AC对接清单.md",
+    "local": "AC回传/A/证据/B/验收结论与AC对接清单.md",
+    "sha256": "b39a3efbc5d0575fbd1449507fe41a9e03d4a33400271e776645afa9dc4f582d"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/B与C结果对齐检查.json",
+    "local": "AC回传/A/证据/B与C结果对齐检查.json",
+    "sha256": "54eeed0679e46bd443db9c2a098bf526bcbcec36a46842f78f6c62f5ef062abc"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/C_仿真规划与装配章节.md",
+    "local": "AC回传/A/证据/C/C_仿真规划与装配章节.md",
+    "sha256": "6b1064a29634638d92d2764cc8693261a265fe44bc7e34a6659c169953aaab9f"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/full01/result.json",
+    "local": "AC回传/A/证据/C/full01/result.json",
+    "sha256": "0cd717728c9a8bd741a21c9dffade794f42f69ec4e2c1aa3af3ee447e7886393"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/loaded_payload.json",
+    "local": "AC回传/A/证据/C/loaded_payload.json",
+    "sha256": "0bf1c37f45be18d92f8b1638835b0acb0ea998d1d5197d5d24725c6a9c38804e"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/result.json",
+    "local": "AC回传/A/证据/C/result.json",
+    "sha256": "c095aaa8e2728c9a488e71c19ae388345fc22fddde648055a7fff2e6f12b7339"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/run_manifest.json",
+    "local": "AC回传/A/证据/C/run_manifest.json",
+    "sha256": "8bcc82ce1bbc1ed07aa30b3796e323bf5166d1275cd54450314fc0c3cfa27e6e"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/六轴力矩统计.csv",
+    "local": "AC回传/A/证据/C/六轴力矩统计.csv",
+    "sha256": "bfe130b996f30ae8c5b3bc86466692d891f38dc622e2b1baf2a8000cb67f154c"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/分析摘要.json",
+    "local": "AC回传/A/证据/C/分析摘要.json",
+    "sha256": "1209aa4c5fc0b4e08c6ae105e03e1f5cb4453c8242a95e978b6a5e1524215645"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/分阶段六轴力矩.csv",
+    "local": "AC回传/A/证据/C/分阶段六轴力矩.csv",
+    "sha256": "fac4d7466eb07413bcda16bc9aa2e27f16e8f2d1f7c8d87254f3c588cd69e1b4"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/版本与环境.json",
+    "local": "AC回传/A/证据/C/版本与环境.json",
+    "sha256": "e519d19a358175246a0bc52abadc37078da748dcbaa2895c839b183cd72a7e00"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/第10件阻塞诊断.json",
+    "local": "AC回传/A/证据/C/第10件阻塞诊断.json",
+    "sha256": "6737b0663a9c71dba2a56b7d751aef061a86e68c90d05b9b1bb91d1c8996b1e0"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/视频核对.json",
+    "local": "AC回传/A/证据/C/视频核对.json",
+    "sha256": "35eeae2771f1d41387cc087bcb7ddabd2a8ace1468d68df81582f0c7abb122b9"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/跨机复现记录.md",
+    "local": "AC回传/A/证据/C/跨机复现记录.md",
+    "sha256": "b8e3bb46ddb4f7ed42199e96d7fbd289b6e237073ff473943f581a571cddb601"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/C/问题清单.csv",
+    "local": "AC回传/A/证据/C/问题清单.csv",
+    "sha256": "02b425ab06c157dc6f4c3e79444431a5c2819b0f148ad68f511a0e7cdc90a29c"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/CAD与目标静态核对.json",
+    "local": "AC回传/A/证据/CAD与目标静态核对.json",
+    "sha256": "09117cdeb5906ee6a271b0a9718135ef14532314d74ce2cf5be37e84e834bbcb"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/原始力矩与DWG复核.json",
+    "local": "AC回传/A/证据/原始力矩与DWG复核.json",
+    "sha256": "a8ce566efabb741f22cfbdab3798eca7cc3943b83112a29d4be19f2cbb75ad27"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/来源与文件校验.json",
+    "local": "AC回传/A/证据/来源与文件校验.json",
+    "sha256": "df95ff84017873d0a6c046646bdd454bb885a61068141087643b6f95f2757a00"
+  },
+  {
+    "zip_entry": "AC回传/A/证据/证据说明.md",
+    "local": "AC回传/A/证据/证据说明.md",
+    "sha256": "6b062ea8baf43ebf4f1c0fb461b07ff34a31f801778a5297a2fbfee5b7f04493"
+  },
+  {
+    "zip_entry": "AC回传/A/连接转角与基本稳定性.md",
+    "local": "AC回传/A/连接转角与基本稳定性.md",
+    "sha256": "789455e18f7226cee68dcaadc5ecc9cca8be67fd30267437e4de91ac9698d5d5"
+  },
+  {
+    "local": "AC回传/A/CIVL7023_Project3_第二阶段总报告初稿.docx",
+    "sha256": "52148e20af50e57bb7c826251c5351aca37938640f60c6c628b4f49a09cde257",
+    "input_filename": "CIVL7023_Project3_第二阶段总报告初稿.docx"
+  }
+]

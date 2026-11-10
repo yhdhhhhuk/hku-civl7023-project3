@@ -1,0 +1,31 @@
+{
+  "baseline": "430bbe22746fe3493b62877bf22e9fcd2406d7bc",
+  "origin": "https://github.com/yhdhhhhuk/hku-civl7023-project3.git",
+  "branch": "c-stage2-20261107",
+  "checkout": "partial clone blob:none; sparse checkout excludes baseline 运行验证; stage2 package imported and verified",
+  "package_id": "Project3_第二阶段_AC整合包_2026-11-05",
+  "interpreter": "E:\\7023\\.venv\\Scripts\\python.exe",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pybullet": "3.2.7",
+  "changes": [
+    {
+      "file": "05_Project3_月面机器人装配/C_仿真与装配/local_paths.py",
+      "package_sha256": "f5cca6d308be74ce55e80f7c2ee50644cbe6300ec12874014b419f5d69c9671d",
+      "current_sha256": "44e232f62ffb7c30074874091f3ec81f265e163545b9f57970e45012ef235e0f"
+    },
+    {
+      "file": "05_Project3_月面机器人装配/C_仿真与装配/run_preloaded_tray_assembly_fast.py",
+      "package_sha256": "94ca01eccc6a9be97112ca376bb897f90e3cb0d7a63fe22945f6705fc5d3e56b",
+      "current_sha256": "794973c1608fb04092b1442deb98aeac781b8bccf7d07aaf2da5737c2c6caba4"
+    },
+    {
+      "file": "第二阶段入口.py",
+      "package_sha256": "6a0d9d44860328367899f26ef0030802123407cb86dc6f738e86eafd50b86a0c",
+      "current_sha256": "505a1304727f7df417589ad26ab43607f86b3b6445e84129208fb8b597df95cd"
+    }
+  ],
+  "physics_or_control_parameters_changed": false,
+  "git_pushed": false,
+  "placement_command_changed": "optional measured grasp offset compensation, 2mm bound; exact simulated pose assumption; no threshold relaxation"
+}

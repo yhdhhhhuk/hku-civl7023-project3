@@ -1,0 +1,15 @@
+{
+  "integration_date_hong_kong": "2026-11-10",
+  "C_synced_commit": "2833a87320706f6891ee1559ff6283b082b5f233",
+  "A_original_zip_sha256": "0d4b63b698add0e98b7861f84b1f72ec30f73b024da1977f7fb09ba9168ff91c",
+  "A_original_source_files": 63,
+  "A_source_hashes_verified": 44,
+  "C_raw_compressed_logs_verified": 4,
+  "local_feedback_calibration_passed": 6,
+  "local_candidate_single_passed": true,
+  "local_full16_rerun": false,
+  "Windows_install_retested": false,
+  "CAD_native_recomputed_locally": false,
+  "material_formally_approved": false,
+  "current_simulation_code_modified_by_this_integration": false
+}

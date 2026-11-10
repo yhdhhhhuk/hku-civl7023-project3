@@ -41,3 +41,7 @@
 /.chart-data-*/
 /runs/**/checkpoint.json
 /runs/**/joint_full_trace.csv
+
+# Personal runs and B historical baseline-only checker stay local.
+/runs/local/
+/05_Project3_月面机器人装配/B_第二阶段控制与评价/acceptance.py

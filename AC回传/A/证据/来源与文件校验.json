@@ -1,0 +1,341 @@
+{
+  "scope": "B/C source snapshots compared by content; shared target, payload and CAD files match byte for byte.",
+  "common_git_baseline_from_supplied_records": "430bbe22746fe3493b62877bf22e9fcd2406d7bc",
+  "shared_files_verified": [
+    "AC回传/A/数据/16件初始与目标位姿.csv",
+    "AC回传/A/数据/质量惯量_候选参数.json",
+    "AC回传/A/CAD/单件_V2.dwg",
+    "AC回传/A/CAD/单件_mm.step",
+    "AC回传/A/CAD/单件_m.stl",
+    "AC回传/A/CAD/单件_mm.stl",
+    "AC回传/A/CAD/单件_参数化.FCStd",
+    "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+    "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+    "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+    "AC回传/A/CAD/Octagon16_Candidate_mm.stl"
+  ],
+  "files": [
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/C_仿真与装配/交接资料/16件初始与目标位姿.csv",
+      "delivered_as": "AC回传/A/数据/16件初始与目标位姿.csv",
+      "sha256": "9fde2670448eb70fa90eb8ae7ddb4ae8448ce72a57aabe563ed3fc9170496309",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/04_构件参数与文献/质量惯量_候选参数.json",
+      "delivered_as": "AC回传/A/数据/质量惯量_候选参数.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_V2.dwg",
+      "delivered_as": "AC回传/A/CAD/单件_V2.dwg",
+      "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_mm.step",
+      "delivered_as": "AC回传/A/CAD/单件_mm.step",
+      "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_m.stl",
+      "delivered_as": "AC回传/A/CAD/单件_m.stl",
+      "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_mm.stl",
+      "delivered_as": "AC回传/A/CAD/单件_mm.stl",
+      "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/02_CAD与网格/单件_参数化.FCStd",
+      "delivered_as": "AC回传/A/CAD/单件_参数化.FCStd",
+      "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/octagon_AutoCAD2027.dwg",
+      "delivered_as": "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+      "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate_mm.step",
+      "delivered_as": "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+      "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate.FCStd",
+      "delivered_as": "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+      "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/05_Project3_月面机器人装配/A_结构设计与CAD/08_扩展参考_16件八边形/模型/Octagon16_Candidate_mm.stl",
+      "delivered_as": "AC回传/A/CAD/Octagon16_Candidate_mm.stl",
+      "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/loaded_payload.json",
+      "delivered_as": "AC回传/A/证据/B/loaded_payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/分析摘要.json",
+      "delivered_as": "AC回传/A/证据/B/分析摘要.json",
+      "sha256": "c5531af0c04dbd3e4a2670937fb6388fea44d94b06f02a6c707c05de102c7906",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/视频核对.json",
+      "delivered_as": "AC回传/A/证据/B/视频核对.json",
+      "sha256": "4a75ada3ad5ee19547022e65d1fcad1d6ae4411e00a48acb287999460d37bfef",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/六轴力矩统计.csv",
+      "delivered_as": "AC回传/A/证据/B/六轴力矩统计.csv",
+      "sha256": "b67dcb17bdb7e843fcabce7ae8b3fd0cee590301e4d19b40d0525267020b6d41",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/分阶段六轴力矩.csv",
+      "delivered_as": "AC回传/A/证据/B/分阶段六轴力矩.csv",
+      "sha256": "e5e0992617b52dd9725c0a26b2eaf24f5ac9fb667fe6fae9ce6dcae2b434d0ba",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/result.json",
+      "delivered_as": "AC回传/A/证据/B/result.json",
+      "sha256": "cb823bd312c79909bbc5f5955dc932c8f8ecba7a79a503d057f7b42ead3228db",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/run_manifest.json",
+      "delivered_as": "AC回传/A/证据/B/run_manifest.json",
+      "sha256": "d5f5c429aaea5e43211fb48295cbb4b2c13c3ff34d2dc21af3f98091ce41e3c8",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/component_errors.png",
+      "delivered_as": "AC回传/A/图表/B_component_errors.png",
+      "sha256": "70881447cc7e9161baee4570d9aa0d5d85065d7c5a7da63dd31b94dc13826465",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/joint_motion_torque.png",
+      "delivered_as": "AC回传/A/图表/B_joint_motion_torque.png",
+      "sha256": "ee68a0233505d1f1fec5151903194106329058817918a68ca6a85f087a3b7c65",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/limits_singularity.png",
+      "delivered_as": "AC回传/A/图表/B_limits_singularity.png",
+      "sha256": "feb9144064566aa0f592a1b8643604670ad3b9569af9462941dbf86c9690e7f8",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/tcp_tracking_errors.png",
+      "delivered_as": "AC回传/A/图表/B_tcp_tracking_errors.png",
+      "sha256": "2c2b7196be84b907b1698f161ac6742edcc9055aafb0421cab1084bac48d2547",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段_2026-11-04/候选从零16件/last_frame.png",
+      "delivered_as": "AC回传/A/图表/B_last_frame.png",
+      "sha256": "ec2e622d9c5a9f746c14af9be8f50e5b38cd9e8d2fb5b2ba9c70a64dc117232c",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/loaded_payload.json",
+      "delivered_as": "AC回传/A/证据/C/loaded_payload.json",
+      "sha256": "0bf1c37f45be18d92f8b1638835b0acb0ea998d1d5197d5d24725c6a9c38804e",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/分析摘要.json",
+      "delivered_as": "AC回传/A/证据/C/分析摘要.json",
+      "sha256": "1209aa4c5fc0b4e08c6ae105e03e1f5cb4453c8242a95e978b6a5e1524215645",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/视频核对.json",
+      "delivered_as": "AC回传/A/证据/C/视频核对.json",
+      "sha256": "35eeae2771f1d41387cc087bcb7ddabd2a8ace1468d68df81582f0c7abb122b9",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/六轴力矩统计.csv",
+      "delivered_as": "AC回传/A/证据/C/六轴力矩统计.csv",
+      "sha256": "bfe130b996f30ae8c5b3bc86466692d891f38dc622e2b1baf2a8000cb67f154c",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/分阶段六轴力矩.csv",
+      "delivered_as": "AC回传/A/证据/C/分阶段六轴力矩.csv",
+      "sha256": "fac4d7466eb07413bcda16bc9aa2e27f16e8f2d1f7c8d87254f3c588cd69e1b4",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/result.json",
+      "delivered_as": "AC回传/A/证据/C/result.json",
+      "sha256": "c095aaa8e2728c9a488e71c19ae388345fc22fddde648055a7fff2e6f12b7339",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/run_manifest.json",
+      "delivered_as": "AC回传/A/证据/C/run_manifest.json",
+      "sha256": "8bcc82ce1bbc1ed07aa30b3796e323bf5166d1275cd54450314fc0c3cfa27e6e",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/component_errors.png",
+      "delivered_as": "AC回传/A/图表/C_component_errors.png",
+      "sha256": "a7a2b56437e6b3c8e0c184728833b591b7500dd1051d52ecdd90ea86332286bb",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/joint_motion_torque.png",
+      "delivered_as": "AC回传/A/图表/C_joint_motion_torque.png",
+      "sha256": "f0a20d2c86717fd327d0d1c6c1751cecc9ba012d7b61b2487e2670b617109754",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/limits_singularity.png",
+      "delivered_as": "AC回传/A/图表/C_limits_singularity.png",
+      "sha256": "62cf7c718487e5edf29f494f0e6faffc8cd480ef6a4fe5ed518b2e483f3816b4",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/tcp_tracking_errors.png",
+      "delivered_as": "AC回传/A/图表/C_tcp_tracking_errors.png",
+      "sha256": "3c68000d71b8638d5c2ca4b954bb882861682ac9346d3318a58cec675f52d1b0",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full02_compensated/last_frame.png",
+      "delivered_as": "AC回传/A/图表/C_last_frame.png",
+      "sha256": "84b5795f75a786c3f11703ee0080c78185f271933fb28f28830c6a88aecb7c63",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/B_第二阶段控制与评价/B_运动学控制与力矩章节初稿.md",
+      "delivered_as": "AC回传/A/证据/B/B_运动学控制与力矩章节初稿.md",
+      "sha256": "e211e2def2937f1b2c90c02fd6062a8728c756c006ad98caed647ff154445ee6",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段复核_2026-11-04/验收结论与AC对接清单.md",
+      "delivered_as": "AC回传/A/证据/B/验收结论与AC对接清单.md",
+      "sha256": "b39a3efbc5d0575fbd1449507fe41a9e03d4a33400271e776645afa9dc4f582d",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/工程/05_Project3_月面机器人装配/运行验证/B_第二阶段复核_2026-11-04/独立复核结果.json",
+      "delivered_as": "AC回传/A/证据/B/独立复核结果.json",
+      "sha256": "0d82162adae0a785a466ebea6f623af9bed1467231b04b757a642f2d4439b640",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/AC回传/C/C_仿真规划与装配章节.md",
+      "delivered_as": "AC回传/A/证据/C/C_仿真规划与装配章节.md",
+      "sha256": "6b1064a29634638d92d2764cc8693261a265fe44bc7e34a6659c169953aaab9f",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/AC回传/C/跨机复现记录.md",
+      "delivered_as": "AC回传/A/证据/C/跨机复现记录.md",
+      "sha256": "b8e3bb46ddb4f7ed42199e96d7fbd289b6e237073ff473943f581a571cddb601",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/AC回传/C/第10件阻塞诊断.json",
+      "delivered_as": "AC回传/A/证据/C/第10件阻塞诊断.json",
+      "sha256": "6737b0663a9c71dba2a56b7d751aef061a86e68c90d05b9b1bb91d1c8996b1e0",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/AC回传/C/问题清单.csv",
+      "delivered_as": "AC回传/A/证据/C/问题清单.csv",
+      "sha256": "02b425ab06c157dc6f4c3e79444431a5c2819b0f148ad68f511a0e7cdc90a29c",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/AC回传/C/版本与环境.json",
+      "delivered_as": "AC回传/A/证据/C/版本与环境.json",
+      "sha256": "e519d19a358175246a0bc52abadc37078da748dcbaa2895c839b183cd72a7e00",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/runs/C_stage2/full01/result.json",
+      "delivered_as": "AC回传/A/证据/C/full01/result.json",
+      "sha256": "0cd717728c9a8bd741a21c9dffade794f42f69ec4e2c1aa3af3ee447e7886393",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_第二阶段_AC整合包_2026-11-05.zip",
+      "entry": "Project3_第二阶段_AC整合包_2026-11-05/Git基线.json",
+      "delivered_as": null,
+      "sha256": "d4c9798c4e883f08decf5c5189841d8756861e322ef8dfbf6bb69c2dae48106e",
+      "matches_source_manifest": true
+    },
+    {
+      "zip": "Project3_C_第二阶段复现与回传_2026-11-07.zip",
+      "entry": "project3_stage2/第二阶段导入回执.json",
+      "delivered_as": null,
+      "sha256": "15d9425fcb51c21cddd39d35008648a59e0fb8457c1f196189b21672ed28f317",
+      "matches_source_manifest": true
+    }
+  ]
+}
