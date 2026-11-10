@@ -45,3 +45,20 @@
 # Personal runs and B historical baseline-only checker stay local.
 /runs/local/
 /05_Project3_月面机器人装配/B_第二阶段控制与评价/acceptance.py
+
+# B stage3 published evidence: raw large CSVs are restored from lossless gzip.
+!/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/
+!/05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/**/checkpoint.json
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/**/checkpoint.bullet
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/**/derived_signals.npz
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/kinematic_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/inventory_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/trajectory.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/kinematic_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/inventory_trace.csv
+/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/trajectory.csv

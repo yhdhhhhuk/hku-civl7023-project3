@@ -1,0 +1,13 @@
+{
+  "compensation_off": {
+    "reported_values_match_independent_raw_recompute": true,
+    "peak_max_difference_Nm": 0.0,
+    "RMS_max_difference_Nm": 6.927791673660977e-14
+  },
+  "compensation_on": {
+    "reported_values_match_independent_raw_recompute": true,
+    "peak_max_difference_Nm": 0.0,
+    "RMS_max_difference_Nm": 7.904787935331115e-14
+  },
+  "feedback_calibration_passed": 6
+}

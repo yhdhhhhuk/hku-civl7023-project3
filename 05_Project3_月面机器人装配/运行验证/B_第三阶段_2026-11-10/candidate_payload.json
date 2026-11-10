@@ -1,0 +1,52 @@
+{
+  "component_version": "P3-GrooveKey-v2",
+  "status": "A第一阶段候选参数：CAD几何已核对，密度采用文献参考假设，须B/C重测并由小组确认",
+  "geometry_origin": "bottom plane centre; local X length, Y width, Z up",
+  "units": {
+    "density": "kg/m^3",
+    "mass": "kg",
+    "centre_of_mass": "m",
+    "inertia": "kg*m^2",
+    "volume": "m^3"
+  },
+  "reference_ideal_volume_m3": 0.00002904266666666667,
+  "material_name": "烧结EAC-1A模拟月壤的均匀刚体近似（候选）",
+  "material_density_kg_m3": 2500,
+  "material_source_or_assumption": "Ginés-Palomares et al. (2023), Scientific Reports 13, 23053, DOI 10.1038/s41598-023-50391-y，Fig.5a及相邻讨论给出未筛分材料在1120°C附近约2.5g/cm3。将此近似值作为2500kg/m3均匀有效密度；不是本组构件实测，也不证明真实月面制造与强度。",
+  "actual_CAD_volume_m3": 0.000029042666666666666,
+  "mass_kg": 0.07260666666666667,
+  "centre_of_mass_in_geometry_frame_m": [
+    0,
+    0,
+    0.010566253098888994
+  ],
+  "inertia_about_COM_expressed_in_geometry_axes_kg_m2": [
+    [
+      0.000007554717961655561,
+      0,
+      0
+    ],
+    [
+      0,
+      0.000018706254628322218,
+      0
+    ],
+    [
+      0,
+      0,
+      0.000020403439999999998
+    ]
+  ],
+  "inertia_product_sign_convention": "物理张量Ixy=-∫(x-cx)(y-cy)dm，其余类同；FreeCAD矩阵用此约定，经45°旋转长方体检查。V2关于XZ与YZ对称，非对角项理论为0；保留原始浮点残差于CAD_mass_and_validation.json。AutoCAD MASSPROP主惯量在本模型中与质心XYZ轴一致，不能直接用关于原点的惯性矩代替。",
+  "CAD_software_and_version": "AutoCAD 2027.1 Core X.118.0.0 + FreeCAD 1.1.4（独立精确CSG重建，原生参数树及STEP）",
+  "native_CAD_filename": "02_CAD与网格/单件_V2.dwg；02_CAD与网格/单件_参数化.FCStd",
+  "STEP_filename": "02_CAD与网格/单件_mm.step",
+  "mm_STL_filename": "02_CAD与网格/单件_mm.stl",
+  "m_STL_filename": "02_CAD与网格/单件_m.stl",
+  "changes_from_V2": "无名义形状修改；与B参考毫米STL实体的对称差体积计算为0mm³（比较容差0.01mm³）。",
+  "connection_and_stability_notes": "上下松配合定位；无抗拔锁止/侧连接。理想居中自重承压估算不等于材料强度、抗倾覆或动态稳定性验证。",
+  "prepared_by": "Part A（Codex辅助建模；组员姓名待填）",
+  "prepared_date": "2026-11-03",
+  "integration_date": "2026-11-04",
+  "integration_note": "仅统一文件路径及资料入口；未修改形状、密度、质量、质心或惯量。原始参数JSON在11_版本追溯保留。"
+}

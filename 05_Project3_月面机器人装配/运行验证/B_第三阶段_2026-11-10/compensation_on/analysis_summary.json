@@ -1,0 +1,275 @@
+{
+  "minimum_sigma_location": {
+    "time_s": 0.004166666666666667,
+    "item": 1,
+    "phase": "initialize"
+  },
+  "minimum_limit_margin_location": {
+    "time_s": 345.9791666666667,
+    "item": 9,
+    "phase": "transfer",
+    "joint": 5
+  },
+  "release_escalated_items": [],
+  "release_max_force_API_N": 1.0,
+  "final_position_formula_max_difference_m": 0.0,
+  "last_inventory_crosscheck_time_note": "Independent COM/quaternion reconstruction at last2Hz sample, not exact final instant; see last_inventory_pose_crosscheck.csv",
+  "URDF_velocity_limits_rad_s": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    3.0
+  ],
+  "URDF_velocity_violation_count": 0,
+  "joint_command_tracking": [
+    {
+      "joint": 1,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 0.010189086935653381,
+      "joint_command_error_peak_abs_deg": 0.03166116406101382
+    },
+    {
+      "joint": 2,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 0.0033665416094083274,
+      "joint_command_error_peak_abs_deg": 0.013210026597001812
+    },
+    {
+      "joint": 3,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 0.004051670794365682,
+      "joint_command_error_peak_abs_deg": 0.014518472295234938
+    },
+    {
+      "joint": 4,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 5.524119416330923e-05,
+      "joint_command_error_peak_abs_deg": 0.00014711469646812975
+    },
+    {
+      "joint": 5,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 0.0062142474854195865,
+      "joint_command_error_peak_abs_deg": 0.030923655808712144
+    },
+    {
+      "joint": 6,
+      "samples": 32465,
+      "joint_command_error_RMS_deg": 0.014524491954927318,
+      "joint_command_error_peak_abs_deg": 0.031791672825637295
+    }
+  ],
+  "command_FK_tracking_RMS_mm": 0.05741464434950559,
+  "command_FK_tracking_peak_mm": 0.20873193758342207,
+  "command_FK_tracking_RMS_deg": 0.00919105092641768,
+  "command_FK_tracking_peak_deg": 0.03426993929706322,
+  "planning_detail": {
+    "command_grid_preflight_executed": 64,
+    "vertical_IK_online_guard_executed": 32,
+    "RRT_route_trials_attempted": 0,
+    "exact_command_grid_valid_trials": 64,
+    "failed_planning_entries": []
+  },
+  "condition": "compensation_on",
+  "success": true,
+  "exit_code": 0,
+  "completed_items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "completed_count": 16,
+  "moves_reached": 96,
+  "release_gates_verified": 16,
+  "attach_zero_jump_verified": 16,
+  "simulated_seconds": 607.1333333333333,
+  "wall_seconds": 740.7217268943787,
+  "rows": 145712,
+  "continuous_240Hz": true,
+  "phase_counts": {
+    "initialize": 480,
+    "approach": 44668,
+    "descend": 12288,
+    "close": 3840,
+    "lift": 7356,
+    "transfer": 47712,
+    "lower": 11104,
+    "release": 6972,
+    "retreat": 6732,
+    "settle": 3840,
+    "final_settle": 720
+  },
+  "all_control_rows_verified": 32465,
+  "position_error_recompute_max_difference_m": 0.0,
+  "orientation_error_recompute_max_difference_deg": 1.9895196601282805e-13,
+  "all_control_FK_max_position_difference_m": 5.609416863736599e-16,
+  "all_control_FK_max_orientation_difference_deg": 9.195852639961387e-14,
+  "FD_Jacobian_72_samples_max_abs": 2.0702028979968645e-10,
+  "min_joint_margin_deg": 3.7534564471750063,
+  "max_joint_velocity_rad_s": 0.600470461326655,
+  "per_joint_min_margin_deg": [
+    40.0004228180088,
+    45.83663852194039,
+    30.50622033766939,
+    99.98041108611837,
+    3.7534564471750063,
+    20.738477199302988
+  ],
+  "per_joint_max_velocity_rad_s": [
+    0.6000499377589547,
+    0.273946721548185,
+    0.301796879919241,
+    0.00047714419458473476,
+    0.6000061980843946,
+    0.600470461326655
+  ],
+  "min_scaled_sigma": 0.029388328791048614,
+  "max_scaled_condition": 94.0872024192157,
+  "all_actual_samples_rank6": true,
+  "min_sigma_excluding_initialize": 0.029388803796058773,
+  "max_TCP_endpoint_position_mm": 0.04756048236742156,
+  "max_TCP_endpoint_orientation_deg": 0.00035004925609763627,
+  "TCP_target_relative_motion_RMS_mm": 194.91619987656554,
+  "TCP_target_relative_motion_peak_mm": 580.6035369373687,
+  "TCP_target_relative_motion_RMS_deg": 44.22948548812032,
+  "TCP_target_relative_motion_peak_deg": 150.00003822013483,
+  "final_max_position_error_mm": 0.2617316941592188,
+  "final_position_RMS_mm": 0.1422150528784226,
+  "final_max_orientation_error_deg": 0.1865189132999802,
+  "final_orientation_RMS_deg": 0.08293717213251621,
+  "torque": [
+    {
+      "joint": 1,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 3.7990908974263013,
+      "raw_RMS_Nm": 0.5315154835235519,
+      "last_substep_equivalent_peak_abs_Nm": 15.196363589705205,
+      "last_substep_equivalent_RMS_Nm": 2.1260619340942077,
+      "peak_time_s": 421.8041666666667,
+      "peak_item": 11,
+      "peak_phase": "transfer",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    },
+    {
+      "joint": 2,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 3.2833526423215162,
+      "raw_RMS_Nm": 0.46010556621328635,
+      "last_substep_equivalent_peak_abs_Nm": 13.133410569286065,
+      "last_substep_equivalent_RMS_Nm": 1.8404222648531454,
+      "peak_time_s": 577.9708333333333,
+      "peak_item": 16,
+      "peak_phase": "lift",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    },
+    {
+      "joint": 3,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 2.094742024993899,
+      "raw_RMS_Nm": 0.29184781662468484,
+      "last_substep_equivalent_peak_abs_Nm": 8.378968099975596,
+      "last_substep_equivalent_RMS_Nm": 1.1673912664987394,
+      "peak_time_s": 109.27083333333333,
+      "peak_item": 3,
+      "peak_phase": "lift",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    },
+    {
+      "joint": 4,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 0.6465459144141309,
+      "raw_RMS_Nm": 0.09784876612647159,
+      "last_substep_equivalent_peak_abs_Nm": 2.5861836576565236,
+      "last_substep_equivalent_RMS_Nm": 0.39139506450588635,
+      "peak_time_s": 421.8041666666667,
+      "peak_item": 11,
+      "peak_phase": "transfer",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    },
+    {
+      "joint": 5,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 0.36555086288484645,
+      "raw_RMS_Nm": 0.033368972174048925,
+      "last_substep_equivalent_peak_abs_Nm": 1.4622034515393858,
+      "last_substep_equivalent_RMS_Nm": 0.1334758886961957,
+      "peak_time_s": 169.75416666666666,
+      "peak_item": 5,
+      "peak_phase": "lift",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    },
+    {
+      "joint": 6,
+      "samples": 145712,
+      "duration_s": 607.1333333333333,
+      "raw_peak_abs_Nm": 0.02505607262080522,
+      "raw_RMS_Nm": 0.004480344611557361,
+      "last_substep_equivalent_peak_abs_Nm": 0.10022429048322087,
+      "last_substep_equivalent_RMS_Nm": 0.017921378446229444,
+      "peak_time_s": 472.6375,
+      "peak_item": 13,
+      "peak_phase": "approach",
+      "motor_force_API_argument_Nm": 100,
+      "last_substep_equivalent_numeric_clamp_Nm": 400
+    }
+  ],
+  "planning_methods_actual": {
+    "direct_checked": 64,
+    "cartesian_vertical_checked": 32
+  },
+  "RRT_segments_executed": 0,
+  "planning_status_counts": {
+    "executed": 96
+  },
+  "execution_collisions": 0,
+  "collision_guard_failure": null,
+  "scene_body_count": 19,
+  "compensation_count": 16,
+  "max_compensation_mm": 0.8258331645494128,
+  "reaction_wrench_units": "raw API Fx,Fy,Fz N; Mx,My,Mz N*m, not motor effort",
+  "constraint_wrench_raw_peak_abs": [
+    3.0124813769821657,
+    3.078712198532452,
+    2.0382657967737834,
+    0.03544090949599723,
+    0.03390425719348458,
+    0.08893127716093546
+  ],
+  "gripper_raw_motor_peak_abs_N": [
+    1.0,
+    1.0
+  ],
+  "gripper_last_substep_equivalent_peak_abs_N": [
+    4.0,
+    4.0
+  ],
+  "actual_target_count": 96,
+  "actual_target_min_margin_deg": 3.753454176945747,
+  "actual_target_min_sigma": 0.27343675480303764,
+  "actual_target_max_condition": 8.720142198216257
+}

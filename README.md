@@ -1,8 +1,33 @@
 # HKU CIVL 7023 Project 3
 
-月面构件设计与PiPER六轴机械臂装配。当前方案为槽榫V2、两层16件八边形。A第二阶段设计和总报告初稿、B控制评价代码、C跨机复现与补偿版运行证据已整合在同一工程中。
+月面构件设计与PiPER六轴机械臂装配。当前方案为槽榫V2、两层16件八边形。A第二阶段设计、B第三阶段同机正式对照及技术章节、C跨机复现与补偿版工程已整合在同一仓库中。
 
 [下载整个项目](https://github.com/yhdhhhhuk/hku-civl7023-project3/archive/refs/heads/main.zip) · [更新日志](CHANGELOG.md) · [仓库文件清单](仓库文件清单.md)
+
+## A／C先看第三阶段成果
+
+下载上方main ZIP并解压后，A可直接读取[B技术完整章节](05_Project3_月面机器人装配/B_第三阶段报告/B_第三阶段技术章节.md)合并总报告；C按[第三阶段对接说明](05_Project3_月面机器人装配/B_第三阶段报告/给A和C的第三阶段对接说明.md)复现、使用视频和图表。无需再导入历史交接ZIP。
+
+| 2026-11-10同机正式对照 | 关闭补偿 | 开启补偿（本阶段采用） |
+|---|---:|---:|
+| 从零完成／运动目标／释放 | 16件／96／16 | 16件／96／16 |
+| 最终构件最大位置误差 | 0.935791mm | 0.261732mm |
+| 最终构件最大姿态误差 | 0.155598° | 0.186519° |
+| 连续240Hz日志 | 145676行 | 145712行 |
+| 仿真时长 | 606.9833s | 607.1333s |
+
+两组定义外碰撞均为0，均通过独立数值复核。以定位优先采用开启补偿：最大位置误差下降72.031%，最大姿态误差增加19.872%，部分轴力矩略增。每组仅一次，不声称全面性能提升或统计可靠性。
+
+- [正式评价说明／精确统计](05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段评价说明.md) · [机器结果摘要](05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段结果摘要.json)
+- [两组视频、图表、压缩日志和冻结配置](05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/) · [独立验收](05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/第三阶段独立验收说明.md)
+
+第三阶段新增入口默认采用已接受的候选参数＋补偿；旧入口保留各自原默认设置。下载校验只需Python标准库，无须先安装仿真环境：
+
+```sh
+python 第三阶段入口.py verify
+```
+
+大CSV使用`.csv.gz`无损发布，`verify`会检查压缩内容的原始字节数与SHA。要重新分析封存日志，先执行`python 第三阶段入口.py restore`；仅查看章节、图表和视频无需恢复。恢复约565MB原始CSV。检查点与派生NPZ缓存留在本地，发布清单明确列出，不影响原始数据分析。完整安装步骤如下。
 
 ## 当前入口
 
@@ -31,8 +56,8 @@ $py = ".\05_Project3_月面机器人装配\.venv\Scripts\python.exe"
 & $py -m pip check
 & $py 第二阶段入口.py calibrate --output runs/local/calibration01
 & $py 第二阶段入口.py single --compensate-grasp-offset --output runs/local/single01
-& $py 第二阶段入口.py full --compensate-grasp-offset --output runs/local/full01
-& $py 第二阶段入口.py analyze --input runs/local/full01 --calibration runs/local/calibration01/反馈字段独立核对.json
+& $py 第三阶段入口.py full --output runs/local/stage3_full01
+& $py 第三阶段入口.py analyze --input runs/local/stage3_full01 --calibration runs/local/calibration01/反馈字段独立核对.json
 ```
 
 Windows请将仓库放在简短的ASCII父路径，如`E:/7023/project3`，模型缓存及Bullet检查点输出需要ASCII路径。
@@ -47,11 +72,11 @@ P3_PY=05_Project3_月面机器人装配/.venv/bin/python
 "$P3_PY" -m pip check
 "$P3_PY" 第二阶段入口.py calibrate --output runs/local/calibration01
 "$P3_PY" 第二阶段入口.py single --compensate-grasp-offset --output runs/local/single01
-"$P3_PY" 第二阶段入口.py full --compensate-grasp-offset --output runs/local/full01
-"$P3_PY" 第二阶段入口.py analyze --input runs/local/full01 --calibration runs/local/calibration01/反馈字段独立核对.json
+"$P3_PY" 第三阶段入口.py full --output runs/local/stage3_full01
+"$P3_PY" 第三阶段入口.py analyze --input runs/local/stage3_full01 --calibration runs/local/calibration01/反馈字段独立核对.json
 ```
 
-每次使用新输出目录；入口拒绝覆盖已有目录。single／full明确使用A-candidate、全程采集与录像；加`--gui`显示界面。去掉`--compensate-grasp-offset`可运行未补偿对照。不要覆盖`runs/C_stage2/`封存证据。
+每次使用新输出目录；入口拒绝覆盖已有目录。第二阶段入口的single／full明确使用A-candidate、全程采集与录像；加`--gui`显示界面。第三阶段入口的single／full默认补偿开启，加`--without-compensation`运行关闭补偿的对照。不要覆盖`runs/C_stage2/`封存证据。
 
 部分平台需要C++构建工具；本机Mac若遇fdopen编译错误，可用已验证方式安装：
 
@@ -59,7 +84,7 @@ P3_PY=05_Project3_月面机器人装配/.venv/bin/python
 CPPFLAGS='-Dfdopen=fdopen' "$P3_PY" -m pip install --no-build-isolation pybullet==3.2.7
 ```
 
-旧`启动C装配演示`仍默认70g；新`启动第二阶段候选装配`使用候选参数，但补偿仍须显式添加。上述命令用于复现C补偿版工况。
+旧`启动C装配演示`仍默认70g；新`启动第二阶段候选装配`使用候选参数，但补偿仍须显式添加。上述第三阶段full命令用于复现本阶段采用的补偿方案；控制和物理模型未因此改变。
 
 ## 数据和验证范围
 

@@ -1,0 +1,15 @@
+{
+  "runtime_and_resource_hashes_unchanged": true,
+  "frozen_runtime_sources_match": true,
+  "video_frames": 3036,
+  "expected_frames": 3036,
+  "fps": 5,
+  "resolution": [
+    640,
+    480
+  ],
+  "duration_s": 607.2,
+  "simulated_seconds": 607.1333333333333,
+  "render_source": "Live physics every48 external steps plus initial step24; no interpolation, checkpoint concatenation or simulation pose resets after initialization",
+  "condition_success": true
+}
