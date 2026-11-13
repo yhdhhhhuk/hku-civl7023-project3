@@ -1,0 +1,162 @@
+{
+  "robot_model": "PiPER fixed-base provided URDF; original link masses/inertias unchanged",
+  "joints": [
+    {
+      "name": "joint1",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": -2.618,
+        "upper": 2.618,
+        "effort": 100.0,
+        "velocity": 5.0
+      }
+    },
+    {
+      "name": "joint2",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": 0.0,
+        "upper": 3.14,
+        "effort": 100.0,
+        "velocity": 5.0
+      }
+    },
+    {
+      "name": "joint3",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": -2.967,
+        "upper": 0.0,
+        "effort": 100.0,
+        "velocity": 5.0
+      }
+    },
+    {
+      "name": "joint4",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": -1.745,
+        "upper": 1.745,
+        "effort": 100.0,
+        "velocity": 5.0
+      }
+    },
+    {
+      "name": "joint5",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": -1.22,
+        "upper": 1.22,
+        "effort": 100.0,
+        "velocity": 5.0
+      }
+    },
+    {
+      "name": "joint6",
+      "type": "revolute",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": -2.0944,
+        "upper": 2.0944,
+        "effort": 100.0,
+        "velocity": 3.0
+      }
+    },
+    {
+      "name": "joint7",
+      "type": "prismatic",
+      "axis": "0 0 1",
+      "limits": {
+        "lower": 0.0,
+        "upper": 0.035,
+        "effort": 10.0,
+        "velocity": 1.0
+      }
+    },
+    {
+      "name": "joint8",
+      "type": "prismatic",
+      "axis": "0 0 -1",
+      "limits": {
+        "lower": -0.035,
+        "upper": 0.0,
+        "effort": 10.0,
+        "velocity": 1.0
+      }
+    }
+  ],
+  "nominal_TCP_m": [
+    0,
+    0,
+    0.1358
+  ],
+  "geometry_origin": "component bottom-plane center; Bullet base pose is inertial COM",
+  "inverse_kinematics": {
+    "method": "projected weighted DLS multi-seed",
+    "joint_margin_deg": 2,
+    "position_residual_lt_m": 1e-05,
+    "orientation_residual_lt_rad": 0.0001,
+    "damping": 0.015,
+    "max_iteration_step_rad": 0.15,
+    "max_iterations_per_seed": 250
+  },
+  "outer_control": {
+    "frequency_Hz": 60,
+    "task_error_gain_per_s": 3,
+    "linear_velocity_clip_m_s": 0.04,
+    "angular_velocity_clip_rad_s": 0.3,
+    "DLS_damping": 0.02,
+    "joint_rate_scaling_rad_s": 0.35,
+    "integrated_reference_offset_clip_rad": 0.03,
+    "joint_command_limit_margin_deg": 2,
+    "target_position_lt_m": 0.0001,
+    "target_orientation_lt_deg": 0.1,
+    "target_joint_speed_lt_rad_s": 0.02,
+    "consecutive_settled_ticks": 15
+  },
+  "inner_control": {
+    "mode": "POSITION_CONTROL",
+    "positionGain": 0.15,
+    "velocityGain": 1,
+    "maxVelocity_rad_s": 0.6,
+    "force_argument_source": "URDF effort; six arm joints100 N*m; not manufacturer rating"
+  },
+  "joint_trajectory": {
+    "profile": "10u^3-15u^4+6u^5",
+    "nominal_command_speed_rad_s": 0.35,
+    "nominal_command_accel_rad_s2": 0.6,
+    "duration_lower_bound_s": 1,
+    "duration_velocity_factor": 1.875,
+    "duration_accel_factor": 5.8
+  },
+  "geometric_guard": {
+    "self_and_floor_distance_m": 0.002,
+    "robot_other_component_query_distance_m": 5e-05,
+    "component_collisionMargin_m": 5e-05,
+    "joint_edge_resolution_nonvertical_rad": 0.005,
+    "joint_edge_resolution_vertical_rad": 0.001,
+    "vertical_IK_resolution_m": 0.002,
+    "online_command_checks": true,
+    "nominal_robot_physical_penetration_tolerance_m": 0.0001,
+    "permitted_finger_groove_contact_penetration_m": 0.0005,
+    "component_pair_physical_penetration_tolerance_m": 0.0002,
+    "planned_payload_penetration_tolerance_m": 0,
+    "minimum_payload_clearance_not_logged": "result minimum_payload_support_contact_distance_m may be null; do not infer a positive clearance margin"
+  },
+  "friction": {
+    "component_lateral": 0.6,
+    "floor_lateral": 0.6,
+    "component_restitution": 0
+  },
+  "constraint": {
+    "type": "fixed, attached after positive bilateral groove contact",
+    "maxForce_API": 30,
+    "not_pure_friction": true
+  },
+  "feedback_calibration": "feedback_calibration.json; six tests passed; last internal motor impulse / external dt, x4 gives last-substep equivalent; sensor reaction and auxiliary constraint remain separate raw wrench fields"
+}

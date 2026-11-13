@@ -1,0 +1,14 @@
+{
+  "octagon_AutoCAD2027.dwg": {
+    "3D_solids": 16,
+    "unit": "mm",
+    "dimension_labels": 0,
+    "audit_errors": 0
+  },
+  "octagon_dimensioned.dwg": {
+    "3D_solids": 16,
+    "unit": "mm",
+    "dimension_labels": 8,
+    "audit_errors": 0
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "cad_solids_matched_to_target_pose_by_boolean_common": 16,
+  "positive_pairwise_overlap": [],
+  "bbox_min_xyz_mm": [
+    169.0,
+    -61.0,
+    0.0
+  ],
+  "bbox_max_xyz_mm": [
+    351.0,
+    121.0,
+    47.0
+  ],
+  "same_layer_adjacent_gaps": [
+    {
+      "items": [
+        1,
+        2
+      ],
+      "min_surface_gap_mm": 0.4934021229798977
+    },
+    {
+      "items": [
+        2,
+        4
+      ],
+      "min_surface_gap_mm": 0.4934021229694071
+    },
+    {
+      "items": [
+        4,
+        6
+      ],
+      "min_surface_gap_mm": 0.4934021229786763
+    },
+    {
+      "items": [
+        6,
+        8
+      ],
+      "min_surface_gap_mm": 0.49340212297605834
+    },
+    {
+      "items": [
+        8,
+        7
+      ],
+      "min_surface_gap_mm": 0.49340212296866004
+    },
+    {
+      "items": [
+        7,
+        5
+      ],
+      "min_surface_gap_mm": 0.4934021229817394
+    },
+    {
+      "items": [
+        5,
+        3
+      ],
+      "min_surface_gap_mm": 0.4934021229724702
+    },
+    {
+      "items": [
+        3,
+        1
+      ],
+      "min_surface_gap_mm": 0.493402122972506
+    },
+    {
+      "items": [
+        9,
+        10
+      ],
+      "min_surface_gap_mm": 0.4934021229798977
+    },
+    {
+      "items": [
+        10,
+        12
+      ],
+      "min_surface_gap_mm": 0.4934021229694071
+    },
+    {
+      "items": [
+        12,
+        14
+      ],
+      "min_surface_gap_mm": 0.4934021229786763
+    },
+    {
+      "items": [
+        14,
+        16
+      ],
+      "min_surface_gap_mm": 0.49340212297605834
+    },
+    {
+      "items": [
+        16,
+        15
+      ],
+      "min_surface_gap_mm": 0.49340212296866004
+    },
+    {
+      "items": [
+        15,
+        13
+      ],
+      "min_surface_gap_mm": 0.4934021229817394
+    },
+    {
+      "items": [
+        13,
+        11
+      ],
+      "min_surface_gap_mm": 0.4934021229724702
+    },
+    {
+      "items": [
+        11,
+        9
+      ],
+      "min_surface_gap_mm": 0.493402122972506
+    }
+  ],
+  "support": [
+    {
+      "lower": 1,
+      "upper": 9,
+      "interface_area_mm2": 1004.0,
+      "ground_area_mm2": 1308.0
+    },
+    {
+      "lower": 2,
+      "upper": 10,
+      "interface_area_mm2": 1004.0000000000002,
+      "ground_area_mm2": 1308.0000000000002
+    },
+    {
+      "lower": 3,
+      "upper": 11,
+      "interface_area_mm2": 1004.0000000000002,
+      "ground_area_mm2": 1308.0000000000002
+    },
+    {
+      "lower": 4,
+      "upper": 12,
+      "interface_area_mm2": 1004.0,
+      "ground_area_mm2": 1308.0
+    },
+    {
+      "lower": 5,
+      "upper": 13,
+      "interface_area_mm2": 1004.0,
+      "ground_area_mm2": 1308.0
+    },
+    {
+      "lower": 6,
+      "upper": 14,
+      "interface_area_mm2": 1004.0000000000002,
+      "ground_area_mm2": 1308.0000000000002
+    },
+    {
+      "lower": 7,
+      "upper": 15,
+      "interface_area_mm2": 1004.0000000000002,
+      "ground_area_mm2": 1308.0000000000002
+    },
+    {
+      "lower": 8,
+      "upper": 16,
+      "interface_area_mm2": 1004.0,
+      "ground_area_mm2": 1308.0
+    }
+  ],
+  "volume_mm3_per_component": 29042.666666666664,
+  "mass_kg_per_component": 0.07260666666666667,
+  "mass_kg_16_components": 1.1617066666666667,
+  "weight_n_per_component_at_1p62": 0.11762280000000001,
+  "weight_n_16_components_at_1p62": 1.8819648000000002,
+  "nominal_pressure_pa_upper_on_lower": 117.1541832669323,
+  "nominal_pressure_pa_stack_on_ground": 179.85137614678902
+}

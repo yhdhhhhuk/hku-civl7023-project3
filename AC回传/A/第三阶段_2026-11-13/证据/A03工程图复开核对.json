@@ -1,0 +1,28 @@
+{
+  "review_tool": "AutoCAD 2027 Core Console",
+  "sheet": "A3",
+  "units": "mm",
+  "dwg_sha256": "db3620c8121c6b3f8222705b4266b509658d84a8f8f247c1d3016b789c709b3f",
+  "audit_errors": 0,
+  "dimension_entities": 9,
+  "dimension_labels_mm": [
+    22,
+    25,
+    38,
+    30,
+    50,
+    22,
+    47,
+    182,
+    182
+  ],
+  "projection_source": [
+    "CAD/单件_mm.step",
+    "CAD/Octagon16_Candidate_mm.step"
+  ],
+  "part_number_source": "数据/16件初始与目标位姿.csv",
+  "unicode_text_entities_verified": 37,
+  "text_style_font": "C:/Windows/Fonts/simhei.ttf",
+  "font_substitution_on_reopen": false,
+  "line_and_dimension_geometry_preserved": true
+}

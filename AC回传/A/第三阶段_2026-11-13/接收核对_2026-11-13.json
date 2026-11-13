@@ -1,0 +1,361 @@
+{
+  "source_archive": {
+    "date_HK": "2026-11-13",
+    "archive_relative": "交付包/收到的A原包/PartA_第三阶段交付_2026-11-13.zip",
+    "archive_sha256": "b90b24d04d7032fbc9fe777f9b724f327318cd72bdd3e23a6708c17bcd8839d2",
+    "standalone_DWG_checks": [
+      {
+        "filename": "A03_第三阶段总装与接口工程图.dwg",
+        "identical_to_ZIP": true,
+        "sha256": "db3620c8121c6b3f8222705b4266b509658d84a8f8f247c1d3016b789c709b3f"
+      },
+      {
+        "filename": "A03_Stage3_Engineering_EN.dwg",
+        "identical_to_ZIP": true,
+        "sha256": "1b8d5e24d70d1c022cdb2de200be6e2ec1c8d7e1a32a0d014aeb42b2662fb031"
+      }
+    ]
+  },
+  "checks": {
+    "status": "PASS",
+    "source_file_hashes_verified": 40,
+    "final_pose_rows_recomputed": 32,
+    "torque_cells_verified": 48,
+    "source_MD_relative_links": 30,
+    "DXF_checks": [
+      {
+        "file": "CAD/A03_第三阶段总装与接口工程图.dxf",
+        "INSUNITS": 4,
+        "dimensions": 9,
+        "entities": {
+          "SECTION": 6,
+          "ENDSEC": 6,
+          "CLASS": 15,
+          "TABLE": 9,
+          "VPORT": 1,
+          "ENDTAB": 9,
+          "LTYPE": 3,
+          "LAYER": 8,
+          "STYLE": 2,
+          "APPID": 3,
+          "DIMSTYLE": 1,
+          "BLOCK_RECORD": 12,
+          "BLOCK": 12,
+          "ENDBLK": 12,
+          "LINE": 515,
+          "INSERT": 18,
+          "MTEXT": 9,
+          "POINT": 27,
+          "SOLID": 4,
+          "TEXT": 37,
+          "DIMENSION": 9,
+          "DICTIONARY": 12,
+          "ACDBDICTIONARYWDFLT": 1,
+          "ACDBPLACEHOLDER": 1,
+          "LAYOUT": 2,
+          "MATERIAL": 3,
+          "MLINESTYLE": 1,
+          "MLEADERSTYLE": 1,
+          "DICTIONARYVAR": 2,
+          "EOF": 1
+        }
+      },
+      {
+        "file": "CAD/A03_Stage3_Engineering_EN.dxf",
+        "INSUNITS": 4,
+        "dimensions": 9,
+        "entities": {
+          "SECTION": 6,
+          "ENDSEC": 6,
+          "CLASS": 15,
+          "TABLE": 9,
+          "VPORT": 1,
+          "ENDTAB": 9,
+          "LTYPE": 3,
+          "LAYER": 8,
+          "STYLE": 2,
+          "APPID": 3,
+          "DIMSTYLE": 1,
+          "BLOCK_RECORD": 12,
+          "BLOCK": 12,
+          "ENDBLK": 12,
+          "LINE": 515,
+          "INSERT": 18,
+          "MTEXT": 9,
+          "POINT": 27,
+          "SOLID": 4,
+          "TEXT": 37,
+          "DIMENSION": 9,
+          "DICTIONARY": 12,
+          "ACDBDICTIONARYWDFLT": 1,
+          "ACDBPLACEHOLDER": 1,
+          "LAYOUT": 2,
+          "MATERIAL": 3,
+          "MLINESTYLE": 1,
+          "MLEADERSTYLE": 1,
+          "DICTIONARYVAR": 2,
+          "EOF": 1
+        }
+      }
+    ],
+    "native_CAD_reopened_locally": false,
+    "DWG_reopen_evidence": "Original A AutoCAD evidence retained; local byte/hash and DXF checks only",
+    "simulation_rerun": false,
+    "material_status": "candidate; personal approval pending",
+    "condition_summary_values_verified": 34,
+    "engineering_previews_inspected": 2
+  },
+  "word_content": {
+    "paragraphs": 141,
+    "tables": 2,
+    "embedded_images": 5,
+    "key_metrics_verified": true,
+    "source_DOCX_unchanged": true,
+    "rendered_pages": 6,
+    "bundled_render_missing_CJK_glyphs": true,
+    "layout_approved": false,
+    "note": "Original DOCX byte-preserved; extracted content checked; packaged renderer cannot certify original Word layout."
+  },
+  "source_files": [
+    {
+      "source": "AC回传/A/CAD/Octagon16_Candidate.FCStd",
+      "delivered_as": "CAD/Octagon16_Candidate.FCStd",
+      "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/Octagon16_Candidate_mm.step",
+      "delivered_as": "CAD/Octagon16_Candidate_mm.step",
+      "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/Octagon16_Candidate_mm.stl",
+      "delivered_as": "CAD/Octagon16_Candidate_mm.stl",
+      "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/octagon_AutoCAD2027.dwg",
+      "delivered_as": "CAD/octagon_AutoCAD2027.dwg",
+      "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/octagon_dimensioned.dwg",
+      "delivered_as": "CAD/octagon_dimensioned.dwg",
+      "sha256": "5d0800aa3ef45f80e869647aa1389de43c8ff7554fc6c397a8aeac35e3c489f3",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/单件_V2.dwg",
+      "delivered_as": "CAD/单件_V2.dwg",
+      "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/单件_参数化.FCStd",
+      "delivered_as": "CAD/单件_参数化.FCStd",
+      "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/单件_m.stl",
+      "delivered_as": "CAD/单件_m.stl",
+      "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/单件_mm.stl",
+      "delivered_as": "CAD/单件_mm.stl",
+      "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/CAD/单件_mm.step",
+      "delivered_as": "CAD/单件_mm.step",
+      "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/图表/A_单件三视图.png",
+      "delivered_as": "图表/A_单件三视图.png",
+      "sha256": "e8aa06ee1abafde6f0afaea719f3efd037ce1a01d1541166487a98bbdbcac056",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/图表/A_定位接口剖视.png",
+      "delivered_as": "图表/A_定位接口剖视.png",
+      "sha256": "bfcff8858fe6266c9ba058b2e024a9c10edd64523488dff4339a2ab6e0df2065",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/图表/A_八边形CAD.png",
+      "delivered_as": "图表/A_八边形CAD.png",
+      "sha256": "5ae66aa109d3dbd53ac59bddd94d38ed25e3c51886dc8717744ae32bfff9a301",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/图表/A_八边形尺寸标注.png",
+      "delivered_as": "图表/A_八边形尺寸标注.png",
+      "sha256": "94f6896bce30fcfc5c11614f2fc62a307a2a7e659d3e162473523ee88370efdf",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/数据/16件初始与目标位姿.csv",
+      "delivered_as": "数据/16件初始与目标位姿.csv",
+      "sha256": "9fde2670448eb70fa90eb8ae7ddb4ae8448ce72a57aabe563ed3fc9170496309",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/数据/质量惯量_候选参数.json",
+      "delivered_as": "数据/质量惯量_候选参数.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/A/证据/CAD与目标静态核对.json",
+      "delivered_as": "证据/A第二阶段CAD核对.json",
+      "sha256": "09117cdeb5906ee6a271b0a9718135ef14532314d74ce2cf5be37e84e834bbcb",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段结果摘要.json",
+      "delivered_as": "证据/第三阶段结果摘要.json",
+      "sha256": "89511b7087f3888a21edd72613456fac7d3f7f20fc0cf5d749bda48b29868e16",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/condition_summary.csv",
+      "delivered_as": "数据/B原始工况摘要.csv",
+      "sha256": "9a4befe6526126f84704caf18b96dcb08cee7200dd1543ed60abe17b75050276",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_final_errors.png",
+      "delivered_as": "图表/B_正式落位误差对照.png",
+      "sha256": "9d6aac17114ffbf9f88787b0fbc42f512c311f7c4b683b480216ebf0d6471c32",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_common_torque.png",
+      "delivered_as": "图表/B_正式力矩对照.png",
+      "sha256": "0568b20bb3c4117845e86f159379a4ed99d9ff36260f8f55719611a885e42d7a",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/last_frame.png",
+      "delivered_as": "图表/B_开启补偿装配末帧.png",
+      "sha256": "1226eda7853c5710721e885f7c4fc72adcc3038914ae74a5c2b71427d71be226",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/limits_singularity.png",
+      "delivered_as": "图表/B_开启补偿限位和奇异性.png",
+      "sha256": "1de6bec274b854da88c9fe671d77bf7eabe091d459e714d45b809522e2a9cff1",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/command_tracking.png",
+      "delivered_as": "图表/B_开启补偿命令跟踪.png",
+      "sha256": "d716cf7e5e5537c9db5554f547f7d90348c1e4d2ad8b347ebaaa92f8e3486adc",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/compensation_offsets.csv",
+      "delivered_as": "数据/逐件XY补偿量.csv",
+      "sha256": "2b75d51420d694da760e7258a005301519c0dce8a49c3df74f5b2c9de8f649f4",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/control_and_model_freeze.json",
+      "delivered_as": "证据/控制与模型冻结.json",
+      "sha256": "8729e9cd5379bec6fe5899275d8267dcaa05b7c80bbf3e3328c6de958bf94d9c",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/experiment_manifest.json",
+      "delivered_as": "证据/实验运行清单.json",
+      "sha256": "28e07859dbacac6cd05c773577db5abb70bfffea5ce44fbfe75151a10f0631de",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/candidate_payload.json",
+      "delivered_as": "证据/B正式候选载荷快照.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/feedback_calibration.json",
+      "delivered_as": "证据/反馈校准.json",
+      "sha256": "645b106e662a5d6fbd97f223f20062368eae8a4426b4b98bbe887f0bdf55f0df",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/robot_loaded_dynamics.json",
+      "delivered_as": "证据/PiPER实际导入惯量.json",
+      "sha256": "b793cef4952ebdafe3839f1ea2d2233ae4f51666cabd1016d8e6fdc98636d921",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/独立验收结果.json",
+      "delivered_as": "证据/B独立验收结果.json",
+      "sha256": "f4f670c576a2592b2d51246cff25ef21626dcb9def4e23edd51423c919485634",
+      "source_identical": true
+    },
+    {
+      "source": "AC回传/C/第10件阻塞诊断.json",
+      "delivered_as": "证据/C历史第10件阻塞诊断.json",
+      "sha256": "6737b0663a9c71dba2a56b7d751aef061a86e68c90d05b9b1bb91d1c8996b1e0",
+      "source_identical": true
+    },
+    {
+      "source": "runs/C_stage2/full01/result.json",
+      "delivered_as": "证据/C历史失败result.json",
+      "sha256": "0cd717728c9a8bd741a21c9dffade794f42f69ec4e2c1aa3af3ee447e7886393",
+      "source_identical": true
+    },
+    {
+      "source": "runs/C_stage2/full02_compensated/分析摘要.json",
+      "delivered_as": "证据/C历史补偿版摘要.json",
+      "sha256": "1209aa4c5fc0b4e08c6ae105e03e1f5cb4453c8242a95e978b6a5e1524215645",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/result.json",
+      "delivered_as": "证据/compensation_off/result.json",
+      "sha256": "7b04d7374b3464e1304f824696f906def07462ea7fc8d4a9d44d6ce0b8432c89",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/loaded_payload.json",
+      "delivered_as": "证据/compensation_off/loaded_payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/torque_full_run.csv",
+      "delivered_as": "证据/compensation_off/torque_full_run.csv",
+      "sha256": "31ac1b7cefbb8ba019383f6b3d116729ba86067b7e2bf320e052ecf6864daa2b",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/result.json",
+      "delivered_as": "证据/compensation_on/result.json",
+      "sha256": "2c9c9011e118a8af32a8a79e819fe65a6328042e9abb9c59bc502de68cc8da45",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/loaded_payload.json",
+      "delivered_as": "证据/compensation_on/loaded_payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba",
+      "source_identical": true
+    },
+    {
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/torque_full_run.csv",
+      "delivered_as": "证据/compensation_on/torque_full_run.csv",
+      "sha256": "c7e558c8d02704f3ff2ded1c24f6f5f6429afc04d4e51abd23d7f04b47600c2a",
+      "source_identical": true
+    }
+  ]
+}

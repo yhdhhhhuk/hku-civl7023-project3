@@ -1,6 +1,6 @@
 # HKU CIVL 7023 Project 3
 
-月面构件设计与PiPER六轴机械臂装配。当前方案为槽榫V2、两层16件八边形。A第二阶段设计、B第三阶段同机正式对照及技术章节、C跨机复现与补偿版工程已整合在同一仓库中。
+月面构件设计与PiPER六轴机械臂装配。当前方案为槽榫V2、两层16件八边形。A第三阶段CAD定版及完整报告初稿、B第三阶段同机正式对照及技术章节、C跨机复现与补偿版工程已整合在同一仓库中。
 
 [下载整个项目](https://github.com/yhdhhhhuk/hku-civl7023-project3/archive/refs/heads/main.zip) · [更新日志](CHANGELOG.md) · [仓库文件清单](仓库文件清单.md)
 
@@ -33,8 +33,8 @@ python 第三阶段入口.py verify
 
 | 内容 | 入口 |
 |---|---|
-| A第二阶段设计、材料状态与报告 | [A资料说明](AC回传/A/README.md) |
-| 总报告初稿 | [Markdown](AC回传/A/第二阶段总报告初稿.md) · [Word原稿](AC回传/A/CIVL7023_Project3_第二阶段总报告初稿.docx) |
+| A第三阶段CAD、工程图、材料状态与报告 | [最新A资料](AC回传/A/第三阶段_2026-11-13/README.md) · [历史入口](AC回传/A/README.md) |
+| 最新总报告初稿 | [Markdown](AC回传/A/第三阶段_2026-11-13/第三阶段完整报告初稿.md) · [Word原稿](AC回传/A/第三阶段_2026-11-13/CIVL7023_Project3_第三阶段完整报告初稿.docx) |
 | 单件／六件／16件CAD | [A模型](05_Project3_月面机器人装配/A_结构设计与CAD/README_本地使用.md) |
 | B运动学、控制、力矩与采集 | [B第二阶段](05_Project3_月面机器人装配/B_第二阶段控制与评价/README.md) |
 | C方法、失败与成功记录 | [C复现](AC回传/C/跨机复现记录.md) · [本地运行](05_Project3_月面机器人装配/C_仿真与装配/README_本地运行.md) |

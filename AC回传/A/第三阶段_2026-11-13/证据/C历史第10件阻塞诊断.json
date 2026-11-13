@@ -1,0 +1,25 @@
+{
+  "source": "full01 last scene snapshot; geometry-only sweep, not robot execution",
+  "cases": [
+    {
+      "case": "original",
+      "xy_compensation_m": [
+        0.0,
+        0.0
+      ],
+      "minimum_distance_m": -0.0001606444529343525,
+      "other_item": 9,
+      "com_z_m": 0.03306625309888899
+    },
+    {
+      "case": "grasp_offset_compensated",
+      "xy_compensation_m": [
+        0.0005439955875302105,
+        0.0006229821269486124
+      ],
+      "minimum_distance_m": 0.00022387471982865105,
+      "other_item": 9,
+      "com_z_m": 0.05467529358070371
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "path_base": "repository root",
+  "archive_sha256": "b90b24d04d7032fbc9fe777f9b724f327318cd72bdd3e23a6708c17bcd8839d2",
+  "source_files": [
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/00_交付说明.md",
+      "destination": "AC回传/A/第三阶段_2026-11-13/00_交付说明.md",
+      "sha256": "86e6e67378558bf1653ac9d0d4dec3d85a545f84e743605551b6352d33e1f529"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/A03_Stage3_Engineering_EN.dwg",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dwg",
+      "sha256": "1b8d5e24d70d1c022cdb2de200be6e2ec1c8d7e1a32a0d014aeb42b2662fb031"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/A03_Stage3_Engineering_EN.dxf",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dxf",
+      "sha256": "1b2d6cab9ed2599ab0bbc651b536bc5b938057249f4e2a2678b4f5e1f8958b6e"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/A03_第三阶段总装与接口工程图.dwg",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/A03_第三阶段总装与接口工程图.dwg",
+      "sha256": "db3620c8121c6b3f8222705b4266b509658d84a8f8f247c1d3016b789c709b3f"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/A03_第三阶段总装与接口工程图.dxf",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/A03_第三阶段总装与接口工程图.dxf",
+      "sha256": "42f337c2643af7a12d5b936d18ef0015137c07ba4ee399717a94230874613f24"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/Octagon16_Candidate.FCStd",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate.FCStd",
+      "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/Octagon16_Candidate_mm.step",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.step",
+      "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/Octagon16_Candidate_mm.stl",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.stl",
+      "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/octagon_AutoCAD2027.dwg",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_AutoCAD2027.dwg",
+      "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/octagon_dimensioned.dwg",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_dimensioned.dwg",
+      "sha256": "5d0800aa3ef45f80e869647aa1389de43c8ff7554fc6c397a8aeac35e3c489f3"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/单件_V2.dwg",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/单件_V2.dwg",
+      "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/单件_m.stl",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/单件_m.stl",
+      "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/单件_mm.step",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.step",
+      "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/单件_mm.stl",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.stl",
+      "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CAD/单件_参数化.FCStd",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CAD/单件_参数化.FCStd",
+      "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/CIVL7023_Project3_第三阶段完整报告初稿.docx",
+      "destination": "AC回传/A/第三阶段_2026-11-13/CIVL7023_Project3_第三阶段完整报告初稿.docx",
+      "sha256": "699cd6f123950a922eba01ab82e5904f4ec66b4bfebe6abe3521d1af81275afc"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A03_Stage3_Engineering_EN.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A03_Stage3_Engineering_EN.png",
+      "sha256": "dcb1cfe2266775a5db45a9893fb6b2c296651def3d84f95e19da4b841293825e"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A03_第三阶段总装与接口工程图.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A03_第三阶段总装与接口工程图.png",
+      "sha256": "c24e7744b948d9d919bf8b81ad55e90b0dfcfaa72dc011f31bea0466394e9471"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A_八边形CAD.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A_八边形CAD.png",
+      "sha256": "5ae66aa109d3dbd53ac59bddd94d38ed25e3c51886dc8717744ae32bfff9a301"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A_八边形尺寸标注.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A_八边形尺寸标注.png",
+      "sha256": "94f6896bce30fcfc5c11614f2fc62a307a2a7e659d3e162473523ee88370efdf"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A_单件三视图.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A_单件三视图.png",
+      "sha256": "e8aa06ee1abafde6f0afaea719f3efd037ce1a01d1541166487a98bbdbcac056"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/A_定位接口剖视.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/A_定位接口剖视.png",
+      "sha256": "bfcff8858fe6266c9ba058b2e024a9c10edd64523488dff4339a2ab6e0df2065"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/B_开启补偿命令跟踪.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/B_开启补偿命令跟踪.png",
+      "sha256": "d716cf7e5e5537c9db5554f547f7d90348c1e4d2ad8b347ebaaa92f8e3486adc"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/B_开启补偿装配末帧.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/B_开启补偿装配末帧.png",
+      "sha256": "1226eda7853c5710721e885f7c4fc72adcc3038914ae74a5c2b71427d71be226"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/B_开启补偿限位和奇异性.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/B_开启补偿限位和奇异性.png",
+      "sha256": "1de6bec274b854da88c9fe671d77bf7eabe091d459e714d45b809522e2a9cff1"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/B_正式力矩对照.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/B_正式力矩对照.png",
+      "sha256": "0568b20bb3c4117845e86f159379a4ed99d9ff36260f8f55719611a885e42d7a"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/图表/B_正式落位误差对照.png",
+      "destination": "AC回传/A/第三阶段_2026-11-13/图表/B_正式落位误差对照.png",
+      "sha256": "9d6aac17114ffbf9f88787b0fbc42f512c311f7c4b683b480216ebf0d6471c32"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/16件初始与目标位姿.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/16件初始与目标位姿.csv",
+      "sha256": "9fde2670448eb70fa90eb8ae7ddb4ae8448ce72a57aabe563ed3fc9170496309"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/32条名义目标与最终落位.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/32条名义目标与最终落位.csv",
+      "sha256": "19d72a13e1f2eabc3ec97e50803174b593a14444cee5a499f9ec6c5cb4fea623"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/B原始工况摘要.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/B原始工况摘要.csv",
+      "sha256": "9a4befe6526126f84704caf18b96dcb08cee7200dd1543ed60abe17b75050276"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/六轴力矩对照.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/六轴力矩对照.csv",
+      "sha256": "f5ac7f6a63fc553d1ec93db4910e4876cb805d5d049329aa4c7e2046bf422ee6"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/第三阶段结果汇总.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/第三阶段结果汇总.csv",
+      "sha256": "18980cb64891318edac42b880aeda326fc3ff2c60e4ef172c41d36c36cce32d3"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/质量惯量_候选参数.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/质量惯量_候选参数.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/数据/逐件XY补偿量.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/数据/逐件XY补偿量.csv",
+      "sha256": "2b75d51420d694da760e7258a005301519c0dce8a49c3df74f5b2c9de8f649f4"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/材料状态与报告对照.md",
+      "destination": "AC回传/A/第三阶段_2026-11-13/材料状态与报告对照.md",
+      "sha256": "6801c8253148ca83680d60878ac6842fe7aa8a249de18cbdc91002c0be2aec08"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/第三阶段完整报告初稿.md",
+      "destination": "AC回传/A/第三阶段_2026-11-13/第三阶段完整报告初稿.md",
+      "sha256": "cafe7ac7a27b55f3fcfaf90e50feb3b3d46cd0da320255aeb37fafbab4c4d464"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/结构定版与改进说明.md",
+      "destination": "AC回传/A/第三阶段_2026-11-13/结构定版与改进说明.md",
+      "sha256": "b826893a96f62ede71b1ed03979c69012bfc9f483679beb225dc7392d5cd65fe"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/A03工程图复开核对.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/A03工程图复开核对.json",
+      "sha256": "90d7160fe1131bafb95f7da9ef454d2fd16828da8c9768e13affcc3089fbbb43"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/AutoCAD原生文件复开.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/AutoCAD原生文件复开.json",
+      "sha256": "14776c796c1477cdeaae4fe5e8dc881b0b2421371ca0d98b21e20fa1c1804d6a"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/A复算与对齐记录.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/A复算与对齐记录.json",
+      "sha256": "5bcb8b766f0bb0034a26150359e783486f4ee485e530e20ec0189ad7f5232ff3"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/A第二阶段CAD核对.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/A第二阶段CAD核对.json",
+      "sha256": "09117cdeb5906ee6a271b0a9718135ef14532314d74ce2cf5be37e84e834bbcb"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/B正式候选载荷快照.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/B正式候选载荷快照.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/B独立验收结果.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/B独立验收结果.json",
+      "sha256": "f4f670c576a2592b2d51246cff25ef21626dcb9def4e23edd51423c919485634"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/CAD与目标静态核对.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/CAD与目标静态核对.json",
+      "sha256": "09117cdeb5906ee6a271b0a9718135ef14532314d74ce2cf5be37e84e834bbcb"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/C历史失败result.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/C历史失败result.json",
+      "sha256": "0cd717728c9a8bd741a21c9dffade794f42f69ec4e2c1aa3af3ee447e7886393"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/C历史第10件阻塞诊断.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/C历史第10件阻塞诊断.json",
+      "sha256": "6737b0663a9c71dba2a56b7d751aef061a86e68c90d05b9b1bb91d1c8996b1e0"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/C历史补偿版摘要.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/C历史补偿版摘要.json",
+      "sha256": "1209aa4c5fc0b4e08c6ae105e03e1f5cb4453c8242a95e978b6a5e1524215645"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/PiPER实际导入惯量.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/PiPER实际导入惯量.json",
+      "sha256": "b793cef4952ebdafe3839f1ea2d2233ae4f51666cabd1016d8e6fdc98636d921"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_off/loaded_payload.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_off/loaded_payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_off/result.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_off/result.json",
+      "sha256": "7b04d7374b3464e1304f824696f906def07462ea7fc8d4a9d44d6ce0b8432c89"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_off/torque_full_run.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_off/torque_full_run.csv",
+      "sha256": "31ac1b7cefbb8ba019383f6b3d116729ba86067b7e2bf320e052ecf6864daa2b"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_on/loaded_payload.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_on/loaded_payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_on/result.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_on/result.json",
+      "sha256": "2c9c9011e118a8af32a8a79e819fe65a6328042e9abb9c59bc502de68cc8da45"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/compensation_on/torque_full_run.csv",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/compensation_on/torque_full_run.csv",
+      "sha256": "c7e558c8d02704f3ff2ded1c24f6f5f6429afc04d4e51abd23d7f04b47600c2a"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/仓库快照与来源.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/仓库快照与来源.json",
+      "sha256": "0a77d917cb43a2409160b2ac93004b3b5067020a1a8ee68f4ebed79da4f936c5"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/反馈校准.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/反馈校准.json",
+      "sha256": "645b106e662a5d6fbd97f223f20062368eae8a4426b4b98bbe887f0bdf55f0df"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/实验运行清单.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/实验运行清单.json",
+      "sha256": "28e07859dbacac6cd05c773577db5abb70bfffea5ce44fbfe75151a10f0631de"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/控制与模型冻结.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/控制与模型冻结.json",
+      "sha256": "8729e9cd5379bec6fe5899275d8267dcaa05b7c80bbf3e3328c6de958bf94d9c"
+    },
+    {
+      "archive_entry": "PartA_第三阶段交付_2026-11-13/证据/第三阶段结果摘要.json",
+      "destination": "AC回传/A/第三阶段_2026-11-13/证据/第三阶段结果摘要.json",
+      "sha256": "89511b7087f3888a21edd72613456fac7d3f7f20fc0cf5d749bda48b29868e16"
+    }
+  ]
+}
