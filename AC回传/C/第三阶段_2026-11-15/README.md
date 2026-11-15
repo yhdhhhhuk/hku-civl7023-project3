@@ -30,3 +30,5 @@ python restore_evidence.py --prefix runs/C_stage3/
 ```
 
 恢复后可运行scripts/audit_c_stage3.py核对full01。原速及4倍速视频、载荷、命令、校准、分析和独立审计随Git发布。checkpoint.json与checkpoint.bullet只在本地完整ZIP保留，复现从零启动无需它们。ZIP本身不放入Git，避免重复大文件。旧ZIP仍是生成时的本地交付快照，以当前Git提交及更新日志判断最新说明。
+
+发布状态：2026-11-15已推送小组main，成果提交f116148。组员可直接同步当前main；没有代发聊天或邮件消息。
