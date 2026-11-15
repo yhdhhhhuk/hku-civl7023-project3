@@ -106,5 +106,47 @@
     "bytes": 3146846,
     "compressed_bytes": 1091228,
     "compressed_sha256": "228cc8da4ae780b8dc818c1a3cd21bf5dd6723ed0b49a6d50794a33cd3efe438"
+  },
+  {
+    "path": "runs/C_stage3/full01/b_control_trace.csv",
+    "compressed_path": "runs/C_stage3/full01/b_control_trace.csv.gz",
+    "sha256": "06c533ac706655ae4be852caee5b597a31f7dc1e58ac4293534e2272b02e9d3c",
+    "bytes": 29803259,
+    "compressed_bytes": 11215588
+  },
+  {
+    "path": "runs/C_stage3/full01/inventory_trace.csv",
+    "compressed_path": "runs/C_stage3/full01/inventory_trace.csv.gz",
+    "sha256": "d9bdb7aae598a9c7342a9bbea25a407d1636e0013c9854aaae6a41e7a27ad2d1",
+    "bytes": 3146550,
+    "compressed_bytes": 1072254
+  },
+  {
+    "path": "runs/C_stage3/full01/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage3/full01/joint_full_trace.csv.gz",
+    "sha256": "b76a77d2099bce6ea9ae12d5752486c791a9f778716cf13fb7b5681b8ed64ab2",
+    "bytes": 233240763,
+    "compressed_bytes": 95724504
+  },
+  {
+    "path": "runs/C_stage3/full01/trajectory.csv",
+    "compressed_path": "runs/C_stage3/full01/trajectory.csv.gz",
+    "sha256": "408f821a9c01acd69d9f967b59fa9d0d0321158bdd7bef6c845060dea0fa0c8e",
+    "bytes": 3145779,
+    "compressed_bytes": 1099689
+  },
+  {
+    "path": "runs/C_stage3/single01/b_control_trace.csv",
+    "compressed_path": "runs/C_stage3/single01/b_control_trace.csv.gz",
+    "sha256": "fc34dec2fdb9d64a6358c855fa14c057296dbf0ea33c299395c3285f6d834948",
+    "bytes": 2106795,
+    "compressed_bytes": 797862
+  },
+  {
+    "path": "runs/C_stage3/single01/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage3/single01/joint_full_trace.csv.gz",
+    "sha256": "170d0a6328700f935c116a68cce18fdb38f73164c26087c99ea511cebe8fdf5b",
+    "bytes": 18032737,
+    "compressed_bytes": 6772376
   }
 ]

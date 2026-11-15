@@ -1,0 +1,114 @@
+{
+  "api_version": 202010061,
+  "meaning": "getJointState tuple: q,dq,reaction[6],appliedJointMotorTorque; sampled after external step. This build returns last motor impulse / external dt; multiply by numSubSteps for last-substep equivalent effort, verified by static balance. Substep extrema and mean unavailable. Reaction is a separate sensor wrench.",
+  "tests": [
+    {
+      "substeps": 1,
+      "position_control_saturated_state": [
+        0.00023463283828382837,
+        0.056311881188118806,
+        [
+          0.0,
+          0.0,
+          0.2685171798004385,
+          0.0,
+          0.02685171798004383,
+          0.0
+        ],
+        0.02
+      ],
+      "expected_motor_Nm": 0.02,
+      "passed": true,
+      "static_state": [
+        0.0,
+        0.0,
+        [
+          0.0,
+          0.0,
+          1.62000232831529,
+          0.0,
+          0.162000232831529,
+          0.0
+        ],
+        -0.162
+      ],
+      "expected_static_magnitude_Nm": 0.162,
+      "raw_to_last_substep_effort_factor": 1
+    },
+    {
+      "substeps": 4,
+      "position_control_saturated_state": [
+        0.00019498197670057198,
+        0.07487149008847047,
+        [
+          -0.0005048614773187888,
+          0.0,
+          -0.17702241172591038,
+          0.0,
+          -0.017702241172591046,
+          0.0
+        ],
+        0.02
+      ],
+      "expected_motor_Nm": 0.02,
+      "passed": true,
+      "static_state": [
+        0.0,
+        0.0,
+        [
+          0.0,
+          0.0,
+          1.6200001455197055,
+          0.0,
+          0.16200001455197058,
+          0.0
+        ],
+        -0.0405
+      ],
+      "expected_static_magnitude_Nm": 0.162,
+      "raw_to_last_substep_effort_factor": 4
+    },
+    {
+      "test": "zero_gravity_acceleration",
+      "unit": "Nm",
+      "substeps": 1,
+      "raw_motor": 0.02,
+      "inferred_effective_from_acceleration": 0.019999999999999997,
+      "expected": 0.02,
+      "passed": true
+    },
+    {
+      "test": "zero_gravity_acceleration",
+      "unit": "Nm",
+      "substeps": 4,
+      "raw_motor": 0.02,
+      "inferred_effective_from_acceleration": 0.07999999999999999,
+      "expected": 0.08,
+      "passed": true
+    },
+    {
+      "test": "zero_gravity_acceleration",
+      "unit": "N",
+      "substeps": 1,
+      "raw_motor": 0.02,
+      "inferred_effective_from_acceleration": 0.02,
+      "expected": 0.02,
+      "passed": true
+    },
+    {
+      "test": "zero_gravity_acceleration",
+      "unit": "N",
+      "substeps": 4,
+      "raw_motor": 0.02,
+      "inferred_effective_from_acceleration": 0.08,
+      "expected": 0.08,
+      "passed": true
+    }
+  ],
+  "runtime_env": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "machine": "AMD64",
+    "pybullet": "3.2.7"
+  }
+}

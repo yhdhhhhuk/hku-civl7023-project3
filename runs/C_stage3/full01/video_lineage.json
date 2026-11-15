@@ -1,0 +1,8 @@
+{
+  "source": "assembly.mp4",
+  "source_sha256": "bd3617d55a75a3f04fbfd729da34f0447777b09b0aec79d96a90791097f1f4fc",
+  "output": "assembly_4x.mp4",
+  "output_sha256": "d54db2c96b38b45dd672628c9edfc630fe1694df0d15d837c47ad8e11d51c11c",
+  "speed": 4,
+  "method": "setpts=PTS/4; 20fps; physical source preserved; no new simulation"
+}

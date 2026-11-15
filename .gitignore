@@ -62,3 +62,13 @@
 /05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/kinematic_trace.csv
 /05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/inventory_trace.csv
 /05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/trajectory.csv
+
+/scripts/c_stage3_build/
+/runs/C_stage3/**/checkpoint.bullet
+/runs/C_stage3/**/checkpoint.json
+/runs/C_stage3/full01/b_control_trace.csv
+/runs/C_stage3/full01/inventory_trace.csv
+/runs/C_stage3/full01/joint_full_trace.csv
+/runs/C_stage3/full01/trajectory.csv
+/runs/C_stage3/single01/b_control_trace.csv
+/runs/C_stage3/single01/joint_full_trace.csv
