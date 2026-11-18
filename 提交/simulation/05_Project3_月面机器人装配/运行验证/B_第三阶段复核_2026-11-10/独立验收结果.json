@@ -1,0 +1,205 @@
+{
+  "compensation_off": {
+    "actual_target_FK_count": 96,
+    "final_inventory_error_difference_m": 1.991947438490687e-06,
+    "success": true,
+    "pieces": 16,
+    "move_count": 96,
+    "error": null,
+    "rows": 145676,
+    "simulated_seconds": 606.9833333333333,
+    "phase_rows": {
+      "initialize": 480,
+      "approach": 44668,
+      "descend": 12288,
+      "close": 3840,
+      "lift": 7356,
+      "transfer": 47696,
+      "lower": 11104,
+      "release": 6948,
+      "retreat": 6736,
+      "settle": 3840,
+      "final_settle": 720
+    },
+    "raw_peak_Nm": [
+      3.799378330600426,
+      3.283108447282547,
+      2.0944133239042317,
+      0.6467280824562562,
+      0.3655429324814368,
+      0.025056072613562557
+    ],
+    "last_substep_equivalent_peak_Nm": [
+      15.197513322401704,
+      13.132433789130188,
+      8.377653295616927,
+      2.586912329825025,
+      1.4621717299257473,
+      0.10022429045425023
+    ],
+    "last_substep_equivalent_RMS_Nm": [
+      2.12606775656997,
+      1.8401807346752372,
+      1.1675430106639972,
+      0.39137817522506385,
+      0.13356496342427707,
+      0.017523466322201482
+    ],
+    "max_joint_speed_rad_s": [
+      0.600060391358826,
+      0.27394672820308874,
+      0.3017970122198114,
+      0.00047714418257632297,
+      0.6000089997416203,
+      0.6005756213088491
+    ],
+    "minimum_limit_margin_deg": 3.7778572680848383,
+    "FD_samples": 60,
+    "FD_max_error": 2.2118229470180495e-10,
+    "FD_sample_min_scaled_sigma": 0.2734864559004637,
+    "control_rows": 32462,
+    "control_error_recompute_max_position_m": 0.0,
+    "control_error_recompute_max_orientation_deg": 1.9895196601282805e-13,
+    "FK_sample_max_error_m": 4.281921656285468e-16,
+    "max_final_position_mm": 0.9357910435369245,
+    "max_final_orientation_deg": 0.1555978013132035,
+    "max_compensation_mm": 0,
+    "video_frames": 3035,
+    "video_duration_s": 607.0,
+    "pre_compensation_trace_sha256": "637a8152cd70ac10e1463257068b733f8b2257f83634282e5e8b0a1e70d6eaa3"
+  },
+  "compensation_on": {
+    "actual_target_FK_count": 96,
+    "final_inventory_error_difference_m": 4.223065915612246e-07,
+    "success": true,
+    "pieces": 16,
+    "move_count": 96,
+    "error": null,
+    "rows": 145712,
+    "simulated_seconds": 607.1333333333333,
+    "phase_rows": {
+      "initialize": 480,
+      "approach": 44668,
+      "descend": 12288,
+      "close": 3840,
+      "lift": 7356,
+      "transfer": 47712,
+      "lower": 11104,
+      "release": 6972,
+      "retreat": 6732,
+      "settle": 3840,
+      "final_settle": 720
+    },
+    "raw_peak_Nm": [
+      3.7990908974263013,
+      3.2833526423215162,
+      2.094742024993899,
+      0.6465459144141309,
+      0.36555086288484645,
+      0.02505607262080522
+    ],
+    "last_substep_equivalent_peak_Nm": [
+      15.196363589705205,
+      13.133410569286065,
+      8.378968099975596,
+      2.5861836576565236,
+      1.4622034515393858,
+      0.10022429048322087
+    ],
+    "last_substep_equivalent_RMS_Nm": [
+      2.1260619340941975,
+      1.8404222648530664,
+      1.1673912664987178,
+      0.3913950645058839,
+      0.13347588869619942,
+      0.01792137844622899
+    ],
+    "max_joint_speed_rad_s": [
+      0.6000499377589547,
+      0.273946721548185,
+      0.301796879919241,
+      0.00047714419458473476,
+      0.6000061980843946,
+      0.600470461326655
+    ],
+    "minimum_limit_margin_deg": 3.7534564471750063,
+    "FD_samples": 60,
+    "FD_max_error": 1.7203838353907486e-10,
+    "FD_sample_min_scaled_sigma": 0.27346926312640457,
+    "control_rows": 32465,
+    "control_error_recompute_max_position_m": 0.0,
+    "control_error_recompute_max_orientation_deg": 1.9895196601282805e-13,
+    "FK_sample_max_error_m": 4.034117999026819e-16,
+    "max_final_position_mm": 0.2617316941592188,
+    "max_final_orientation_deg": 0.1865189132999802,
+    "max_compensation_mm": 0.8258331645494128,
+    "video_frames": 3036,
+    "video_duration_s": 607.2,
+    "pre_compensation_trace_sha256": "637a8152cd70ac10e1463257068b733f8b2257f83634282e5e8b0a1e70d6eaa3"
+  },
+  "passed": true,
+  "one_switch_same_initial_state": true,
+  "same_pre_compensation_raw_trace": true,
+  "source_hash_count": 25,
+  "resource_hash_count": 69,
+  "common_completed_items_torque": {
+    "compensation_off": {
+      "items": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rows": 144476,
+      "last_substep_equivalent_RMS_Nm": [
+        2.134878927759277,
+        1.847623017150501,
+        1.1710478502330353,
+        0.3930001558368456,
+        0.13387628717451902,
+        0.017596089394855144
+      ]
+    },
+    "compensation_on": {
+      "items": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rows": 144512,
+      "last_substep_equivalent_RMS_Nm": [
+        2.1348708906992404,
+        1.8478637219608145,
+        1.1708944320157506,
+        0.39301671187167886,
+        0.1337866040214306,
+        0.017995632149526694
+      ]
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "api_version": 202010061,
+  "URDF_sha256": "88a1de9b83a97168b03ac80be04ed5d18c5593fd6e70a6e65495b374b982e324",
+  "loader": "Piper(client,self_collision=True)",
+  "flags": 8,
+  "uses_URDF_USE_INERTIA_FROM_FILE_flag": false,
+  "interpretation": "Robot uses the existing Bullet importer inertia treatment; record actual dynamics instead of assuming URDF tensor is retained. Components separately use URDF_USE_INERTIA_FROM_FILE with verified candidate COM inertia.",
+  "links": [
+    {
+      "link_index": -1,
+      "link_name": "dummy_link",
+      "loaded_mass_kg": 0.0,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_inertial_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {}
+    },
+    {
+      "link_index": 0,
+      "link_name": "base_link",
+      "loaded_mass_kg": 1.02,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.0013481000195360198,
+        0.0016476612681478272,
+        0.0015568811963266138
+      ],
+      "local_inertial_position_m": [
+        -0.00473641164191482,
+        2.56829134630247e-05,
+        0.041451518036016
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-0.00473641164191482 2.56829134630247E-05 0.041451518036016",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "1.02"
+        },
+        "inertia": {
+          "ixx": "0.00267433",
+          "ixy": "-0.00000073",
+          "ixz": "-0.00017389",
+          "iyy": "0.00282612",
+          "iyz": "0.0000004",
+          "izz": "0.00089624"
+        }
+      }
+    },
+    {
+      "link_index": 1,
+      "link_name": "link1",
+      "loaded_mass_kg": 0.71,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.0007817838671299632,
+        0.0007279673459622578,
+        0.0007712330739444993
+      ],
+      "local_inertial_position_m": [
+        0.000121504734057468,
+        0.000104632162460536,
+        -0.00438597309559853
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "0.000121504734057468 0.000104632162460536 -0.00438597309559853",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.71"
+        },
+        "inertia": {
+          "ixx": "0.00048916",
+          "ixy": "-0.00000036",
+          "ixz": "-0.00000224",
+          "iyy": "0.00040472",
+          "iyz": "-0.00000242",
+          "izz": "0.00043982"
+        }
+      }
+    },
+    {
+      "link_index": 2,
+      "link_name": "link2",
+      "loaded_mass_kg": 1.17,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.002059346806858932,
+        0.013250675725799476,
+        0.013241267417731115
+      ],
+      "local_inertial_position_m": [
+        0.198666145229743,
+        -0.010926924140076,
+        0.00142121714502687
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "0.198666145229743 -0.010926924140076 0.00142121714502687",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "1.17"
+        },
+        "inertia": {
+          "ixx": "0.00116918",
+          "ixy": "-0.00180037",
+          "ixz": "0.00025146",
+          "iyy": "0.06785384",
+          "iyz": "-0.00000455",
+          "izz": "0.06774489"
+        }
+      }
+    },
+    {
+      "link_index": 3,
+      "link_name": "link3",
+      "loaded_mass_kg": 0.5,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.002932790317294954,
+        0.0006666219221253427,
+        0.00297228203496499
+      ],
+      "local_inertial_position_m": [
+        -0.0202737662122021,
+        -0.133914995944595,
+        -0.000458682652737356
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-0.0202737662122021 -0.133914995944595 -0.000458682652737356",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.5"
+        },
+        "inertia": {
+          "ixx": "0.01361711",
+          "ixy": "0.00165794",
+          "ixz": "-0.00000048",
+          "iyy": "0.00045024",
+          "iyz": "-0.00000045",
+          "izz": "0.01380322"
+        }
+      }
+    },
+    {
+      "link_index": 4,
+      "link_name": "link4",
+      "loaded_mass_kg": 0.38,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.000299651340744693,
+        0.00030666256781565596,
+        0.0002919938942445065
+      ],
+      "local_inertial_position_m": [
+        -9.66635791618542e-05,
+        0.000876064475651083,
+        -0.00496880904640868
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-9.66635791618542E-05 0.000876064475651083 -0.00496880904640868",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.38"
+        },
+        "inertia": {
+          "ixx": "0.00018501",
+          "ixy": "0.00000054",
+          "ixz": "0.00000120",
+          "iyy": "0.00018965",
+          "iyz": "-0.00000841",
+          "izz": "0.00015484"
+        }
+      }
+    },
+    {
+      "link_index": 5,
+      "link_name": "link5",
+      "loaded_mass_kg": 0.383,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.0005985327608287463,
+        0.00028178537681635535,
+        0.0005944838980467296
+      ],
+      "local_inertial_position_m": [
+        -4.10554118924211e-05,
+        -0.0566486692356075,
+        -0.0037205791677906
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-4.10554118924211E-05 -0.0566486692356075 -0.0037205791677906",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.383"
+        },
+        "inertia": {
+          "ixx": "0.00166169",
+          "ixy": "0.00000006",
+          "ixz": "-0.00000007",
+          "iyy": "0.00018510",
+          "iyz": "0.00001026",
+          "izz": "0.00164321"
+        }
+      }
+    },
+    {
+      "link_index": 6,
+      "link_name": "link6",
+      "loaded_mass_kg": 0.007,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        1.0375593149982788e-06,
+        1.0362041397164865e-06,
+        1.957096783615003e-06
+      ],
+      "local_inertial_position_m": [
+        -8.82590762930069e-05,
+        9.0598378529832e-06,
+        -0.002
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-8.82590762930069E-05 9.0598378529832E-06 -0.002",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.007"
+        },
+        "inertia": {
+          "ixx": "5.73015540542155E-07",
+          "ixy": "-1.98305403089247E-22",
+          "ixz": "-7.2791893904596E-23",
+          "iyy": "5.73015540542155E-07",
+          "iyz": "-3.4146026640245E-24",
+          "izz": "1.06738869138926E-06"
+        }
+      }
+    },
+    {
+      "link_index": 7,
+      "link_name": "gripper_base",
+      "loaded_mass_kg": 0.45,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        0.0010335111373437594,
+        0.0003978538752935606,
+        0.001074417643446638
+      ],
+      "local_inertial_position_m": [
+        -0.000183807162235591,
+        8.05033155577911e-05,
+        0.0321436689908876
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "-0.000183807162235591 8.05033155577911E-05 0.0321436689908876",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.45"
+        },
+        "inertia": {
+          "ixx": "0.00092934",
+          "ixy": "0.00000034",
+          "ixz": "-0.00000738",
+          "iyy": "0.00071447",
+          "iyz": "0.00000005",
+          "izz": "0.00039442"
+        }
+      }
+    },
+    {
+      "link_index": 8,
+      "link_name": "link7",
+      "loaded_mass_kg": 0.025,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        1.6380207799219854e-05,
+        1.0208854570829629e-05,
+        2.218802078813317e-05
+      ],
+      "local_inertial_position_m": [
+        0.00065123185041968,
+        -0.0491929869131989,
+        0.00972258769184025
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "0.00065123185041968 -0.0491929869131989 0.00972258769184025",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.025"
+        },
+        "inertia": {
+          "ixx": "0.00007371",
+          "ixy": "-0.00000113",
+          "ixz": "0.00000021",
+          "iyy": "0.00000781",
+          "iyz": "-0.00001372",
+          "izz": "0.0000747"
+        }
+      }
+    },
+    {
+      "link_index": 9,
+      "link_name": "link8",
+      "loaded_mass_kg": 0.025,
+      "loaded_principal_inertia_diagonal_kg_m2": [
+        1.6379856546441763e-05,
+        1.020850331805154e-05,
+        2.218802078813317e-05
+      ],
+      "local_inertial_position_m": [
+        0.000651231850419722,
+        -0.0491929869131991,
+        0.00972258769184024
+      ],
+      "local_inertial_orientation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lateral_friction": 0.5,
+      "restitution": 0.0,
+      "collision_margin_m": 0.001,
+      "supplied_URDF_inertial": {
+        "origin": {
+          "xyz": "0.000651231850419722 -0.0491929869131991 0.00972258769184024",
+          "rpy": "0 0 0"
+        },
+        "mass": {
+          "value": "0.025"
+        },
+        "inertia": {
+          "ixx": "0.00007371",
+          "ixy": "-0.00000113",
+          "ixz": "0.00000021",
+          "iyy": "0.00000781",
+          "iyz": "-0.00001372",
+          "izz": "0.0000747"
+        }
+      }
+    }
+  ]
+}

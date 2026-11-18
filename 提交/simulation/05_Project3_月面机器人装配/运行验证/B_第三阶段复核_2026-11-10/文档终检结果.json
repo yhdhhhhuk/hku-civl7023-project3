@@ -1,0 +1,13 @@
+{
+  "final_component_values": 64,
+  "whole_task_torque_values": 48,
+  "matched_phase_torque_values": 18,
+  "local_links_valid": 95,
+  "documents_sha256": {
+    "B_第三阶段报告/报告方法核对记录.md": "833bfdac37bfb807f104555f01d5b56cef7628ee3d1fbb158c80017cabd67273",
+    "B_第三阶段报告/给A和C的第三阶段对接说明.md": "d5ca89c50176ada13eafecd4a834b758fb8754f77df65ab05dd0e2c06bcfb25b",
+    "B_第三阶段报告/B_第三阶段技术章节.md": "1086aa6f07ecd03060b19941708baae3aec7424257d8ca3f02b6e98bfb7e4111",
+    "运行验证/B_第三阶段复核_2026-11-10/第三阶段独立验收说明.md": "df81cde11c7ab0572b9b75b738eeec4f89f605727afe02f5d00f8a0b1426b6a0"
+  },
+  "passed": true
+}

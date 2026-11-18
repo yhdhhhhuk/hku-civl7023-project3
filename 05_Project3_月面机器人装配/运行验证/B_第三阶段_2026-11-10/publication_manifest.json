@@ -632,8 +632,8 @@
       "sha256": "6d3752b60cf00fc1e279945505b90655b2a16b36f0c0dfb0d96f45f4a40a51a0"
     },
     "evidence_compression.json": {
-      "bytes": 6165,
-      "sha256": "8f5f2a5ad38ec05172851a48005897d92fa360f6e9ddb00715aca3e215d9dd0e"
+      "bytes": 7950,
+      "sha256": "492d4e08fe8ad7496f4024f39366ba9c8ece93a68e4783deee33d18a2803aef5"
     },
     "scripts/prepare_stage3_logs.py": {
       "bytes": 1528,

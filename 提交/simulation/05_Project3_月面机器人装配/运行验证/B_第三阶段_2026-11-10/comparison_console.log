@@ -1,0 +1,58 @@
+pybullet build time: Oct 29 2026 22:20:28
+{
+  "completed": [
+    16,
+    16
+  ],
+  "common_prefix": 16,
+  "deltas": {
+    "final_max_position_error_mm": {
+      "off": 0.9357910435369245,
+      "on": 0.2617316941592188,
+      "on_minus_off": -0.6740593493777057,
+      "relative_change_percent": -72.03096824158786
+    },
+    "final_position_RMS_mm": {
+      "off": 0.4221786512900811,
+      "on": 0.1422150528784226,
+      "on_minus_off": -0.2799635984116585,
+      "relative_change_percent": -66.31401127369989
+    },
+    "final_max_orientation_error_deg": {
+      "off": 0.1555978013132035,
+      "on": 0.1865189132999802,
+      "on_minus_off": 0.03092111198677669,
+      "relative_change_percent": 19.87246074546738
+    },
+    "final_orientation_RMS_deg": {
+      "off": 0.06907495387666661,
+      "on": 0.08293717213251621,
+      "on_minus_off": 0.013862218255849601,
+      "relative_change_percent": 20.068371352951765
+    },
+    "max_TCP_endpoint_position_mm": {
+      "off": 0.0475651847922453,
+      "on": 0.04756048236742156,
+      "on_minus_off": -4.702424823740947e-06,
+      "relative_change_percent": -0.00988627468657688
+    },
+    "command_FK_tracking_RMS_mm": {
+      "off": 0.05741187130610557,
+      "on": 0.05741464434950559,
+      "on_minus_off": 2.773043400024211e-06,
+      "relative_change_percent": 0.004830087117757564
+    },
+    "simulated_seconds": {
+      "off": 606.9833333333333,
+      "on": 607.1333333333333,
+      "on_minus_off": 0.14999999999997726,
+      "relative_change_percent": 0.024712375408442178
+    },
+    "wall_seconds": {
+      "off": 737.0873169898987,
+      "on": 740.7217268943787,
+      "on_minus_off": 3.6344099044799805,
+      "relative_change_percent": 0.4930772543098483
+    }
+  }
+}

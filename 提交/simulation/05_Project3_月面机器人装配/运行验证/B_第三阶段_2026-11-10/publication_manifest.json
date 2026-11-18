@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "path_base": "repository root",
+  "description": "Published stage3 evidence; original raw CSV bytes restored from gzip. Local archive SHA also covers excluded recovery/cache files; use this manifest to verify a download.",
+  "files": {
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/README.md": {
+      "bytes": 7263,
+      "sha256": "183f309f79ec9a2be23cc9311387ba05491fa5494a9590f4fbc0de7cc7fce165"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/analyze_experiments.py": {
+      "bytes": 20863,
+      "sha256": "13551eeffdf4e0751e4a64a25e5d5a06fc6ff848bf6b445ac47e597f607c3710"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/audit_evidence.py": {
+      "bytes": 1838,
+      "sha256": "25242bf01784c4a99e5e043e63d4aed0d2e82b65216e67feeb5c55429d206b27"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/compare_experiments.py": {
+      "bytes": 9429,
+      "sha256": "1c6cbcb65ac0a11a130053748631087d276a8098f7c5721448f2fad2bde9819a"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/finalize_experiments.py": {
+      "bytes": 1366,
+      "sha256": "543e34020435cd7466bae353fc584b10eaef0f62af80556bdb532bff80666b3a"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/probe_robot_model.py": {
+      "bytes": 2064,
+      "sha256": "cfa008d6e3ceeb123895f1e0a2fc9d695f686ea10c65120c4ae7f6715b62d4b6"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/run_experiments.py": {
+      "bytes": 4591,
+      "sha256": "cde7407f549f6605527fcdc57e93ad76a18f0ff0be18279b64f4e0f851efb88f"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/write_results.py": {
+      "bytes": 18298,
+      "sha256": "d400e9fe5108c3cc8331662021cb60955f142e0e852cd53da373cf42af7373dd"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段结果摘要.json": {
+      "bytes": 25115,
+      "sha256": "89511b7087f3888a21edd72613456fac7d3f7f20fc0cf5d749bda48b29868e16"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段评价说明.md": {
+      "bytes": 15748,
+      "sha256": "1067fd6e43e1cacf6e85781587f16ac33445068a83c238f64e77a62e626dadc2"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段报告/B_第三阶段技术章节.md": {
+      "bytes": 45307,
+      "sha256": "1086aa6f07ecd03060b19941708baae3aec7424257d8ca3f02b6e98bfb7e4111"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段报告/报告方法核对记录.md": {
+      "bytes": 17275,
+      "sha256": "833bfdac37bfb807f104555f01d5b56cef7628ee3d1fbb158c80017cabd67273"
+    },
+    "05_Project3_月面机器人装配/B_第三阶段报告/给A和C的第三阶段对接说明.md": {
+      "bytes": 6905,
+      "sha256": "d5ca89c50176ada13eafecd4a834b758fb8754f77df65ab05dd0e2c06bcfb25b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/README.md": {
+      "bytes": 2663,
+      "sha256": "61d2efb732988c174a73621133c199837d585bd4fb0886cfb6a0a6a5e7de53df"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/analysis_off_console.log": {
+      "bytes": 7329,
+      "sha256": "9c0d0b03be9a8e37884fb2c90db35e99c80050465d97138fe698a9a8b4bf4728"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/analysis_on_console.log": {
+      "bytes": 7290,
+      "sha256": "2849176b92119f4d32e053526dca63dab726133b4670459ede3e79c855f2aedd"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/audit_off_console.log": {
+      "bytes": 483,
+      "sha256": "7c5e3860e27c3b6abebb382cad6c33ec580e3edc15cc110335dfff60c4ee8f28"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/audit_on_console.log": {
+      "bytes": 482,
+      "sha256": "29718655fcbc7643ab78db25168941bb40900ae745660d4153f66984ba5af0f2"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/candidate_payload.json": {
+      "bytes": 2670,
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/common_item_placement_comparison.csv": {
+      "bytes": 1176,
+      "sha256": "aab8a7c97f4ced450d7692b238eb08dd5d88310e671d5aec3597b6c840f29ab0"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/common_workload_torque.csv": {
+      "bytes": 2248,
+      "sha256": "5c739ed12a737d8b7cc4c1a636112e522899625eca4bcef5eb9a0b27484c77bb"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_common_torque.png": {
+      "bytes": 62284,
+      "sha256": "0568b20bb3c4117845e86f159379a4ed99d9ff36260f8f55719611a885e42d7a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_console.log": {
+      "bytes": 1737,
+      "sha256": "9fe5e99f4152263b84979647710d8fcae5cbfd1c62cd132ffdc48da57d7c302f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_final_errors.png": {
+      "bytes": 66233,
+      "sha256": "9d6aac17114ffbf9f88787b0fbc42f512c311f7c4b683b480216ebf0d6471c32"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/TCP_endpoint_errors.csv": {
+      "bytes": 7091,
+      "sha256": "e7585fd0c10e6b7d6a99c49104cb389bd251218ec58d466b326e0c3153ce418f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/TCP_target_tracking.png": {
+      "bytes": 287361,
+      "sha256": "27ec0b8ad11c30aae61fbea8e1f5c4fce0fd6c5820b098e380008219aa7cf838"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/actual_target_checks.csv": {
+      "bytes": 11848,
+      "sha256": "36f0de921028eec65b0b6633e5e9446d6fecba76e93e8aec5136dedbbe0f5d62"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/analysis_summary.json": {
+      "bytes": 8380,
+      "sha256": "ecc6840049ca04b52eec78d8e25a39c1570e9e141f0c48a7b662d76633c6acb2"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/assembly.mp4": {
+      "bytes": 6646058,
+      "sha256": "039d3dad4346530277de8f961776fbdffdd187a4c57aed5c5601a6b544fc2e58"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv.gz": {
+      "bytes": 11172463,
+      "sha256": "03783da7be87437caf0c65bba41b7b43bda4f80123491b2c2efeb93bc17fe08a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/collision_broadphase.py": {
+      "bytes": 591,
+      "sha256": "0d128ba0a11f76ce7aa9aafce0be5f1d9dd59f3aca0fc4c56978c2af3b64b40c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/command_tracking.png": {
+      "bytes": 245823,
+      "sha256": "6975ad2776b17184e13a9654072421e88d980f8c56d9f82533a31860a02d0ffa"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/evidence_audit.json": {
+      "bytes": 457,
+      "sha256": "ed408b3657f99d86b9bd92a25f54bcbe7778938f47ea37b70f69b8acbb71ab0b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/final_component_errors.csv": {
+      "bytes": 1193,
+      "sha256": "4cc3cbd786e7520b60c06fd3714fc56748ea644590e3babbfb620272186b8358"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/final_component_errors.png": {
+      "bytes": 52142,
+      "sha256": "70881447cc7e9161baee4570d9aa0d5d85065d7c5a7da63dd31b94dc13826465"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/first_frame.png": {
+      "bytes": 20642,
+      "sha256": "f478ba39834c960d8c4a7055e8d19d4c1c7a17c4ef93f305425e1657dbbdbc06"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/gripper_release.py": {
+      "bytes": 3447,
+      "sha256": "ef78b7aba576f437dd38a280b560c6d48ce456cdb798841d20f96b4a5e99bdc1"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/initial_inventory.json": {
+      "bytes": 3914,
+      "sha256": "68ae799333449c3fde7dab4119dc4e054093632cc328e1d0d7a5d2426477dc9d"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/inventory_trace.csv.gz": {
+      "bytes": 1072618,
+      "sha256": "7420c714eeb5bbc080d396cde9d32af79c8d8832509d67f6c97f81bff26b1c6b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_command_tracking.csv": {
+      "bytes": 385,
+      "sha256": "2c7e93739c93ff2a63eda4e3ce25c67e7bfe16d086d41efed2b42136a2c1d1a0"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv.gz": {
+      "bytes": 95683396,
+      "sha256": "6e5a92e6ecd804a360e92577cd075b6dcf8cbb78cd87ea96fa7132728bcebfd9"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_motion_torque.png": {
+      "bytes": 404789,
+      "sha256": "b1e25a137c7984ea6bf8a7a727e8d9fb540e7a7d2a675270bc626b21712a4e0e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/kinematic_trace.csv.gz": {
+      "bytes": 4306657,
+      "sha256": "25f98910249668d0b54f507f72e254c411307f186f3e478485168379f64b06db"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/last_frame.png": {
+      "bytes": 44838,
+      "sha256": "ec2e622d9c5a9f746c14af9be8f50e5b38cd9e8d2fb5b2ba9c70a64dc117232c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/last_inventory_pose_crosscheck.csv": {
+      "bytes": 1574,
+      "sha256": "bca79784c429141bc0b2ede65605313d3d7f07b535847934d681b9a26a5f9360"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/limits_singularity.png": {
+      "bytes": 155872,
+      "sha256": "cb7445143f3fba4e1f23782f13b3e563e2a35ee9253391fb3cdadc279f1b03f3"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/loaded_payload.json": {
+      "bytes": 372,
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/local_paths.py": {
+      "bytes": 1526,
+      "sha256": "44e232f62ffb7c30074874091f3ec81f265e163545b9f57970e45012ef235e0f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/motion_planning.py": {
+      "bytes": 2386,
+      "sha256": "1e8ca858c256c4e8718387cc6cce9adfe764e10d71f27c7a5d8e0e0db217f52a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/polygon_planning.py": {
+      "bytes": 3736,
+      "sha256": "fa144af14c004d46de8e992f9be8e63d52cb32ed05fe72404aa97eafcfc4a6f8"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/preloaded_planning_fast.py": {
+      "bytes": 3290,
+      "sha256": "fcf1f69da5a69a98b13567cf4b6df5902203d8a2900ef3ffd9f5976f75a29200"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/preloaded_tray_layout.py": {
+      "bytes": 1643,
+      "sha256": "ee959d5780240a7f345d0f49d8fa7d0c2f887536c2f7043fe058a517293bdecf"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/preloaded_tray_scene.py": {
+      "bytes": 757,
+      "sha256": "86e3c1970ac2122c0c130500c014f0c3a48a4330f6f86841ce70eeda4d284e8a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/release_diagnostics.json": {
+      "bytes": 238860,
+      "sha256": "6ca622a3cebf45d323aaf6af739c87d2bb959cf464b15d69056eb2bcfe8098a2"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/release_trace.csv": {
+      "bytes": 65022,
+      "sha256": "c6e44e87d8f9330b5a4ecf174d3f4016e08896677c7b6f11d1c32b16506847f2"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/result.json": {
+      "bytes": 916863,
+      "sha256": "7b04d7374b3464e1304f824696f906def07462ea7fc8d4a9d44d6ce0b8432c89"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/run_manifest.json": {
+      "bytes": 3506,
+      "sha256": "a983fe23753cd9d6e07893d37c6ed7169d2d7e7e82cfdb4b825d9ca4b69fb5dc"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/run_preloaded_tray_assembly_fast.py": {
+      "bytes": 27716,
+      "sha256": "794973c1608fb04092b1442deb98aeac781b8bccf7d07aaf2da5737c2c6caba4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/torque_by_item_phase.csv": {
+      "bytes": 124662,
+      "sha256": "226c70ba8888ae87b107900b94de82934957fca0964bc907916dccffd7896d7e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/torque_by_phase.csv": {
+      "bytes": 9607,
+      "sha256": "8c5c047605c5605808eddc10b4cf4f30663f631e15df454ba43327f40398f6e4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/torque_full_run.csv": {
+      "bytes": 1061,
+      "sha256": "31ac1b7cefbb8ba019383f6b3d116729ba86067b7e2bf320e052ecf6864daa2b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/trajectory.csv.gz": {
+      "bytes": 1095057,
+      "sha256": "9aca7d329b2944e9247767ac249c1f1805eaeef737ea41b97a65c18984f68415"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off_console.log": {
+      "bytes": 2395,
+      "sha256": "929ce385546c6be274dfa9ddbf0d27393f5f928b20580a5c2d35c6e582af7d61"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/TCP_endpoint_errors.csv": {
+      "bytes": 7101,
+      "sha256": "76149397e75738afd74e977bdc0410462eb1571a1e8b0f02cc681ad8395b983a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/TCP_target_tracking.png": {
+      "bytes": 288544,
+      "sha256": "a446cdc9ac848864ed0891dad5c875629e67c2228ee625bf39a716ee8014512f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/actual_target_checks.csv": {
+      "bytes": 11859,
+      "sha256": "4c40be4b64ff38a6c2a2a280c2fb444107012a50e1ab442606209704b083c540"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/analysis_summary.json": {
+      "bytes": 8405,
+      "sha256": "d4898fed7e94f0d130430b39f4bd5698fddd0d142ef02e31fa635c61064dc212"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/assembly.mp4": {
+      "bytes": 6653610,
+      "sha256": "d2b35855f759a3035551384fc194f5db0a087ce8cf5c88bf38584614c558a1ee"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv.gz": {
+      "bytes": 11216064,
+      "sha256": "b68ab9377eaa4064ed3ff6ff262ca312eefbdc0f9b2ee668682cac2ed21476cc"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/collision_broadphase.py": {
+      "bytes": 591,
+      "sha256": "0d128ba0a11f76ce7aa9aafce0be5f1d9dd59f3aca0fc4c56978c2af3b64b40c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/command_tracking.png": {
+      "bytes": 245889,
+      "sha256": "d716cf7e5e5537c9db5554f547f7d90348c1e4d2ad8b347ebaaa92f8e3486adc"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/compensation_offsets.csv": {
+      "bytes": 1095,
+      "sha256": "2b75d51420d694da760e7258a005301519c0dce8a49c3df74f5b2c9de8f649f4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/evidence_audit.json": {
+      "bytes": 457,
+      "sha256": "0a6315e5708bc51e13561bd55466333b56bfcd7c6a491840d9c63bc374fe5ac6"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/final_component_errors.csv": {
+      "bytes": 1194,
+      "sha256": "20c3e4965d5ee023fc88a88988d562d125889e5b66823c86215ec12ff80e694e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/final_component_errors.png": {
+      "bytes": 53902,
+      "sha256": "d9cabc82162879006ed11f2c14bd640d476754f8f3bf5ecf08298cc51a9e0d78"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/first_frame.png": {
+      "bytes": 20642,
+      "sha256": "f478ba39834c960d8c4a7055e8d19d4c1c7a17c4ef93f305425e1657dbbdbc06"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/gripper_release.py": {
+      "bytes": 3447,
+      "sha256": "ef78b7aba576f437dd38a280b560c6d48ce456cdb798841d20f96b4a5e99bdc1"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/initial_inventory.json": {
+      "bytes": 3914,
+      "sha256": "68ae799333449c3fde7dab4119dc4e054093632cc328e1d0d7a5d2426477dc9d"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/inventory_trace.csv.gz": {
+      "bytes": 1071346,
+      "sha256": "8258af99a4051d82d498041f7e5911b25e70652b5d4dab5a25e69ec2c7f0057a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_command_tracking.csv": {
+      "bytes": 389,
+      "sha256": "cc80606b37624a55a133f3b13bc5e7acc29e77ce21fbda419158e0cd75119611"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv.gz": {
+      "bytes": 95710200,
+      "sha256": "ab3475505d50e3e222c46b1dc5940929d18ccd7824bd052a507956608e8e2e51"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_motion_torque.png": {
+      "bytes": 405926,
+      "sha256": "0d998872975865ea7f050460ff2918c7e360ba9e26e757be0569f79e42ff4835"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/kinematic_trace.csv.gz": {
+      "bytes": 4307932,
+      "sha256": "64985360a2bb876fcff34d07944730453f094c5eb0cc363c3dc628e3398d1aa9"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/last_frame.png": {
+      "bytes": 44694,
+      "sha256": "1226eda7853c5710721e885f7c4fc72adcc3038914ae74a5c2b71427d71be226"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/last_inventory_pose_crosscheck.csv": {
+      "bytes": 1602,
+      "sha256": "7af717bdeab41ad313faa0316bbfcd107549223b2ffa9881d575ca662783c4a7"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/limits_singularity.png": {
+      "bytes": 156734,
+      "sha256": "1de6bec274b854da88c9fe671d77bf7eabe091d459e714d45b809522e2a9cff1"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/loaded_payload.json": {
+      "bytes": 372,
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/local_paths.py": {
+      "bytes": 1526,
+      "sha256": "44e232f62ffb7c30074874091f3ec81f265e163545b9f57970e45012ef235e0f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/motion_planning.py": {
+      "bytes": 2386,
+      "sha256": "1e8ca858c256c4e8718387cc6cce9adfe764e10d71f27c7a5d8e0e0db217f52a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/polygon_planning.py": {
+      "bytes": 3736,
+      "sha256": "fa144af14c004d46de8e992f9be8e63d52cb32ed05fe72404aa97eafcfc4a6f8"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/preloaded_planning_fast.py": {
+      "bytes": 3290,
+      "sha256": "fcf1f69da5a69a98b13567cf4b6df5902203d8a2900ef3ffd9f5976f75a29200"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/preloaded_tray_layout.py": {
+      "bytes": 1643,
+      "sha256": "ee959d5780240a7f345d0f49d8fa7d0c2f887536c2f7043fe058a517293bdecf"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/preloaded_tray_scene.py": {
+      "bytes": 757,
+      "sha256": "86e3c1970ac2122c0c130500c014f0c3a48a4330f6f86841ce70eeda4d284e8a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/release_diagnostics.json": {
+      "bytes": 241067,
+      "sha256": "89c584128f29a1c5e72bb924edb83efce6ad2c3017bb003a784e531657fbbd4d"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/release_trace.csv": {
+      "bytes": 65784,
+      "sha256": "c65ae3f1e51f6df420388262fb0674ed825b300d08c2a2c9680bba174a4c5f2e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/result.json": {
+      "bytes": 925537,
+      "sha256": "2c9c9011e118a8af32a8a79e819fe65a6328042e9abb9c59bc502de68cc8da45"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/run_manifest.json": {
+      "bytes": 3538,
+      "sha256": "e5f528fcec900facc7acd36664d17691b0a9f3910f650f348ad24b0f3aa57701"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/run_preloaded_tray_assembly_fast.py": {
+      "bytes": 27716,
+      "sha256": "794973c1608fb04092b1442deb98aeac781b8bccf7d07aaf2da5737c2c6caba4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/torque_by_item_phase.csv": {
+      "bytes": 124558,
+      "sha256": "9deff56bc9f5310ac995eb04509ed352101220ce5afc12048bc3443672843fa4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/torque_by_phase.csv": {
+      "bytes": 9418,
+      "sha256": "807c2bdd9657e38524288f284f372ad408ccc683af3fe37f55399f765443f966"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/torque_full_run.csv": {
+      "bytes": 1067,
+      "sha256": "c7e558c8d02704f3ff2ded1c24f6f5f6429afc04d4e51abd23d7f04b47600c2a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/trajectory.csv.gz": {
+      "bytes": 1091228,
+      "sha256": "228cc8da4ae780b8dc818c1a3cd21bf5dd6723ed0b49a6d50794a33cd3efe438"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on_console.log": {
+      "bytes": 2395,
+      "sha256": "929ce385546c6be274dfa9ddbf0d27393f5f928b20580a5c2d35c6e582af7d61"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/condition_summary.csv": {
+      "bytes": 1089,
+      "sha256": "9a4befe6526126f84704caf18b96dcb08cee7200dd1543ed60abe17b75050276"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/control_and_model_freeze.json": {
+      "bytes": 4353,
+      "sha256": "8729e9cd5379bec6fe5899275d8267dcaa05b7c80bbf3e3328c6de958bf94d9c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/dependencies.txt": {
+      "bytes": 431,
+      "sha256": "6a56e9ad9614d8967827acf7e50c0fa287e123c1e64bcbac1d0f50f0e2623b61"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/environment_binary_fingerprint.json": {
+      "bytes": 663,
+      "sha256": "e91ae185f3959e37c7432d3d57ddb50d52b623fce307cffaf668c1bc1c44def7"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/evidence_sha256.json": {
+      "bytes": 23225,
+      "sha256": "efed9c9371ceef2bf7da3bde8dd408906f42c810ccb0b0e117006ac9d4588187"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/experiment_manifest.json": {
+      "bytes": 19556,
+      "sha256": "28e07859dbacac6cd05c773577db5abb70bfffea5ce44fbfe75151a10f0631de"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/experiment_runner.log": {
+      "bytes": 1930,
+      "sha256": "0334844f95b43bc9df340466e1984ba9ff2996482082490048c50b6f31fdbcfa"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/feedback_calibration.json": {
+      "bytes": 2622,
+      "sha256": "645b106e662a5d6fbd97f223f20062368eae8a4426b4b98bbe887f0bdf55f0df"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/feedback_calibration_console.log": {
+      "bytes": 1268,
+      "sha256": "30292c525d367489dcbf504e3fb9b2d5c8fa7d988b7de65f2fba813bafd9c7f4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/final_component_comparison.csv": {
+      "bytes": 1419,
+      "sha256": "1e4af28b7de7d0706c3436b20b564454947d467f03a3d956325977a29602d6ca"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_关节与夹爪/demo_joints.py": {
+      "bytes": 6955,
+      "sha256": "b18fc6c1ea9ec8101f885738bba35e92e173afee9d943d7b192b795f18da49ed"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_关节与夹爪/piper_robot.py": {
+      "bytes": 9290,
+      "sha256": "01e4acc755c71d06f1417ac125e7731d07135eac725e9c125582e8ad93b10e83"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_关节与夹爪/verify_joints.py": {
+      "bytes": 8225,
+      "sha256": "c102396644bff8e240f22c4b97a8bb86f56547e3b376cf455cb5c98e99fa7273"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/controller.py": {
+      "bytes": 9974,
+      "sha256": "cbd1f0b782f6a941ea25740e387da8f3dcb96964134dbd3e82958a90aaef44ab"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/kinematics.py": {
+      "bytes": 5747,
+      "sha256": "733cc99ff387dd9a34a9d5e1ffb972cb5bae303d77a080ba97276cf154cff2ea"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/matrix_helpers.py": {
+      "bytes": 679,
+      "sha256": "82762361d566c7dc01147eb0de758610740199df72a905b03aee145320b1b70e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/plot_results.py": {
+      "bytes": 4878,
+      "sha256": "5a45aabd23a09b14daebc4552b6f2101cbed5ffc7daec26f145edbaf754a4262"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/run_pose_control.py": {
+      "bytes": 10581,
+      "sha256": "59acf4122b2b99406077468db1255769a8b81563b839b55b2266d8fe8c51d658"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_基础控制与雅可比/verify_kinematics.py": {
+      "bytes": 7203,
+      "sha256": "d2ba0aeb8ef00797a4ee9ec0c19e34394d708a301b082583d5eda27a3c2123ac"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/acceptance.py": {
+      "bytes": 11426,
+      "sha256": "d8a68569c6fd86d3588f7ed8a0b6f6eb394a4e0df97ad072c776cd3c916986fa"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/audit_video.py": {
+      "bytes": 1054,
+      "sha256": "032ec225bd2b731708cba371e06f54b062a7a19f0bd4b63742c28ccf2b989e1c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/evaluate.py": {
+      "bytes": 10342,
+      "sha256": "b8a90264665921a658f2880590044365b4e9c3b84e7aeffb4e29397aa8cd9d1d"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/telemetry.py": {
+      "bytes": 1488,
+      "sha256": "29b66b4bb2a0dc800db5aea99daa8cdab5b29f82411125a4ae92c9094fb8447b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/verify_feedback.py": {
+      "bytes": 3444,
+      "sha256": "47120b2556a4c73d4842c5b404df8735f3b68a3fc687df21391c8bacbf537bbc"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/__init__.py": {
+      "bytes": 73,
+      "sha256": "1b2c9b73a4cb7aae545d38c64cdde7ec326406ef21cb25ee95f3356b0b3e8707"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/collision_broadphase.py": {
+      "bytes": 591,
+      "sha256": "0d128ba0a11f76ce7aa9aafce0be5f1d9dd59f3aca0fc4c56978c2af3b64b40c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/gripper_release.py": {
+      "bytes": 3447,
+      "sha256": "ef78b7aba576f437dd38a280b560c6d48ce456cdb798841d20f96b4a5e99bdc1"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/local_paths.py": {
+      "bytes": 1526,
+      "sha256": "44e232f62ffb7c30074874091f3ec81f265e163545b9f57970e45012ef235e0f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/motion_planning.py": {
+      "bytes": 2386,
+      "sha256": "1e8ca858c256c4e8718387cc6cce9adfe764e10d71f27c7a5d8e0e0db217f52a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/polygon_planning.py": {
+      "bytes": 3736,
+      "sha256": "fa144af14c004d46de8e992f9be8e63d52cb32ed05fe72404aa97eafcfc4a6f8"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/preloaded_planning_fast.py": {
+      "bytes": 3290,
+      "sha256": "fcf1f69da5a69a98b13567cf4b6df5902203d8a2900ef3ffd9f5976f75a29200"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/preloaded_tray_layout.py": {
+      "bytes": 1643,
+      "sha256": "ee959d5780240a7f345d0f49d8fa7d0c2f887536c2f7043fe058a517293bdecf"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/preloaded_tray_scene.py": {
+      "bytes": 757,
+      "sha256": "86e3c1970ac2122c0c130500c014f0c3a48a4330f6f86841ce70eeda4d284e8a"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/run_preloaded_tray_assembly_fast.py": {
+      "bytes": 27716,
+      "sha256": "794973c1608fb04092b1442deb98aeac781b8bccf7d07aaf2da5737c2c6caba4"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/C_仿真与装配/summarize_preloaded_tray.py": {
+      "bytes": 3668,
+      "sha256": "eeedee4ee78dc707e6e814a41e86ca63946ff08bb6b38cc9993a203699f4c1c0"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/nominal_96_targets.csv": {
+      "bytes": 27874,
+      "sha256": "81f68b3ab1b8150cd29314f7f7bf1178134478ecb2787e1dacac3d7c88983dc7"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/nominal_target_console.log": {
+      "bytes": 105,
+      "sha256": "a02319c4c950b2c74107e0378090e5999201710d2727d56e356e8418a10f347b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/nominal_target_summary.json": {
+      "bytes": 205,
+      "sha256": "c74721a69ec424fa141c2f02195d519da04f5e278e20e7da6418921292014000"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/paired_torque_tradeoffs.csv": {
+      "bytes": 845,
+      "sha256": "ac03401f1683e80492379321872247d9cfc256b1bb5d6cd176d4ab3cce188170"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/robot_loaded_dynamics.json": {
+      "bytes": 11303,
+      "sha256": "b793cef4952ebdafe3839f1ea2d2233ae4f51666cabd1016d8e6fdc98636d921"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/robot_probe_console.log": {
+      "bytes": 345,
+      "sha256": "13b174b2918c2f5076d75c2efaf4d6032714402e317d8fc1c3827bb3937fd49b"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/compensation_off_last.png": {
+      "bytes": 44838,
+      "sha256": "ec2e622d9c5a9f746c14af9be8f50e5b38cd9e8d2fb5b2ba9c70a64dc117232c"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/compensation_on_last.png": {
+      "bytes": 44694,
+      "sha256": "1226eda7853c5710721e885f7c4fc72adcc3038914ae74a5c2b71427d71be226"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/independent_audit.py": {
+      "bytes": 10591,
+      "sha256": "8b69eaaf78f41eed876cfcd4681658812a14139b9b41ef9d8d1dee02b20da582"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/review_documents.py": {
+      "bytes": 3432,
+      "sha256": "a1f9a26ac8e2c8112709cb19664912be9ad2aa29f92323db64e7fd200e4e626e"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/交付哈希复核.json": {
+      "bytes": 168,
+      "sha256": "3253a2b65885c543d32a54ee61333efe32924b81a12f43f4b720a5a24ac7e71f"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/摘要交叉核对.json": {
+      "bytes": 390,
+      "sha256": "9a6175b54ded2e427a42740bd49c05c899ba86adeabcddf4b33a448df1ed2447"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/文档终检结果.json": {
+      "bytes": 718,
+      "sha256": "687890e95e572289e8798ec4bcabd64a634d008eff3a250a009d95ef72b49651"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/独立复核控制台.log": {
+      "bytes": 5245,
+      "sha256": "a3ce410e5f02678e4dbc799151eff797e0dba635df381eabc72d19137f6cc637"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/独立验收结果.json": {
+      "bytes": 5202,
+      "sha256": "f4f670c576a2592b2d51246cff25ef21626dcb9def4e23edd51423c919485634"
+    },
+    "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/第三阶段独立验收说明.md": {
+      "bytes": 5593,
+      "sha256": "df81cde11c7ab0572b9b75b738eeec4f89f605727afe02f5d00f8a0b1426b6a0"
+    },
+    "第三阶段入口.py": {
+      "bytes": 1813,
+      "sha256": "15e7dc0222bb749598056bbb4bcc2a87dc84c9ed4d83227c245a0f2c0a79952c"
+    },
+    "第三阶段_B执行与验收计划.md": {
+      "bytes": 4387,
+      "sha256": "30182ff71679d3ba997100c7d5c5bb2aaac2f7e35d905555d2d737bd33ded568"
+    },
+    "restore_evidence.py": {
+      "bytes": 1866,
+      "sha256": "6d3752b60cf00fc1e279945505b90655b2a16b36f0c0dfb0d96f45f4a40a51a0"
+    },
+    "evidence_compression.json": {
+      "bytes": 6165,
+      "sha256": "8f5f2a5ad38ec05172851a48005897d92fa360f6e9ddb00715aca3e215d9dd0e"
+    },
+    "scripts/prepare_stage3_logs.py": {
+      "bytes": 1528,
+      "sha256": "889d23d7103ddc972935a0e96f052b50b3f23815a82d1d1ef9bc69cdc16d4c33"
+    },
+    "scripts/build_stage3_manifest.py": {
+      "bytes": 2351,
+      "sha256": "808469d241f500b1bf30a682e6c86f26e1fd1a4ba4e8d8c2138aeb49c143b107"
+    },
+    "scripts/verify_stage3_package.py": {
+      "bytes": 1346,
+      "sha256": "af07c9c7c4f77414b86a58f3299b801b68706393a4a34800c4daabbdf1d79223"
+    }
+  },
+  "compressed_evidence": [
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv.gz",
+      "sha256": "d241133a7ced95c3fd030abb2af7092a2b5a38aacf4d3633685581156f3523c6",
+      "bytes": 29610249,
+      "compressed_bytes": 11172463,
+      "compressed_sha256": "03783da7be87437caf0c65bba41b7b43bda4f80123491b2c2efeb93bc17fe08a"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/inventory_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/inventory_trace.csv.gz",
+      "sha256": "1da23a3ee7910490912ad486ab08fdb1d243d42aebd4263bf473b115d0816c7b",
+      "bytes": 3142973,
+      "compressed_bytes": 1072618,
+      "compressed_sha256": "7420c714eeb5bbc080d396cde9d32af79c8d8832509d67f6c97f81bff26b1c6b"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv.gz",
+      "sha256": "e3ce1ecf1c402a0f9355803578c300a230d1060d1f0a9e6e73b42b5f084c3c76",
+      "bytes": 233231077,
+      "compressed_bytes": 95683396,
+      "compressed_sha256": "6e5a92e6ecd804a360e92577cd075b6dcf8cbb78cd87ea96fa7132728bcebfd9"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/kinematic_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/kinematic_trace.csv.gz",
+      "sha256": "2623477d2eb8385165138301199ba38c2e7625dc800a512e73652a7b85f7081b",
+      "bytes": 13225831,
+      "compressed_bytes": 4306657,
+      "compressed_sha256": "25f98910249668d0b54f507f72e254c411307f186f3e478485168379f64b06db"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/trajectory.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/trajectory.csv.gz",
+      "sha256": "804ddee31e9daaab142cba2b454f4372dc5655203c8ea7c24b327844c457f9f0",
+      "bytes": 3147358,
+      "compressed_bytes": 1095057,
+      "compressed_sha256": "9aca7d329b2944e9247767ac249c1f1805eaeef737ea41b97a65c18984f68415"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv.gz",
+      "sha256": "19bd0413e2a8034a09c0dbbbb5663bb36422fd771470ceee3cdb8aa4447d7cdc",
+      "bytes": 29799996,
+      "compressed_bytes": 11216064,
+      "compressed_sha256": "b68ab9377eaa4064ed3ff6ff262ca312eefbdc0f9b2ee668682cac2ed21476cc"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/inventory_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/inventory_trace.csv.gz",
+      "sha256": "029c15e4cc7a49e656696867725ac612144e0b3c01f499af1e574a1a1d959774",
+      "bytes": 3147057,
+      "compressed_bytes": 1071346,
+      "compressed_sha256": "8258af99a4051d82d498041f7e5911b25e70652b5d4dab5a25e69ec2c7f0057a"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv.gz",
+      "sha256": "046bba8ed5f251fa430ec255f68c951b27be7837a3878c0a71816a429e33968c",
+      "bytes": 233296384,
+      "compressed_bytes": 95710200,
+      "compressed_sha256": "ab3475505d50e3e222c46b1dc5940929d18ccd7824bd052a507956608e8e2e51"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/kinematic_trace.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/kinematic_trace.csv.gz",
+      "sha256": "14ffb7bda1e336fcd0816305f6d9e75d607029a5ec261ee23efd708f8550da18",
+      "bytes": 13228955,
+      "compressed_bytes": 4307932,
+      "compressed_sha256": "64985360a2bb876fcff34d07944730453f094c5eb0cc363c3dc628e3398d1aa9"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/trajectory.csv",
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/trajectory.csv.gz",
+      "sha256": "e6ad6ea7822a81fb7a6c50c1e5ab595f081c2cb8f01c95a414a96c2dba85f4fe",
+      "bytes": 3146846,
+      "compressed_bytes": 1091228,
+      "compressed_sha256": "228cc8da4ae780b8dc818c1a3cd21bf5dd6723ed0b49a6d50794a33cd3efe438"
+    }
+  ],
+  "local_only": [
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/checkpoint.bullet",
+      "bytes": 838836,
+      "sha256": "ff4f6b6166620a6986923deba40695766d2cb492ed4fa875020fc8bf48e00781",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/checkpoint.json",
+      "bytes": 69475602,
+      "sha256": "ca108c6563471947a814fb1eea64f2f01666297492c27c20c852bf1a0522da20",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/derived_signals.npz",
+      "bytes": 21684452,
+      "sha256": "122a538786b3626c10945cdd67056acf4cc11fa3f03e2b01a63c302f6e469edc",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/checkpoint.bullet",
+      "bytes": 838836,
+      "sha256": "0127274f608c043a3c3b8c415438d0b3a4584810c0d2a0ad14ba1c65497644db",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/checkpoint.json",
+      "bytes": 69679886,
+      "sha256": "060b3386f3f05d4f3a9595cd8d4f2966263dca1507c423d236acc123cf32bd21",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    },
+    {
+      "path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/derived_signals.npz",
+      "bytes": 21690192,
+      "sha256": "150e0759c448acd151005f9599b508909e3864d119a51090e9a182b84a31f3e5",
+      "reason": "Local recovery checkpoint or reproducible derived cache; not needed for published analysis"
+    }
+  ],
+  "expected_conditions": {
+    "compensation_off": {
+      "success": true,
+      "rows": 145676
+    },
+    "compensation_on": {
+      "success": true,
+      "rows": 145712
+    }
+  }
+}

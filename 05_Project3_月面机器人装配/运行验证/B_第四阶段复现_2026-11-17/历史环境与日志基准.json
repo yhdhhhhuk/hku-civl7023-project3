@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source": "17 November 2026 pre-revision archived freeze and single-run evidence summary",
+  "original_parameter_package_sha256": "c2dd2e5ad0ed260f9c9eeb4397c6a001398bd22e0f8495ebcdfea27c34dfbb93",
+  "original_reproduction_summary_sha256": "19ecd5c6af350c928d2c383e8380e7d36c5ae9b068f0c4461a7c37c96fe8ffb1",
+  "created_HK": "2026-11-17T17:31:46.093344+08:00",
+  "runtime_environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "packages": {
+      "pybullet": "3.2.7",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.7.0",
+      "pillow": "13.0.0"
+    },
+    "pip_freeze": [
+      "contourpy==1.4.0",
+      "cycler==0.12.1",
+      "fonttools==4.68.0",
+      "ImageIO==2.38.1",
+      "imageio-ffmpeg==0.7.0",
+      "kiwisolver==1.5.1",
+      "manifold3d==3.5.4",
+      "matplotlib==3.11.2",
+      "numpy==2.5.4",
+      "packaging==26.3",
+      "pillow==13.0.0",
+      "pybullet @ file:///var/folders/vs/4ypyl4pn08j330ml1714315r0000gn/T/pip-install-dndxaen3/pybullet_c1cc20957e744758b2680ca71c548442",
+      "pyparsing==3.3.3",
+      "python-dateutil==3.0.0",
+      "scipy==1.18.1",
+      "setuptools==84.2.1",
+      "six==1.17.0",
+      "tzdata==2026.6",
+      "wheel==0.48.0"
+    ]
+  },
+  "single_run_trace": {
+    "raw_sha256": "95a4445044a46fdbcfe2dd79a59b5debd725f8335702957c19cf89101d14e055",
+    "raw_bytes": 18046593,
+    "rows": 11300
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "schema_version": 2,
+  "created_HK": "2026-11-17T17:31:46.093344+08:00",
+  "regenerated_at_HK": "2026-11-18T17:13:08.700580+08:00",
+  "role": "Part B Stage 4 Finalized Control, Kinematics, Torque & Environment Freeze",
+  "runtime_environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "packages": {
+      "pybullet": "3.2.7",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.7.0",
+      "pillow": "13.0.0"
+    },
+    "pip_freeze": [
+      "contourpy==1.4.0",
+      "cycler==0.12.1",
+      "fonttools==4.68.0",
+      "ImageIO==2.38.1",
+      "imageio-ffmpeg==0.7.0",
+      "kiwisolver==1.5.1",
+      "manifold3d==3.5.4",
+      "matplotlib==3.11.2",
+      "numpy==2.5.4",
+      "packaging==26.3",
+      "pillow==13.0.0",
+      "pybullet @ file:///var/folders/vs/4ypyl4pn08j330ml1714315r0000gn/T/pip-install-dndxaen3/pybullet_c1cc20957e744758b2680ca71c548442",
+      "pyparsing==3.3.3",
+      "python-dateutil==3.0.0",
+      "scipy==1.18.1",
+      "setuptools==84.2.1",
+      "six==1.17.0",
+      "tzdata==2026.6",
+      "wheel==0.48.0"
+    ]
+  },
+  "runtime_environment_source": {
+    "path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/历史环境与日志基准.json",
+    "sha256": "a89eb1518549f61b13683789fe84cd0939113a2fa68ac5fd2c97a6197f68f7fd",
+    "note": "Historical 17 November freeze. Regeneration uses the recorded environment values."
+  },
+  "robot_kinematics_and_urdf": {
+    "urdf_path": "05_Project3_月面机器人装配/PiPER_Load_URDF/piper_description/piper_description_pybullet.urdf",
+    "urdf_sha256": "88a1de9b83a97168b03ac80be04ed5d18c5593fd6e70a6e65495b374b982e324",
+    "declared_tcp_offset_in_gripper_base_m": [
+      0.0,
+      0.0,
+      0.1358
+    ],
+    "gripper_command_mapping": "joint7 = +w/2, joint8 = -w/2, w in [0.0, 0.07] m",
+    "joints": [
+      {
+        "name": "base_to_dummy",
+        "type": "fixed",
+        "parent_link": "dummy_link",
+        "child_link": "base_link",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_local": null,
+        "limits": null
+      },
+      {
+        "name": "joint1",
+        "type": "revolute",
+        "parent_link": "base_link",
+        "child_link": "link1",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.123
+        ],
+        "origin_rpy_rad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": -2.618,
+          "upper": 2.618,
+          "lower_deg_if_revolute": -150.000351,
+          "upper_deg_if_revolute": 150.000351,
+          "effort_api_param": 100.0,
+          "velocity_limit": 5.0
+        }
+      },
+      {
+        "name": "joint2",
+        "type": "revolute",
+        "parent_link": "link1",
+        "child_link": "link2",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          1.5708,
+          -0.1359,
+          -3.1416
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": 0.0,
+          "upper": 3.14,
+          "lower_deg_if_revolute": 0.0,
+          "upper_deg_if_revolute": 179.908748,
+          "effort_api_param": 100.0,
+          "velocity_limit": 5.0
+        }
+      },
+      {
+        "name": "joint3",
+        "type": "revolute",
+        "parent_link": "link2",
+        "child_link": "link3",
+        "origin_xyz_m": [
+          0.28503,
+          0.0,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          0.0,
+          0.0,
+          -1.7939
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": -2.967,
+          "upper": 0.0,
+          "lower_deg_if_revolute": -169.996578,
+          "upper_deg_if_revolute": 0.0,
+          "effort_api_param": 100.0,
+          "velocity_limit": 5.0
+        }
+      },
+      {
+        "name": "joint4",
+        "type": "revolute",
+        "parent_link": "link3",
+        "child_link": "link4",
+        "origin_xyz_m": [
+          -0.021984,
+          -0.25075,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          1.5708,
+          0.0,
+          0.0
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": -1.745,
+          "upper": 1.745,
+          "lower_deg_if_revolute": -99.981135,
+          "upper_deg_if_revolute": 99.981135,
+          "effort_api_param": 100.0,
+          "velocity_limit": 5.0
+        }
+      },
+      {
+        "name": "joint5",
+        "type": "revolute",
+        "parent_link": "link4",
+        "child_link": "link5",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          -1.5708,
+          0.0,
+          0.0
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": -1.22,
+          "upper": 1.22,
+          "lower_deg_if_revolute": -69.900851,
+          "upper_deg_if_revolute": 69.900851,
+          "effort_api_param": 100.0,
+          "velocity_limit": 5.0
+        }
+      },
+      {
+        "name": "joint6",
+        "type": "revolute",
+        "parent_link": "link5",
+        "child_link": "link6",
+        "origin_xyz_m": [
+          8.8259e-05,
+          -0.091,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          1.5708,
+          0.0,
+          0.0
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": -2.0944,
+          "upper": 2.0944,
+          "lower_deg_if_revolute": -120.000281,
+          "upper_deg_if_revolute": 120.000281,
+          "effort_api_param": 100.0,
+          "velocity_limit": 3.0
+        }
+      },
+      {
+        "name": "joint6_to_gripper_base",
+        "type": "fixed",
+        "parent_link": "link6",
+        "child_link": "gripper_base",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "origin_rpy_rad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_local": null,
+        "limits": null
+      },
+      {
+        "name": "joint7",
+        "type": "prismatic",
+        "parent_link": "gripper_base",
+        "child_link": "link7",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.1358
+        ],
+        "origin_rpy_rad": [
+          1.5708,
+          0.0,
+          0.0
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": {
+          "lower": 0.0,
+          "upper": 0.035,
+          "lower_deg_if_revolute": null,
+          "upper_deg_if_revolute": null,
+          "effort_api_param": 10.0,
+          "velocity_limit": 1.0
+        }
+      },
+      {
+        "name": "joint8",
+        "type": "prismatic",
+        "parent_link": "gripper_base",
+        "child_link": "link8",
+        "origin_xyz_m": [
+          0.0,
+          0.0,
+          0.1358
+        ],
+        "origin_rpy_rad": [
+          1.5708,
+          0.0,
+          -3.1416
+        ],
+        "axis_local": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "limits": {
+          "lower": -0.035,
+          "upper": 0.0,
+          "lower_deg_if_revolute": null,
+          "upper_deg_if_revolute": null,
+          "effort_api_param": 10.0,
+          "velocity_limit": 1.0
+        }
+      }
+    ],
+    "loaded_inertia_note": "Robot loaded with Piper(self_collision=True) without URDF_USE_INERTIA_FROM_FILE; exact Bullet imported link principal inertias archived in 05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/robot_loaded_dynamics.json"
+  },
+  "candidate_component_payload": {
+    "component_version": "P3-GrooveKey-v2",
+    "source_json": "05_Project3_月面机器人装配/A_结构设计与CAD/04_构件参数与文献/质量惯量_候选参数.json",
+    "source_sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d",
+    "density_kg_m3": 2500,
+    "actual_CAD_volume_m3": 2.9042666666666666e-05,
+    "mass_kg": 0.07260666666666667,
+    "com_in_bottom_origin_frame_m": [
+      0,
+      0,
+      0.010566253098888994
+    ],
+    "inertia_diagonal_about_com_kg_m2": [
+      7.554717961655561e-06,
+      1.8706254628322218e-05,
+      2.0403439999999998e-05
+    ],
+    "convex_collision_parts": 34,
+    "collision_margin_m": 5e-05,
+    "lateral_friction": 0.6,
+    "restitution": 0.0,
+    "material_signoff_status": "Candidate 2500 kg/m^3 uniform sintered EAC-1A simulant model; formal report adoption wording awaiting Part A sign-off"
+  },
+  "controller_and_simulation_parameters": {
+    "lunar_gravity_m_s2": [
+      0.0,
+      0.0,
+      -1.62
+    ],
+    "external_physics_dt_s": 0.004166666666666667,
+    "physics_substeps": 4,
+    "internal_physics_dt_s": 0.0010416666666666667,
+    "outer_control_dt_s": 0.016666666666666666,
+    "characteristic_length_L_m": 0.3,
+    "ik_dls_damping_lambda": 0.015,
+    "ik_joint_limit_margin_deg": 2.0,
+    "ik_acceptance_residuals": {
+      "position_m": 1e-05,
+      "orientation_rad": 0.0001
+    },
+    "outer_dls_feedback": {
+      "gain_Kp_KR": 3.0,
+      "damping_lambda": 0.02,
+      "linear_speed_cap_m_s": 0.04,
+      "angular_speed_cap_rad_s": 0.3,
+      "joint_rate_scale_cap_rad_s": 0.35,
+      "reference_windup_clamp_rad": 0.03
+    },
+    "inner_position_servo": {
+      "mode": "POSITION_CONTROL",
+      "positionGain": 0.15,
+      "velocityGain": 1.0,
+      "arm_maxVelocity_rad_s": 0.6,
+      "arm_force_api_param": 100.0,
+      "calibrated_last_substep_factor": 4
+    },
+    "convergence_gate_60Hz": {
+      "consecutive_samples": 15,
+      "tcp_position_error_mm": 0.1,
+      "tcp_orientation_error_deg": 0.1,
+      "max_joint_speed_rad_s": 0.02
+    },
+    "grasp_and_release": {
+      "approach_open_width_m": 0.036,
+      "close_target_width_m": 0.022,
+      "closing_force_api_N": 1.0,
+      "assisted_constraint": "JOINT_FIXED created only after bilateral positive normal-force core_contact; maxForce=30",
+      "lower_tcp_height_above_target_z_m": {
+        "layer1": 0.016,
+        "layer2": 0.0145,
+        "tray_pick": 0.014
+      },
+      "release_gate": "opening > 35.5 mm, no finger contact > 1e-4 N, |v| < 2 mm/s, |omega| < 0.02 rad/s for 5 consecutive 50 ms samples",
+      "contact_breaking_relative_factor": 1e-05
+    },
+    "grasp_offset_compensation": {
+      "enabled_in_recommended_mode": true,
+      "measured_after_phase": "lift (TCP Z = 0.082 m)",
+      "state_source": "exact simulated TCP and reconstructed block bottom-center pose",
+      "adjusted_phases": [
+        "transfer",
+        "lower"
+      ],
+      "unadjusted_phases": [
+        "approach",
+        "descend",
+        "lift",
+        "retreat"
+      ],
+      "max_xy_bound_m": 0.002
+    }
+  },
+  "xy_and_vertical_placement_error_decomposition": {
+    "csv_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/XY与竖向误差分解.csv",
+    "figure_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/图表/layer_dz_xy_decomposition.png",
+    "off_max_xy_mm": 0.926721179596963,
+    "on_max_xy_mm": 0.2272893269434268,
+    "xy_max_reduction_pct": 75.47381758963614,
+    "off_rms_xy_mm": 0.4110933575200245,
+    "on_rms_xy_mm": 0.10483476302704973,
+    "xy_rms_reduction_pct": 74.49855097161398,
+    "vertical_error_definition": "Signed final block bottom-origin z minus target z after settling.",
+    "vertical_error_by_condition_and_layer": {
+      "off": {
+        "layer1": {
+          "items": 8,
+          "min_mm": 0.03985680747919593,
+          "max_mm": 0.039996058418189165,
+          "mean_mm": 0.0399427614049925
+        },
+        "layer2": {
+          "items": 8,
+          "min_mm": 0.12985078480191176,
+          "max_mm": 0.12999159451921455,
+          "mean_mm": 0.12991805847566196
+        }
+      },
+      "on": {
+        "layer1": {
+          "items": 8,
+          "min_mm": 0.039889579417123205,
+          "max_mm": 0.03999930085043374,
+          "mean_mm": 0.03993875943991937
+        },
+        "layer2": {
+          "items": 8,
+          "min_mm": 0.12978074427687225,
+          "max_mm": 0.12999083932166075,
+          "mean_mm": 0.12990180131945867
+        }
+      }
+    },
+    "interpretation": "Observed settled values for these two runs. The configured collision margin was fixed, so its effect on vertical error is not isolated by this comparison."
+  },
+  "stage4_cross_reproduction": {
+    "verified_at_HK": "2026-11-18T17:13:08.700580+08:00",
+    "archived_run_started_HK": "2026-11-17T17:15:44.686246+08:00",
+    "archived_run_environment": {
+      "python": "3.12.14",
+      "system": "Darwin",
+      "machine": "arm64",
+      "pybullet": "3.2.7"
+    },
+    "calibration_passed_6_of_6": true,
+    "calibration_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/calibration01/反馈字段独立核对.json",
+    "single_run_dir": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated",
+    "exit_code": 0,
+    "success": true,
+    "payload_config": "A-candidate",
+    "grasp_offset_compensation": true,
+    "simulated_seconds": 47.083333333333336,
+    "telemetry_rows_240Hz": 11300,
+    "video_frames_5fps": 236,
+    "moves_reached": 6,
+    "planner_methods": {
+      "direct_checked": 4,
+      "cartesian_vertical_checked": 2
+    },
+    "final_position_error_mm": 0.03995772462979174,
+    "final_orientation_error_deg": 0.0009774533449946191,
+    "xy_compensation_applied_mm": 0.020104844028385062,
+    "item1_compensation_vector_diff_vs_stage3_m": 0.0,
+    "item1_post_settle_error_diff_vs_stage3_m": 0.0,
+    "source_hashes_match_frozen": true,
+    "lossless_gzip_trace": {
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/joint_full_trace.csv.gz",
+      "compressed_bytes": 6774371,
+      "raw_sha256": "95a4445044a46fdbcfe2dd79a59b5debd725f8335702957c19cf89101d14e055",
+      "raw_bytes": 18046593,
+      "rows": 11300,
+      "baseline_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/历史环境与日志基准.json",
+      "baseline_sha256": "a89eb1518549f61b13683789fe84cd0939113a2fa68ac5fd2c97a6197f68f7fd"
+    }
+  },
+  "explicit_modeling_limitations": [
+    "Candidate homogeneous rigid-body density (2500 kg/m^3) is a literature-based simulation input, not sintered specimen testing or structural strength/airtightness certification.",
+    "Carrying uses a contact-gated fixed constraint rather than pure Coulomb friction hold.",
+    "Post-lift XY grasp-offset compensation reads exact simulation poses without camera/calibration noise or latency.",
+    "Collision checking is discrete (joint/command grids + 240 Hz step observer) with explicit contact exemptions and penetration tolerances (0.1/0.2/0.5 mm).",
+    "Calibrated motor torque (4x raw getJointStates motor field) represents the last-substep equivalent effort at 240 Hz external sampling, not all 960 Hz internal substep extrema or manufacturer rated hardware limits.",
+    "Single-run deterministic pairing per condition supports conditional engineering comparison, not statistical significance."
+  ]
+}

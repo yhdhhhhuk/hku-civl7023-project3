@@ -1,0 +1,4 @@
+pybullet build time: Oct 29 2026 22:20:28
+b3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+No inertial data for link, using mass=1, localinertiadiagonal = 1,1,1, identity local inertial frameb3Warning[examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp,126]:
+dummy_linkRobot dynamic properties recorded for 11 links

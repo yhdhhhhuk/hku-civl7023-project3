@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Users/yhdhhhh/Desktop/7023/05_Project3_月面机器人装配/.venv/bin/python",
+    "/Users/yhdhhhh/Desktop/7023/05_Project3_月面机器人装配/B_第二阶段控制与评价/audit_video.py",
+    "/Users/yhdhhhh/Desktop/7023/05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated"
+  ],
+  "runtime_env": {
+    "python": "3.12.14",
+    "system": "Darwin",
+    "machine": "arm64",
+    "pybullet": "3.2.7"
+  },
+  "started": "2026-11-17T17:17:15.307454+08:00",
+  "exit_code": 0
+}

@@ -72,3 +72,13 @@
 /runs/C_stage3/full01/trajectory.csv
 /runs/C_stage3/single01/b_control_trace.csv
 /runs/C_stage3/single01/joint_full_trace.csv
+
+# B stage4 cross-reproduction evidence (lossless .csv.gz shared; checkpoints/raw CSV stay local).
+!/05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/
+/05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/**/checkpoint.json
+/05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/**/checkpoint.bullet
+/05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/**/joint_full_trace.csv
+
+/提交/simulation/.cache/
+/提交/simulation/runs/local/
+/提交/simulation/05_Project3_月面机器人装配/.cache/
