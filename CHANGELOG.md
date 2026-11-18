@@ -13,7 +13,13 @@
 
 ## 待发布
 
-### 2026-11-19 | C English review across stages and stage-4 technical handoff (pending publication)
+### 本地保留而未作为完整原始资料发布
+
+11月5日历史AC交接ZIP、11月4日B第二阶段原始大日志／视频、同步前备份和个人环境继续在B本地保留；11月10日第三阶段两组日志及视频已另行发布，不能混作同一批次；B控制／采集／评价代码已随C的11月8日提交发布，B结果摘要和图表本轮随A证据提供。不能再把“整份第二阶段均未上传”当作当前状态。
+
+## 已发布
+
+### 2026-11-19 | C English review across stages and stage-4 technical handoff (published)
 
 - Scope: C-owned narratives, templates, issues, presentations and stage-4 delivery. A/B originals are unchanged. Scanned 331 tracked C-scoped files; 21 English delivery documents/decks pass the Han-character check. Compatibility paths and immutable raw/frozen evidence remain original, with explicit dispositions in C_stage4/language_audit.json.
 - Changes: English historical/current C chapters, notes and decks; four-slide stage-4 module; B+C combined review deck (eight main slides plus B backup, pending A); PDF image backups; 8x selected B formal video with English overlay and SHA lineage; ASCII-named headless launcher; submission/C copy in the existing submission tree.
@@ -21,14 +27,7 @@
 - Packaging correction: adding C logs to the shared compression index initially invalidated B's manifest. C now uses a separate index and restore script; the original shared index is unchanged and package verification passes again.
 - Repairs/limits: preserved the real stage-2 chart workbook when import omitted its relationship; normalised an invalid B alignment enum only in the temporary combined-deck copy. Native PDF export lacked a runtime font module, so backups use verified slide images; editable originals remain PPTX. Frozen source hashes, model parameters and archived evidence are unchanged.
 - Pending: A's three English personal slides and two actual timed group rehearsals. A material approval, final Word/report sign-off and course submission remain member actions. No messages sent and no approval fabricated.
-- Entry: C_stage4/README.md and the new C_Stage4_EN subfolder in the submission tree. Commit: pending push and remote verification.
-
-
-### 本地保留而未作为完整原始资料发布
-
-11月5日历史AC交接ZIP、11月4日B第二阶段原始大日志／视频、同步前备份和个人环境继续在B本地保留；11月10日第三阶段两组日志及视频已另行发布，不能混作同一批次；B控制／采集／评价代码已随C的11月8日提交发布，B结果摘要和图表本轮随A证据提供。不能再把“整份第二阶段均未上传”当作当前状态。
-
-## 已发布
+- Entry: C_stage4/README.md and the new C_Stage4_EN subfolder in the submission tree. Published content commit: e2e482aca2db316c44d3223aa6f13d7ee4944734; pushed to group main successfully. Remote SHA verification is recorded in the publication receipt.
 
 ### 2026-11-18｜B 个人提交目录与第四阶段发布核对
 
