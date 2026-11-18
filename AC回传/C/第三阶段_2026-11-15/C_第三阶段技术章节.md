@@ -1,60 +1,57 @@
-# C第三阶段：仿真、规划与连续装配
+# C: Simulation, Motion Planning and Continuous Assembly
 
-基于小组main 9806992，2026-11-15。B正式对照与C本机复现分别列示，均不替代组员签核。
+English edition, 19 November 2026. The stage-3 baseline is 9806992. B's paired experiments and C's Windows reproduction are reported separately. This document does not record approval on behalf of another team member.
 
-## 场景与连续装配
-PiPER六轴机械臂及双指夹爪在月面重力1.62m/s²下工作。外部步长1/240s，每步4个内部子步。16件V2构件从初始时刻全部存在，场景共19个物体，库存及已装件为动态刚体。目标为两层八边形，中心(260,30)mm、中心线半径76mm、层距22mm。每层按0、1、7、2、6、3、5、4扇区装配。料盘为共面可视化，统一地面提供物理支撑。
+## Scene and assembly sequence
 
-单件采用34个凸子形状，碰撞margin为50μm。A-candidate候选质量72.6067g、质心高度10.5663mm及实体质心惯量保持冻结，材料采用仍待A确认。不能把机器人URDF未改写等同于Bullet实际导入惯量经过厂家标定。
+A fixed-base six-axis PiPER arm and parallel gripper operate under lunar gravity of 1.62 m/s². The external step is 1/240 s with four internal substeps. All 16 V2 components exist before the first physics step. The scene contains 19 bodies. Stock and assembled components remain dynamic rigid bodies, supported by the common ground plane. The tray is a coplanar visual surface, not a raised fixture.
 
-每件执行接近、下降、闭爪、抬升、转运、下放、释放、退回与沉降。每段保存16件位姿，并将当前构件以外15件纳入障碍。碰撞检查覆盖机器人、夹爪、地面、带载及其他构件。AABB只做保守筛选，潜在碰撞仍执行精细检查。
+The target is a two-layer octagonal enclosure centred at (260, 30) mm, with a 76 mm centreline radius and 22 mm layer spacing. Each layer follows sector order 0, 1, 7, 2, 6, 3, 5, 4. The original interfaces are retained, but corner gaps remain and no lateral connection is modelled.
 
-## 路径与轨迹
-非竖直段优先关节空间直连，边分辨率5mrad，并预检五次轨迹实际命令网格。五次过渡为h(u)=10u³−15u⁴+6u⁵。直连受阻时工程允许RRT-Connect，但B正式两组实际均64段直连、32段竖直采样，RRT尝试及执行均0。
+Each component uses 34 convex collision subshapes with a 50 μm margin. The A-candidate mass is 0.07260666666666667 kg, with centre of mass 0.010566253098888994 m above the bottom origin. The centroidal inertia diagonal is [7.554717961655561e-6, 1.8706254628322218e-5, 2.0403439999999998e-5] kg·m². These values assume a uniform candidate density and are not measured material properties. An unchanged robot URDF does not establish that Bullet's imported inertia is a manufacturer-calibrated tensor.
 
-下降与下放采用2mm笛卡尔采样、连续IK种子、1mrad边检查，再由DLS反馈和逐命令守卫执行。因此不能把96段全部描述为五次轨迹网格预检。规划带载要求非穿透；执行容差约为机器人0.1mm、构件对及地面0.2mm、指定手指核心接触0.5mm。定义外碰撞0仅指这些对象、阶段、豁免和离散判据，不证明连续时间无碰撞，也不提供未经采集的全程最小间隙。
+## Planning, trajectories and collision checks
 
-## 辅助夹取和补偿
-双指在指定区域均产生有效接触后建立辅助固定约束，记录建立瞬时位移。释放时保持辅助持稳，以1N、0.01m/s张开，必要时升级3N。开度>35.5mm、无有效手指接触、线速度<2mm/s、角速度<0.02rad/s，连续5个50ms样本稳定后解除约束。辅助约束传递力和力矩，故不构成纯摩擦抓持验证。
+Each cycle comprises approach, descent, closing, lift, transfer, lowering, release, retreat and settling. Before each motion segment, all component poses are recorded and the other 15 components are included as obstacles. Collision guards cover the robot, gripper, ground, carried component and remaining stock and assembled components. AABB rejection is only a conservative broad phase; potentially interacting pairs receive detailed checks.
 
-抬升后依据精确仿真TCP和构件底面原点计算d_T=R_WTᵀ(p_WO−p_WT)，再以目标工具姿态投影，修正TCP的XY命令。2mm为报错上限，不是固定补偿量。不改变构件目标或Z高度，不补偿姿态，未包含视觉噪声和时延。
+Nonvertical segments first attempt a joint-space direct connection, checked at 5 mrad edge resolution. The actual quintic command grid is checked before execution. The transition is h(u)=10u³−15u⁴+6u⁵, with timing derived from displacement, velocity and acceleration settings. RRT-Connect is available when a direct route is blocked. Both B formal runs actually used 64 checked direct segments and 32 checked vertical segments, with no RRT attempt or execution.
 
-## 正式对照与历史案例
-B在同一macOS ARM64环境分别从零完成补偿关闭和开启工况，两组均16/16、96目标、16释放、定义外碰撞0。最大最终位置误差0.935791→0.261732mm，最大姿态误差0.155598→0.186519°。定位改善伴随姿态及部分轴力矩代价，不能声称所有指标同时改善。B全程J6等效RMS增加2.271%，详见B技术章节。
+Descent and lowering use 2 mm Cartesian sampling, continuous IK seeds and 1 mrad joint-edge checking, followed by damped least-squares feedback and an online guard before each command. The 96 segments must therefore not all be described as quintic-grid preflight checks.
 
-C第二阶段Windows首轮在第10件下放前拒绝预测穿透，完成9件，后续补偿版完成16件。这是历史背景，不能与B本轮关闭成功组成单因素成功率比较。旧几何扫描的两个case高度相差21.609mm，不用其间隙变化证明同高度纯XY补偿效果。
+Planning requires nonpenetration of the carried payload. Execution tolerances distinguish approximately 0.1 mm robot penetration, 0.2 mm component/ground penetration and 0.5 mm designated finger-core contact. Ground/base and permitted grasp contacts have explicit exemptions. Zero out-of-definition collisions is a statement about these objects, stages, exemptions and sampled checks. It is not a continuous-time collision-free proof or evidence of an unmeasured minimum-clearance margin.
 
-## 复现与证据方法
-第三阶段入口显式采用A-candidate、telemetry和补偿开启。先进行本机6组反馈校准，再以独立目录从零运行，保留源文件哈希、命令、依赖、载荷、240Hz日志、result和原速物理视频。禁止用检查点拼接冒充不中断复现。
+## Assisted grasping, release and compensation
 
-独立检查包括逐步连续性、19物体恒定、每库存时刻16件、每段15障碍、双指门控与零建立瞬移、释放门控、逐段规划、源码未变及最终落位。六轴反馈乘4仅解释经校准的最后内部子步等效量，不是960Hz全部极值或四子步平均。视频原速5fps，直接来自物理运行；加速版单独记录来源SHA和倍率。
+Closing uses a 1 N per-finger command and a 0.02 m/s speed cap. A fixed assist constraint is created only after both fingers establish positive contact on the permitted core faces. Displacement at constraint creation is recorded. This stabilises the demonstration but does not validate purely frictional grasping.
 
-## 适用范围
-结论限于候选均匀刚体、辅助抓持、精确仿真位姿及离散碰撞。转角有缝且无侧连接，未验证强度、抗倾覆、气密性或实机可靠性。全组最终签核、材料确认与演练仍由组员完成。
+During release, assistance is retained while the fingers open at 1 N and 0.01 m/s. The prescribed fallback permits 3 N, with up to 3 s per force stage. Detachment requires opening above 35.5 mm, no effective finger contact, linear speed below 2 mm/s and angular speed below 0.02 rad/s for five consecutive 50 ms samples. The component then settles dynamically. The relative contact-breaking factor is 1e-5; it is not a penetration distance in metres. Actual force escalation must be read from the run evidence.
 
-## 来源
-- B_第三阶段报告/给A和C的第三阶段对接说明.md及B_第三阶段技术章节.md。
-- 运行验证/B_第三阶段_2026-11-10/两组result、analysis_summary及冻结清单。
-- AC回传/A/第三阶段_2026-11-13/材料状态与报告对照.md。
-- 本机结果与独立核对：runs/C_stage3/。
+After lifting, exact simulated TCP and component-bottom poses give d_T=R_WTᵀ(p_WO−p_WT). The desired TCP XY position is p_target,XY−(R_WT* d_T)_XY. The existing Z release height remains unchanged. The 2 mm XY limit triggers an error; it is not a fixed correction. Nominal component targets, physics and collision thresholds are unchanged. Orientation, sensor noise and delay are not compensated. This method uses ideal simulated state, not a validated vision system.
 
-## C本机交叉复现
+## Formal comparison and historical failures
 
-|指标|本机结果|
-|---|---:|
-|仿真时间|607.183333 s|
-|最大最终位置误差|0.350763 mm|
-|最大最终姿态误差|0.586786 °|
-|240Hz日志行数|145724|
-|库存采样时刻|1214|
-|规划方法|{'direct_checked': 64, 'cartesian_vertical_checked': 32}|
-|定义外碰撞|0|
-|3N释放升级|0|
+B ran compensation off and on from zero on the same macOS ARM64 system. Both runs completed 16/16 components, 96 motion targets and 16 releases, with zero recorded out-of-definition collisions. Maximum final position error changed from 0.935791 to 0.261732 mm; maximum orientation error changed from 0.155598° to 0.186519°. Position improved while orientation and some torque measures incurred a cost. B's full-run J6 equivalent RMS increased by 2.271%. The result does not show universal improvement.
 
-独立审计全部通过。全部69个资源与B冻结哈希相同；运行时源码与本机文件逐SHA一致。平台浮点坐标以1e-12绝对容差核对，单件只比首件目标。此容差仅用于配置审计，不改变物理或碰撞门槛。
+C's earlier Windows full01 stopped before lowering component 10 because the command prediction found approximately 0.158 mm penetration against component 9. Nine components had been completed; the rejected lowering was not executed. The subsequent compensated run completed 16. This history must not be substituted for the successful off condition in B's formal paired comparison. The two historical geometry-scan cases differed in height by 21.609 mm, so their clearance difference does not prove a pure XY effect at equal height.
 
-原速视频、4倍速及来源SHA见runs/C_stage3/full01/video_lineage.json；原速帧数核对见视频核对.json。全量分析和独立力矩复算均留存。补偿只使用理想仿真位姿，材料候选、辅助抓持等限制见技术章节。
+Windows also exposed non-ASCII URDF and Bullet-checkpoint path failures. The existing fixes use an ASCII asset cache and ASCII output directories, preserving model bytes and relative mesh references. These path changes do not change physics or collision thresholds. Failed runs remain available.
 
-B正式开启结果为0.261732mm、0.186519°；本机结果单独列示，不据单次跨机运行建立成功率或证明跨平台逐位一致。
+## Recording and verification
 
-运行及分析命令见执行命令与环境.json和README。本机六组校准、单件和全装配原始目录全部保留。旧校验失败来自稀疏检出缺文件；补齐后161文件与10日志校验通过。审计开发中处理UTF-8 BOM和单件目标子集，没有修改运行源码。
+The entry point explicitly selects A-candidate, telemetry and compensation. Each new run starts in a separate directory. Six local feedback calibration cases precede interpretation of four-substep motor feedback. Source hashes, commands, dependencies, actual loaded payload, continuous 240 Hz logs, results and physical video are retained.
+
+Independent checks cover continuous step numbering, a constant 19-body scene, all 16 components at each inventory sample, 15 obstacles per segment, bilateral attachment with zero instantaneous displacement, release gating, planning records, unchanged runtime source hashes and final placements. Internal acceptance uses position below 3 mm, orientation below 0.05 rad, speed below 5 mm/s and lower support contact. These are engineering checks, not official course marking thresholds.
+
+Motor feedback multiplied by four is the calibrated last-internal-substep equivalent at the 240 Hz sampled external steps. It is neither the maximum of every 960 Hz internal step nor an average over four substeps. Joint reaction and assist-constraint wrenches must not be treated as motor torque or added to it indiscriminately.
+
+The 640×480, 5 fps video is rendered directly from physics, including an initial frame at step 24 and subsequent frames every 48 external steps. The oblique view uses 53° yaw, 40° pitch and 1.25 m distance, without slot labels. Accelerated copies have separate source hashes and speed records. Checkpoint concatenation or log-interpolated views are not described as uninterrupted physical runs.
+
+## C stage-3 Windows reproduction
+
+On 15 November, the compensated run completed 16/16 from zero without restart: 607.183333 s, 145724 continuous telemetry rows, maximum final position error 0.350763 mm and orientation error 0.586786°. All 96 segments completed: 64 direct and 32 vertical. All 1214 inventory samples contained 16 components; every scene snapshot included 15 obstacles. No out-of-definition collision or 3 N release escalation was recorded. All 12 independent checks passed; the physical video contained 3036 frames. All 69 resources matched B's frozen hashes.
+
+Cross-platform configuration coordinates are compared with a 1e-12 absolute tolerance for floating-point evaluation; a single-component run compares only its requested target subset. This audit tolerance does not alter the simulation thresholds. B's paired results remain the formal comparison, while C's values provide a separate Windows reproduction.
+
+## Scope and handoff
+
+The conclusions remain conditional on uniform candidate material, rigid bodies, assisted grasping, ideal simulated pose and discrete collision checks. Strength, overturning resistance, sealing, lateral connections and real-hardware reliability were not verified. Material adoption, final group approval and live rehearsals require the responsible members. See the run manifests, independent audits and B's formal technical module for traceable evidence.

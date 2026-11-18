@@ -1,0 +1,2650 @@
+[
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/A_\u7ed3\u6784\u8bbe\u8ba1\u4e0eCAD/08_\u6269\u5c55\u53c2\u8003_16\u4ef6\u516b\u8fb9\u5f62/\u539f\u59cb\u76ee\u6807\u4e0e\u53c2\u6570/C_\u516b\u8fb9\u5f62CAD\u540d\u4e49\u5e03\u5c40_mm.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/README_\u672c\u5730\u8fd0\u884c.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/__init__.py",
+    "chinese_path": true,
+    "chinese_content": 18,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/collision_broadphase.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/gripper_release.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/local_paths.py",
+    "chinese_path": true,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/motion_planning.py",
+    "chinese_path": true,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/polygon_planning.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_planning_fast.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_layout.py",
+    "chinese_path": true,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_scene.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": true,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/summarize_preloaded_tray.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/00_\u7ed9B\u5148\u8bfb_\u4ea4\u63a5\u8bf4\u660e.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/16\u4ef6\u521d\u59cb\u4e0e\u76ee\u6807\u4f4d\u59ff.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/\u5939\u722a\u4e8b\u4ef6\u4e0e\u9636\u6bb5\u89c4\u5212.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/\u5b9e\u9645\u4eff\u771f\u53c2\u6570.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u539f\u4ea4\u63a5\u8bf4\u660e/\u516b\u8fb9\u5f62\u9884\u7f6e\u6599\u76d8\u8bd5\u9a8c\u7ed3\u679c.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/__init__.py",
+    "chinese_path": true,
+    "chinese_content": 18,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/collision_broadphase.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/gripper_release.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/local_paths.py",
+    "chinese_path": true,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/motion_planning.py",
+    "chinese_path": true,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/polygon_planning.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_planning_fast.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_layout.py",
+    "chinese_path": true,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_scene.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": true,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/summarize_preloaded_tray.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u56fe\u8868/C_component_errors.png",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u56fe\u8868/C_joint_motion_torque.png",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u56fe\u8868/C_last_frame.png",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u56fe\u8868/C_limits_singularity.png",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u56fe\u8868/C_tcp_tracking_errors.png",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/C_\u4eff\u771f\u89c4\u5212\u4e0e\u88c5\u914d\u7ae0\u8282.md",
+    "chinese_path": true,
+    "chinese_content": 1685,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/full01/result.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/loaded_payload.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/result.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/run_manifest.json",
+    "chinese_path": true,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u7248\u672c\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 41,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u7b2c10\u4ef6\u963b\u585e\u8bca\u65ad.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u8de8\u673a\u590d\u73b0\u8bb0\u5f55.md",
+    "chinese_path": true,
+    "chinese_content": 798,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/A/\u8bc1\u636e/C/\u95ee\u9898\u6e05\u5355.csv",
+    "chinese_path": true,
+    "chinese_content": 315,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/C_\u4eff\u771f\u89c4\u5212\u4e0e\u88c5\u914d\u7ae0\u8282.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/C_\u7b2c\u4e8c\u9636\u6bb5\u6c47\u62a5.pptx",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "office_xml",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/audit_reproduction.py",
+    "chinese_path": true,
+    "chinese_content": 40,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u4ea4\u7ed9\u7ec4\u5458\u7684\u6d88\u606f\u8349\u7a3f.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u5b9e\u9645\u4f9d\u8d56.txt",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u5bfc\u5165\u540e\u6539\u52a8\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 30,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Recorded provenance paths; preserve historical identifiers and hashes"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u6c47\u62a5\u8bb2\u7a3f\u4e0e\u95ee\u7b54.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7248\u672c\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 41,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Recorded provenance paths; preserve historical identifiers and hashes"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c10\u4ef6\u963b\u585e\u8bca\u65ad.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/A\u62a5\u544a\u4e00\u81f4\u6027\u6838\u5bf9.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/B\u4e0eC\u7ed3\u679c\u5bf9\u7167.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/C_\u7b2c\u4e09\u9636\u6bb5\u6280\u672f\u7ae0\u8282.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/C_\u7b2c\u4e09\u9636\u6bb5\u6c47\u62a5_\u5b9a\u7a3f.pptx",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "office_xml",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/README.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/\u672c\u673a\u590d\u73b0\u7ed3\u679c.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u7b2c\u4e09\u9636\u6bb5_2026-11-15/\u6c47\u62a5\u8bb2\u7a3f\u4e0e\u95ee\u7b54.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u8de8\u673a\u590d\u73b0\u8bb0\u5f55.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u8fd0\u884c\u4e0e\u590d\u73b0\u8bf4\u660e.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20/C/\u95ee\u9898\u6e05\u5355.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20\u6a21\u677f/C/C_\u4eff\u771f\u89c4\u5212\u4e0e\u88c5\u914d\u7ae0\u8282.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20\u6a21\u677f/C/\u8de8\u673a\u590d\u73b0\u8bb0\u5f55.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "AC\u56de\u4f20\u6a21\u677f/C/\u95ee\u9898\u6e05\u5355.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "C\u7b2c\u4e09\u9636\u6bb5\u63a8\u8fdb\u8bb0\u5f55.md",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": false,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/b_control_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/checkpoint.bullet",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/failure.bullet",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/inventory_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/trajectory.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/\u5931\u8d25\u6838\u5bf9\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full01/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full01/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/C\u72ec\u7acb\u8bc1\u636e\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/assembly_4x.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/b_control_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/checkpoint.bullet",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/component_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/final_errors.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/inventory_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/joint_motion_torque.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/limits_singularity.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/tcp_tracking_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/trajectory.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/viewing_copy_lineage.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u5206\u6790\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u5206\u6790\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u5b9e\u9645\u6267\u884c\u76ee\u6807\u9650\u4f4d\u4e0e\u5947\u5f02\u6027.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/full02_compensated/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/C\u72ec\u7acb\u8bc1\u636e\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/b_control_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/checkpoint.bullet",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/component_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/inventory_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/joint_motion_torque.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/limits_singularity.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/tcp_tracking_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/trajectory.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u5206\u6790\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u5206\u6790\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u5b9e\u9645\u6267\u884c\u76ee\u6807\u9650\u4f4d\u4e0e\u5947\u5f02\u6027.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single03/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/C\u72ec\u7acb\u8bc1\u636e\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/b_control_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/checkpoint.bullet",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/component_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/inventory_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/joint_motion_torque.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/limits_singularity.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/tcp_tracking_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/trajectory.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u5206\u6790\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u5206\u6790\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u5b9e\u9645\u6267\u884c\u76ee\u6807\u9650\u4f4d\u4e0e\u5947\u5f02\u6027.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage2/single04_compensated/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/calibration/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/calibration/\u53cd\u9988\u5b57\u6bb5\u72ec\u7acb\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/calibration/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 24,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/dependencies.txt",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/environment_resource_freeze.json",
+    "chinese_path": false,
+    "chinese_content": 531,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/C_independent_audit.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/assembly_4x.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/b_control_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/component_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/inventory_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/joint_motion_torque.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/limits_singularity.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/tcp_tracking_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/trajectory.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/video_lineage.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u5206\u6790\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u5206\u6790\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u5b9e\u9645\u6267\u884c\u76ee\u6807\u9650\u4f4d\u4e0e\u5947\u5f02\u6027.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/full01/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/C_independent_audit.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/assembly.mp4",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/b_control_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/collision_broadphase.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/component_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/console.log",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/first_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/gripper_release.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/initial_inventory.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/inventory_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/joint_full_trace.csv.gz",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/joint_motion_torque.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/last_frame.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/limits_singularity.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/loaded_payload.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/local_paths.py",
+    "chinese_path": false,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/motion_planning.py",
+    "chinese_path": false,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/polygon_planning.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/preloaded_planning_fast.py",
+    "chinese_path": false,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/preloaded_tray_layout.py",
+    "chinese_path": false,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/preloaded_tray_scene.py",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/release_diagnostics.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/release_trace.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/result.json",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/run_manifest.json",
+    "chinese_path": false,
+    "chinese_content": 166,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": false,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/tcp_tracking_errors.png",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "binary",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/trajectory.csv",
+    "chinese_path": false,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u516d\u8f74\u529b\u77e9\u7edf\u8ba1.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u5206\u6790\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u5206\u6790\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u5206\u6790\u6458\u8981.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u5206\u9636\u6bb5\u516d\u8f74\u529b\u77e9.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u5b9e\u9645\u6267\u884c\u76ee\u6807\u9650\u4f4d\u4e0e\u5947\u5f02\u6027.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 12,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/console.log",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u89c6\u9891\u6267\u884c\u8bb0\u5f55/\u6267\u884c\u547d\u4ee4\u4e0e\u73af\u5883.json",
+    "chinese_path": true,
+    "chinese_content": 16,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "runs/C_stage3/single01/\u89c6\u9891\u6838\u5bf9.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "scripts/audit_c_stage3.py",
+    "chinese_path": false,
+    "chinese_content": 15,
+    "kind": "text",
+    "archive": false,
+    "disposition": "Frozen executable imports/paths or original docstrings; preserve source hash for reproduction"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/README_\u672c\u5730\u8fd0\u884c.md",
+    "chinese_path": true,
+    "chinese_content": 336,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/__init__.py",
+    "chinese_path": true,
+    "chinese_content": 18,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/collision_broadphase.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/gripper_release.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/local_paths.py",
+    "chinese_path": true,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/motion_planning.py",
+    "chinese_path": true,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/polygon_planning.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_planning_fast.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_layout.py",
+    "chinese_path": true,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_scene.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": true,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/summarize_preloaded_tray.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/00_\u7ed9B\u5148\u8bfb_\u4ea4\u63a5\u8bf4\u660e.md",
+    "chinese_path": true,
+    "chinese_content": 2096,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/16\u4ef6\u521d\u59cb\u4e0e\u76ee\u6807\u4f4d\u59ff.csv",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/\u5939\u722a\u4e8b\u4ef6\u4e0e\u9636\u6bb5\u89c4\u5212.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u4ea4\u63a5\u8d44\u6599/\u5b9e\u9645\u4eff\u771f\u53c2\u6570.json",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/C_\u4eff\u771f\u4e0e\u88c5\u914d/\u539f\u4ea4\u63a5\u8bf4\u660e/\u516b\u8fb9\u5f62\u9884\u7f6e\u6599\u76d8\u8bd5\u9a8c\u7ed3\u679c.md",
+    "chinese_path": true,
+    "chinese_content": 1241,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/__init__.py",
+    "chinese_path": true,
+    "chinese_content": 18,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/collision_broadphase.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/gripper_release.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/local_paths.py",
+    "chinese_path": true,
+    "chinese_content": 13,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/motion_planning.py",
+    "chinese_path": true,
+    "chinese_content": 14,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/polygon_planning.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_planning_fast.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_layout.py",
+    "chinese_path": true,
+    "chinese_content": 17,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/preloaded_tray_scene.py",
+    "chinese_path": true,
+    "chinese_content": 0,
+    "kind": "text",
+    "archive": true,
+    "disposition": "No Han characters in checked content"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/run_preloaded_tray_assembly_fast.py",
+    "chinese_path": true,
+    "chinese_content": 174,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/frozen_source/C_\u4eff\u771f\u4e0e\u88c5\u914d/summarize_preloaded_tray.py",
+    "chinese_path": true,
+    "chinese_content": 5,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  },
+  {
+    "path": "\u63d0\u4ea4/simulation/AC\u56de\u4f20/C/audit_reproduction.py",
+    "chinese_path": true,
+    "chinese_content": 40,
+    "kind": "text",
+    "archive": true,
+    "disposition": "Preserved historical evidence or copy owned by A/B; do not relabel original evidence"
+  }
+]

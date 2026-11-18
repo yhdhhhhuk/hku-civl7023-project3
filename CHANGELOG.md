@@ -13,6 +13,17 @@
 
 ## 待发布
 
+### 2026-11-19 | C English review across stages and stage-4 technical handoff (pending publication)
+
+- Scope: C-owned narratives, templates, issues, presentations and stage-4 delivery. A/B originals are unchanged. Scanned 331 tracked C-scoped files; 21 English delivery documents/decks pass the Han-character check. Compatibility paths and immutable raw/frozen evidence remain original, with explicit dispositions in C_stage4/language_audit.json.
+- Changes: English historical/current C chapters, notes and decks; four-slide stage-4 module; B+C combined review deck (eight main slides plus B backup, pending A); PDF image backups; 8x selected B formal video with English overlay and SHA lineage; ASCII-named headless launcher; submission/C copy in the existing submission tree.
+- Verification: 161-file/10-log package check, six calibration cases, new Windows single run (11300 rows, 0.0399591 mm, 0.000977302 degrees), independent audit and 236-frame check passed. The 8x video has 3036 frames at 40 fps, lasting 75.9 s. PPT package/layout/import checks passed. PDFs were rendered and inspected. No new full 16-component run is claimed.
+- Packaging correction: adding C logs to the shared compression index initially invalidated B's manifest. C now uses a separate index and restore script; the original shared index is unchanged and package verification passes again.
+- Repairs/limits: preserved the real stage-2 chart workbook when import omitted its relationship; normalised an invalid B alignment enum only in the temporary combined-deck copy. Native PDF export lacked a runtime font module, so backups use verified slide images; editable originals remain PPTX. Frozen source hashes, model parameters and archived evidence are unchanged.
+- Pending: A's three English personal slides and two actual timed group rehearsals. A material approval, final Word/report sign-off and course submission remain member actions. No messages sent and no approval fabricated.
+- Entry: C_stage4/README.md and the new C_Stage4_EN subfolder in the submission tree. Commit: pending push and remote verification.
+
+
 ### 本地保留而未作为完整原始资料发布
 
 11月5日历史AC交接ZIP、11月4日B第二阶段原始大日志／视频、同步前备份和个人环境继续在B本地保留；11月10日第三阶段两组日志及视频已另行发布，不能混作同一批次；B控制／采集／评价代码已随C的11月8日提交发布，B结果摘要和图表本轮随A证据提供。不能再把“整份第二阶段均未上传”当作当前状态。
@@ -43,17 +54,14 @@ B负责。英文报告表B2据两组原始坐标修正两层平均竖向偏差�
 - **影响与对接：** A可直接将 `B_Stage4_Report_Module_EN.md`（含URDF表、公式1–8、表B2/B3与8条APA文献）及 `layer_dz_xy_decomposition.png` 并入最终英文Word报告并完成材料定稿声明；C可直接将 `B_Stage4_Slides_EN.pptx` 正片4页并入全组英文PPT、基于 `compensation_on/assembly.mp4` 导出汇报倍速视频并回传Windows端复现及联排记录。
 - **同步状态：** 第四阶段随 `125de28` 推送 GitHub main。
 
-### 2026-11-15｜C第三阶段Windows复现与技术交付（已发布）
+### 2026-11-15 | C stage-3 Windows reproduction and handoff (published)
 
-- **负责人：** C。
-- **变更与原因：** 接收9806992的A/B第三阶段交付，新增独立审计、C章节、报告一致性核对、6页PPT及讲稿，区分正式配对、历史失败和跨机复现。
-- **验证：** 六组校准、单件、从零不中断16/16通过；607.183333s、145724行、最大0.350763mm/0.586786°；64直连+32竖直，定义外碰撞0；12项独立审计、3036视频帧及全量分析通过，69资源SHA与B一致。
-- **失败与限制：** 稀疏检出缺目录经补齐解决；审计BOM/目标子集和PPT字体/图片/链接写入问题已修复。物理门槛未改。候选材料、辅助抓取、理想位姿与离散采样限制保留。
-- **待办：** 全组人工签核、报告和汇报合并、演练。
-- **入口：** AC回传/C/第三阶段_2026-11-15/README.md；runs/C_stage3/。
-- **提交或PR：** 成果提交`f116148`，已推送小组main；本次文档提交补记实际发布状态。
-- **发布方式：** 大CSV无损gzip并逐SHA核对，原速/4倍速视频及报告直接入Git；检查点与完整ZIP仅本地保留。
-
+- Owner: C. Integrated A/B baseline 9806992, added independent audit, report module, consistency review, six-slide deck and speaking notes. Formal paired experiments, historical failure and Windows reproduction are kept distinct.
+- Verification: six calibration cases, single run and uninterrupted full 16/16 run passed. Full result: 607.183333 s, 145724 rows, maximum errors 0.350763 mm / 0.586786 degrees; 64 direct + 32 vertical segments; zero out-of-definition collisions. Twelve independent checks, 3036 physical frames and full analysis passed; all 69 resources match B.
+- Failures and limits: sparse-checkout omissions were resolved; BOM/target-subset audit and PPT font/image/link issues were repaired. No physics threshold changed. Candidate material, assistance, ideal pose and discrete checks remain limitations.
+- Remaining actions: group approval, final report/presentation integration and rehearsals.
+- Published changes: f116148; publication record: 673cee4. Large CSVs are lossless gzip with original-byte SHA verification; video and reports are tracked. Checkpoints and full ZIP remain local.
+- Entry: C_stage4 now provides English delivery copies and maps the historical stage-3 handoff paths. Raw evidence: runs/C_stage3/.
 
 ### 2026-11-13｜接收A第三阶段CAD与完整报告初稿
 
@@ -84,35 +92,16 @@ B负责。英文报告表B2据两组原始坐标修正两层平均竖向偏差�
 - **同步状态：** 已推送小组仓库main；成果提交`39a22dbf3d162758044fe6c3cb5d6ccee1e45495`（在C提交`2833a87320706f6891ee1559ff6283b082b5f233`上接续）。发布后再补记本条状态，未改写成果提交。
 - **入口：** [本轮整合记录](AC回传/第二阶段整合记录_2026-11-10.md)。
 
-### 2026-11-08｜C第二阶段交付与小组仓库同步
+### 2026-11-08 | C stage-2 handoff and group repository publication
 
-### 本次改动
-
-- 基于第一阶段共同基线 `430bbe22746fe3493b62877bf22e9fcd2406d7bc` 接入11月5日AC整合包，加入候选载荷、240Hz采集、反馈校准和分析入口。
-- 修复Windows中文URDF与Bullet检查点路径问题，使用ASCII模型缓存及输出目录。
-- 原方案完整复现于第10件下放前被碰撞预检拒绝，实际完成9件。保留 `runs/C_stage2/full01/` 中的失败证据。
-- 新增可选 `--compensate-grasp-offset`，根据抬升后理想仿真位姿修正TCP水平定位偏置，上限2mm；名义构件目标、物理参数及碰撞门槛不变。
-- 补充C技术章节、问题清单、复现记录、原速/4倍速视频、5页汇报PPT及讲稿。大采样CSV以 `.csv.gz` 无损保存，可运行 `python restore_evidence.py` 按SHA256恢复。
-
-### 验证结果
-
-- 本机反馈校准6/6通过，单件测试通过。
-- 补偿版 `runs/C_stage2/full02_compensated/` 从零不中断完成16/16件，仿真607.1833秒。
-- 最大最终位置误差0.3508mm、姿态误差0.5868°；定义外执行碰撞记录0。
-- 145724行连续240Hz记录、96份场景快照、16次夹取约束建立瞬移0，3036帧原速视频核对通过。
-- 此次64段直连五次命令预检、32段竖直采样DLS，实际RRT绕行段0。
-- 478文件回传包的ZIP与SHA256校验通过；解压后的6组校准及机器人/构件加载通过，未把启动检查称为再次完整装配。
-
-### 版本与交接
-
-- 成果提交：`bd9b7a3`；补充链接说明：`905aa40`。
-- 小组 [PR #1](https://github.com/yhdhhhhuk/hku-civl7023-project3/pull/1) 已于2026-11-08合并；合并提交：`33b9bc3b97d227d4a60001dc0589d04b281c4456`。
-- [完整回传包](https://github.com/jinnmy-chen/hku-civl7023-project3/releases/tag/c-stage2-20261108)，ZIP SHA256：`945765183ea6997bf8cf77a56a9b4d7fa97e5367f56db84b88dcb7e5cc80d8d6`。
-- A：合并C章节并确认候选材料和结构；B：复核控制/力矩解释并交叉复现。组内人工验收待确认。
-
-### 限制与待办
-
-候选密度/均匀刚体待确认；使用辅助约束抓取和理想仿真位姿补偿；碰撞检查为离散采样；最后子步等效反馈不覆盖全部内部峰值；转角有缝、无侧连接。当前为C第二阶段结果，第三阶段正式对照实验及结构可靠性验证仍待开展。
+- Integrated the 5 November package on baseline 430bbe22746fe3493b62877bf22e9fcd2406d7bc, including candidate payload, 240 Hz telemetry, local calibration and analysis.
+- Fixed Windows non-ASCII model/checkpoint paths with an ASCII asset cache and output directories. Original full01 stopped before component-10 lowering after nine placements; failure evidence remains in runs/C_stage2/full01/.
+- Added optional --compensate-grasp-offset based on ideal simulated post-lift state, with a 2 mm bound. Targets, geometry, mass, contact criteria, dynamics and B control algorithm remain unchanged.
+- Six local calibration cases and single run passed. full02_compensated completed 16/16 from zero: 607.1833 s, maximum position error 0.3508 mm and orientation error 0.5868 degrees, 145724 continuous rows, constant 19-body scene, 16 zero-displacement attachments and 3036 verified frames.
+- Actual planning: 64 checked direct quintic segments plus 32 vertical sampled DLS segments; zero RRT execution. No recorded out-of-definition collision or 3 N release escalation.
+- Delivered chapter, issues, reproduction record, original/4x videos, five slides and notes. The 478-file ZIP and SHA checks passed; extracted calibration and robot/component loading passed, not a second full run.
+- Commits: bd9b7a3 and 905aa40. PR #1 merged on 8 November as 33b9bc3b97d227d4a60001dc0589d04b281c4456. Full archive: https://github.com/jinnmy-chen/hku-civl7023-project3/releases/tag/c-stage2-20261108 . ZIP SHA256: 945765183ea6997bf8cf77a56a9b4d7fa97e5367f56db84b88dcb7e5cc80d8d6.
+- A integrates and confirms candidate material/structure; B reviews torque interpretation and reproduces. No group approval was prefilled. Uniform candidate material, assisted grasping, ideal pose, discrete checks, last-substep feedback, corner gaps and absent lateral connections limit the result. This was stage 2, not completion of the course project.
 
 ### 2026-11-04｜首次GitHub共享基线
 

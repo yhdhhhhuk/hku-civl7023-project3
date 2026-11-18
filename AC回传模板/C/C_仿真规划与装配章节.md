@@ -1,3 +1,3 @@
-# C仿真规划与装配章节
+# C simulation, planning and assembly chapter template
 
-请据实际代码与本机运行写场景、预置16件、其余15件障碍更新、装配顺序、路径／轨迹方法、碰撞与接触豁免、释放修复、实际结果、失败与限制。不可将本模板当成已完成章节。
+Complete from actual code and local runs: scene, 16 preloaded components, updates of the other 15 obstacles, assembly order, path and trajectory methods, contact exemptions, release fixes, actual results, failures and limitations. This template is not a completed chapter.

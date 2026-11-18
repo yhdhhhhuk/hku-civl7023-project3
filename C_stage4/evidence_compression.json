@@ -1,0 +1,16 @@
+[
+  {
+    "path": "runs/C_stage4/single01/b_control_trace.csv",
+    "compressed_path": "runs/C_stage4/single01/b_control_trace.csv.gz",
+    "sha256": "fc34dec2fdb9d64a6358c855fa14c057296dbf0ea33c299395c3285f6d834948",
+    "bytes": 2106795,
+    "compressed_bytes": 797862
+  },
+  {
+    "path": "runs/C_stage4/single01/joint_full_trace.csv",
+    "compressed_path": "runs/C_stage4/single01/joint_full_trace.csv.gz",
+    "sha256": "170d0a6328700f935c116a68cce18fdb38f73164c26087c99ea511cebe8fdf5b",
+    "bytes": 18032737,
+    "compressed_bytes": 6772376
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source": "05_Project3_\u6708\u9762\u673a\u5668\u4eba\u88c5\u914d/\u8fd0\u884c\u9a8c\u8bc1/B_\u7b2c\u4e09\u9636\u6bb5_2026-11-10/compensation_on/assembly.mp4",
+  "source_sha256": "d2b35855f759a3035551384fc194f5db0a087ce8cf5c88bf38584614c558a1ee",
+  "output": "B_formal_compensation_on_8x.mp4",
+  "sha256": "5427f482f9980013895a8c60f0f32e2835670eeb13acfe824558c78e3cc1848b",
+  "speed": 8,
+  "frames": 3036,
+  "fps": 40.0,
+  "duration_s": 75.9,
+  "caption": "8x speed from continuous 607.13s physics run",
+  "method": "Retimed physical frames with English caption; no new physics and no run concatenation"
+}

@@ -1,12 +1,12 @@
-# 与A报告的一致性核对
+# Consistency review against A's report
 
-2026-11-15，核对对象为A第三阶段完整报告初稿Markdown；未修改A的Word、CAD或代签材料。
+Review date: 15 November 2026. Scope: the Markdown stage-3 report. A's Word document, CAD and material approval were not modified.
 
-- A摘要采用B正式同机两组16/16、0.935791/0.261732mm和0.155598/0.186519度，与B交接一致。
-- A保留候选2500kg/m³材料及待A确认状态，与本轮C一致。
-- A描述64直连、32竖直和RRT备用，与实际正式工况一致。
-- A演示采用B compensation_on视频；C新增Windows复现视频必须另列运行身份，不能替换后仍沿用B数值。
-- 本轮C章节明确纠正旧C几何扫描证据解释：高度差21.609mm，不能证明同高度纯XY间隙收益。
-- C本机复现指标作为附加交叉复现表，不覆盖B正式配对实验表。
+- The abstract uses B's paired 16/16 runs, 0.935791/0.261732 mm position errors and 0.155598/0.186519 degree orientation errors, consistent with B's handoff.
+- The 2500 kg/m³ material remains a candidate pending A's decision.
+- The actual methods are 64 direct and 32 vertical segments, with RRT available as a fallback.
+- A's demonstration uses B's compensation-on video. C's Windows video must retain its separate run identity and metrics.
+- The historical geometric scans differ in height by 21.609 mm and cannot establish a pure XY effect at equal height.
+- C's reproduction is an additional table, not a replacement for B's formal paired table.
 
-待人工完成：A材料签核、各组员确认最终报告、合并全组幻灯片、口头演练。C已提供本角色可合并内容，不宣称已完成上述人工步骤。
+Outstanding human actions: material adoption by A, final report approval by the members, group slide integration and oral rehearsals. This review does not claim those actions occurred.

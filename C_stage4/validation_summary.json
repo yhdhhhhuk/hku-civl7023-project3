@@ -1,0 +1,21 @@
+{
+  "english_delivery_checks": 21,
+  "english_delivery_han_count": 0,
+  "original_AB_files_unchanged": true,
+  "single_run_independent_checks_passed": true,
+  "video_frames": 3036,
+  "video_duration_s": 75.9,
+  "pptx_validation_receipts": [
+    "BC_validation.json",
+    "stage2_validation.json",
+    "stage3_validation.json",
+    "stage4_validation.json"
+  ],
+  "pdf_backups": "Rendered-slide image PDFs; editable content remains in PPTX",
+  "limitations": [
+    "A slides missing",
+    "Two live group rehearsals not performed",
+    "Legacy paths and immutable evidence retain original Chinese identifiers"
+  ],
+  "B_import_copy_repair": "Invalid paragraph alignment c normalised to ctr in temporary combined-deck copy only; B original unchanged"
+}

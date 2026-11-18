@@ -1,0 +1,6 @@
+run,time_or_step,item,phase,observation,exit_code,evidence,resolution_or_help
+initial single attempt,initialisation,1,URDF load,Windows short path remained non-ASCII; Bullet load failed,1,console.log and execution manifest,ASCII asset cache; original model bytes preserved
+path-fixed single attempt,after six motions,1,checkpoint,Non-ASCII output caused saveBullet failure,1,"console.log, result.json, joint_full_trace.csv",ASCII output; reject unsupported paths before running
+global,candidate parameters,all,material,2500 kg/m3 uniform rigid-body density remains a candidate,N/A,candidate payload JSON,A and group decision required; no proxy approval
+global,entire run,all,model scope,"Assisted grasping, discrete collision checks and no lateral corner connection",N/A,C technical chapter,Retain limitations in comparison and structure discussion
+runs/C_stage2/full01,before component-10 lowering,10,lower preflight,Uncompensated grasp offset; approximately 0.158 mm predicted penetration against component 9; nine completed,1,"result.json, failure.bullet and blockage diagnostic",Optional TCP offset correction; targets and thresholds unchanged; rerun from zero

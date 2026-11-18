@@ -1,16 +1,11 @@
-# C第三阶段完成记录
+# C stage-3 completion record
 
-2026-11-15，基线9806992。C本角色本地技术交付完成，已推送小组GitHub main，成果提交f116148。
+15 November 2026; baseline 9806992. Published to group main in f116148, with publication documentation in 673cee4.
 
-- 发布包161文件、10日志校验通过；本机6组反馈校准通过。
-- 单件复现及完整16件均从零完成，完整运行607.183333秒、145724行。
-- 最大最终位置误差0.350763mm、姿态误差0.586786度；定义外碰撞0。
-- 96段包含64直连、32竖直采样，实际RRT为0；1214库存时刻均16件，96快照各15障碍；16次辅助夹取零建立瞬移，释放无3N升级。
-- 12项独立审计通过；全量分析32465控制行重算，3036帧物理视频核对通过。独立六轴RMS与分析器差异最大6.76e-14Nm。
-- C技术章节、A报告一致性核对、6页可编辑PPT、讲稿、B/C对照表、原速及4倍速视频完成。
-- 交付入口：AC回传/C/第三阶段_2026-11-15/README.md；完整证据runs/C_stage3/。
-- 本次全部后台执行，未打开GUI或切换桌面。
+Package verification: 161 files and 10 logs. Local calibration: six passing cases. Single and uninterrupted full runs passed. Full run: 16/16, 607.183333 s, 145724 rows, maximum final errors 0.350763 mm and 0.586786 degrees, zero out-of-definition collisions. Actual methods: 64 direct and 32 vertical segments, no RRT. All 1214 inventory samples contain 16 objects; all 96 snapshots include 15 obstacles. Sixteen attachments had zero instantaneous displacement; release never escalated to 3 N.
 
-失败与修复：初次包校验因稀疏检出缺目录失败，补齐后通过；审计处理CSV BOM和单件目标子集；PPT导出修复字体字段、图片字节嵌入及Windows文件链接权限。没有修改仿真物理、控制、模型或门槛。
+Twelve independent checks passed. Full analysis recomputed 32465 control rows; the physical video has 3036 frames. Independent six-axis RMS differs from the analyser by at most 6.76e-14 N·m. The chapter, report consistency review, six-slide editable presentation, notes, comparison table and original/4x video were delivered.
 
-范围：保留候选材料、辅助抓持、理想仿真位姿、离散碰撞、最后子步等效力矩及无侧连接限制。本机复现不替代B正式同机配对。材料签核、全组报告/PPT合并及演练仍需组员人工完成。
+Initial sparse-checkout omissions were resolved. Audit implementation handled BOM and single-target subsets. Presentation export required font, embedded-image and Windows link-permission fixes. No physics, control, model or collision threshold was changed. Work ran without opening the simulation GUI.
+
+Candidate material, assisted grasping, ideal pose, discrete collision checks, last-substep torque and absent side connections remain limitations. Group approval, final integration and rehearsals are separate human actions. The English-language review and stage-4 work are recorded in C_stage4.

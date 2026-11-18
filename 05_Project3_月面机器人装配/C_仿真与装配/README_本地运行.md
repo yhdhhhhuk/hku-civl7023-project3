@@ -1,18 +1,15 @@
-# C第二阶段本地运行
+# C runtime and reproduction guide
 
-C第二阶段已通过PR #1合并，本地于2026年11月10日同步。直接使用当前main，无须再次导入旧ZIP。安装和跨平台命令见[根README](../../README.md)，方法及结果见[C复现记录](../../AC回传/C/跨机复现记录.md)。原记录中的“未推送”是11月7日封存时的历史状态，当前发布状态以[CHANGELOG](../../CHANGELOG.md)为准。
+Use the current group main. Stage 2 was merged through PR #1. Statements that the work was unpublished describe the historical capture date only; CHANGELOG records subsequent publication. Do not re-import the old integration ZIP over current code.
 
-在仓库根目录，用本机Python环境执行：
+Use Python 3.12 and install the project requirements in a local environment. Do not copy a virtual environment between machines. On Windows, use an ASCII parent and output directory. Every run needs a new output directory; archived runs must not be overwritten.
 
-```bash
-05_Project3_月面机器人装配/.venv/bin/python 第二阶段入口.py calibrate --output runs/local/calibration01
-05_Project3_月面机器人装配/.venv/bin/python 第二阶段入口.py single --compensate-grasp-offset --output runs/local/single01
-05_Project3_月面机器人装配/.venv/bin/python 第二阶段入口.py full --compensate-grasp-offset --output runs/local/full01
-05_Project3_月面机器人装配/.venv/bin/python 第二阶段入口.py analyze --input runs/local/full01 --calibration runs/local/calibration01/反馈字段独立核对.json
-```
+The repository entry points explicitly select A-candidate, telemetry and video. Stage 2 requires the compensation flag; the stage-3 entry enables compensation by default. The legacy main runner and old demonstration launcher may default to legacy70g and must not be mistaken for the selected candidate experiment. The stage-4 English launcher defaults to headless execution.
 
-Windows把Python路径换为`05_Project3_月面机器人装配/.venv/Scripts/python.exe`，项目父路径和输出用ASCII。每次选择新输出目录，不要覆盖`runs/C_stage2/`封存结果。
+Order: verify package, calibrate all six cases, run one component, analyse and audit, then run all 16 only when required. Exact commands are in each execution manifest. Restore compressed evidence using `python restore_evidence.py --prefix runs/C_stage3/` from the repository root.
 
-包装器显式选择A-candidate、telemetry和录像；补偿须传`--compensate-grasp-offset`。主程序和旧`启动C装配演示`仍默认legacy70g；新`启动第二阶段候选装配`默认候选但不会自动打开补偿。去掉补偿选项可做未补偿对照。
+Windows path fixes: short-path lookup may still return non-ASCII text. The existing ASCII asset cache copies URDF and referenced meshes without changing bytes or relative references. Bullet checkpoints also require ASCII output paths. These fixes do not change mass, inertia, planning, control, contact thresholds or release conditions; the original failures remain.
 
-原版full01完成9件后第10件预检受阻；full02_compensated从零16/16，最大构件误差0.3508mm／0.5868°，145724行240Hz记录。压缩日志可用根restore_evidence.py恢复并校验。补偿依赖理想仿真位姿，辅助固定约束、离散碰撞检查与候选材料限制保留。
+The original full01 stopped before component 10 after nine placements. Optional `--compensate-grasp-offset` adjusts transfer/lowering TCP XY using exact simulated state after lift, with a 2 mm rejection limit. Nominal targets and physics remain unchanged. The compensated stage-2 run completed 16/16 with maximum errors 0.3508 mm and 0.5868 degrees and 145724 continuous rows. This change is not a platform-only comparison.
+
+The mass is 72.6066667 g under a uniform 2500 kg/m³ candidate assumption. Bilateral contact gates an assisted constraint; released components remain dynamic. Torque is sampled at 240 Hz and interpreted only after local substep calibration. Corner gaps, absent side connections and discrete collision checks limit conclusions about strength and continuous collision avoidance.
