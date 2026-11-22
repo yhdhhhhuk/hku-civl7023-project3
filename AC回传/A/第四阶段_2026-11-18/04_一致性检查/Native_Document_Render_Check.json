@@ -1,0 +1,48 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "report_production_review": {
+    "source_commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+    "renderer": "LibreOffice Writer portable build 26.2.7.3",
+    "pages": 18,
+    "verification": "Native release pages reviewed in a contact sheet, selected result pages at full size, and extracted text on every page. Editable table metrics independently checked against source records.",
+    "docx_sha256": "4becd990255b8ca5421dec6a00554ee3e67e0c8ac7f80b838cd683f8d35870fd",
+    "pdf_sha256": "391f4d5eb32512c84fac6a7f70f35a5edd694939e6524d53ebaf80e03d263342"
+  },
+  "slide_production_review": {
+    "source_commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+    "renderer": "LibreOffice 26.2.7.3, native Impress PDF export",
+    "slides": 3,
+    "notes_and_speaking_guide_words": 340,
+    "qa_questions": 14,
+    "visual_check": "All three native PDF pages were inspected. No clipped content, overlaps or missing graphic elements observed.",
+    "data_source": "B phase-four Table B2, 10 November paired full-run records, 17 November macOS representative single",
+    "files": {
+      "PartA_Presentation_EN.pdf": {
+        "bytes": 90005,
+        "sha256": "a71814bbbc8da9b051f0d124843de86836b28ec3f36eaa788ca941905862d08e"
+      },
+      "PartA_Presentation_EN.pptx": {
+        "bytes": 98620,
+        "sha256": "a4564db14493f6626b8d7e6a31ed1c3fa4584e5ab5324975b13ae32a467a9f6f"
+      },
+      "PartA_Questions_and_Answers_EN.txt": {
+        "bytes": 5229,
+        "sha256": "5a92e8df069aaef01879cb6aaca5d5e797260ff56f96ddb66524b0317a9b4f97"
+      },
+      "PartA_Speaking_Guide_EN.txt": {
+        "bytes": 2949,
+        "sha256": "6e3c408171a191d7bbbed011b3430d8f4f3efca618ae79936521c218491d9012"
+      }
+    }
+  },
+  "finalized_files": {
+    "01_Report/CIVL7023_Project3_Final_Report_EN.docx": "4becd990255b8ca5421dec6a00554ee3e67e0c8ac7f80b838cd683f8d35870fd",
+    "01_Report/CIVL7023_Project3_Final_Report_EN.pdf": "391f4d5eb32512c84fac6a7f70f35a5edd694939e6524d53ebaf80e03d263342",
+    "03_A汇报/PartA_Presentation_EN.pptx": "a4564db14493f6626b8d7e6a31ed1c3fa4584e5ab5324975b13ae32a467a9f6f",
+    "03_A汇报/PartA_Presentation_EN.pdf": "a71814bbbc8da9b051f0d124843de86836b28ec3f36eaa788ca941905862d08e"
+  },
+  "pdf_page_counts": {
+    "CIVL7023_Project3_Final_Report_EN.pdf": 18,
+    "PartA_Presentation_EN.pdf": 3
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "success": true,
+    "scene": true,
+    "snapshots": true,
+    "collisions": true,
+    "planning": true,
+    "attach": true,
+    "release": true,
+    "runtime_sources": true,
+    "inventory": true,
+    "telemetry": true,
+    "final": true,
+    "B_settings_match": true
+  },
+  "passed": true,
+  "rows": 145724,
+  "inventory_times": 1214,
+  "planning_methods": {
+    "direct_checked": 64,
+    "cartesian_vertical_checked": 32
+  },
+  "max_position_mm": 0.3507633416220484,
+  "max_orientation_deg": 0.5867857606273303,
+  "seconds": 607.1833333333333,
+  "release_escalations": 0,
+  "torque_equivalent_peak_Nm": [
+    15.22354145265185,
+    13.13397298287205,
+    8.377714379937931,
+    2.592275064178979,
+    1.462207488308855,
+    0.10022429049224398
+  ],
+  "torque_equivalent_RMS_Nm": [
+    2.1257618784180496,
+    1.8401468239086727,
+    1.1675397193986763,
+    0.3913559627509925,
+    0.13346499812919882,
+    0.018026166578527254
+  ],
+  "scope": "240Hz sampled last internal substep equivalent; not 960Hz extrema"
+}

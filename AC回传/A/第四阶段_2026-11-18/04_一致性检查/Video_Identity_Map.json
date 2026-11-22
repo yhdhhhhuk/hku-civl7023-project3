@@ -1,0 +1,52 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "videos": [
+    {
+      "case": "B_off",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/assembly.mp4",
+      "sha256": "039d3dad4346530277de8f961776fbdffdd187a4c57aed5c5601a6b544fc2e58",
+      "bytes": 6646058,
+      "identity_check": "source bytes matched published manifest",
+      "fps": 5,
+      "frames": 3035,
+      "recommended_use": "formal comparison B_off"
+    },
+    {
+      "case": "B_on",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/assembly.mp4",
+      "sha256": "d2b35855f759a3035551384fc194f5db0a087ce8cf5c88bf38584614c558a1ee",
+      "bytes": 6653610,
+      "identity_check": "source bytes matched published manifest",
+      "fps": 5,
+      "frames": 3036,
+      "recommended_use": "formal comparison B_on",
+      "package_path": "05_B_Handoff_EN/Full_Assembly_16_Compensation_On_1x.mp4"
+    },
+    {
+      "case": "C_Windows",
+      "git_path": "runs/C_stage3/full01/assembly.mp4",
+      "sha256": "bd3617d55a75a3f04fbfd729da34f0447777b09b0aec79d96a90791097f1f4fc",
+      "bytes": 6655179,
+      "identity_check": "source bytes matched video lineage",
+      "recommended_use": "Windows independent reproduction real-time"
+    },
+    {
+      "case": "C_Windows",
+      "git_path": "runs/C_stage3/full01/assembly_4x.mp4",
+      "sha256": "d54db2c96b38b45dd672628c9edfc630fe1694df0d15d837c47ad8e11d51c11c",
+      "bytes": 2460274,
+      "identity_check": "source bytes matched video lineage",
+      "recommended_use": "Windows independent reproduction 4x playback"
+    },
+    {
+      "case": "B_stage4_single",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/assembly.mp4",
+      "bytes": 511031,
+      "sha256": "cd050bc901a6978f3eb50adbf841a0d184df22ed10da9ec3d729e2f912d606e5",
+      "fps": 5,
+      "frames": 236,
+      "recommended_use": "11/17 representative one-component restart on macOS ARM64",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Representative_Single.mp4"
+    }
+  ]
+}

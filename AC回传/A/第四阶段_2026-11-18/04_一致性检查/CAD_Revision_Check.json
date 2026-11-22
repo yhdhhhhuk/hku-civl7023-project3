@@ -1,0 +1,20 @@
+{
+  "current_revision": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "previous_reviewed_revision": "673cee4fff789e965e01384c932dac74b6beb4a7",
+  "native_dwg_audit_reused_for_identical_files": true,
+  "matched_cad_and_export_files": [
+    "02_CAD/01_Component/Component_V2.dwg",
+    "02_CAD/01_Component/Component_V2_Parametric.FCStd",
+    "02_CAD/01_Component/Component_V2_mm.step",
+    "02_CAD/01_Component/Component_V2_mm.stl",
+    "02_CAD/01_Component/Component_V2_m.stl",
+    "02_CAD/02_Assembly/Octagon16_Parametric.FCStd",
+    "02_CAD/02_Assembly/Octagon16_mm.step",
+    "02_CAD/02_Assembly/Octagon16_mm.stl",
+    "02_CAD/02_Assembly/Octagon16_3D.dwg",
+    "02_CAD/02_Assembly/Octagon16_3D_Dimensioned.dwg",
+    "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dwg",
+    "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dxf"
+  ],
+  "english_drawing_preview_matches_B_submission_figure": "提交/01_报告/图表/A03_Stage3_Engineering_EN.png"
+}

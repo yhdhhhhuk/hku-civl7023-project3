@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "checks": {
+    "Component_V2": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 1,
+      "dimension_entities": 0,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    },
+    "Octagon16_3D": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 16,
+      "dimension_entities": 0,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    },
+    "A03_Engineering_EN": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 0,
+      "dimension_entities": 9,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    }
+  }
+}

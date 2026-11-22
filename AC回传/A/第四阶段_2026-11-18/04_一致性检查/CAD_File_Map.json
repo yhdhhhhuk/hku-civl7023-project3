@@ -1,0 +1,77 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "files": [
+    {
+      "original_name": "单件_V2.dwg",
+      "package_path": "02_CAD/01_Component/Component_V2.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_V2.dwg",
+      "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558"
+    },
+    {
+      "original_name": "单件_参数化.FCStd",
+      "package_path": "02_CAD/01_Component/Component_V2_Parametric.FCStd",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_参数化.FCStd",
+      "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59"
+    },
+    {
+      "original_name": "单件_mm.step",
+      "package_path": "02_CAD/01_Component/Component_V2_mm.step",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.step",
+      "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09"
+    },
+    {
+      "original_name": "单件_mm.stl",
+      "package_path": "02_CAD/01_Component/Component_V2_mm.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.stl",
+      "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7"
+    },
+    {
+      "original_name": "单件_m.stl",
+      "package_path": "02_CAD/01_Component/Component_V2_m.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_m.stl",
+      "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c"
+    },
+    {
+      "original_name": "Octagon16_Candidate.FCStd",
+      "package_path": "02_CAD/02_Assembly/Octagon16_Parametric.FCStd",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate.FCStd",
+      "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3"
+    },
+    {
+      "original_name": "Octagon16_Candidate_mm.step",
+      "package_path": "02_CAD/02_Assembly/Octagon16_mm.step",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.step",
+      "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946"
+    },
+    {
+      "original_name": "Octagon16_Candidate_mm.stl",
+      "package_path": "02_CAD/02_Assembly/Octagon16_mm.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.stl",
+      "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12"
+    },
+    {
+      "original_name": "octagon_AutoCAD2027.dwg",
+      "package_path": "02_CAD/02_Assembly/Octagon16_3D.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_AutoCAD2027.dwg",
+      "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7"
+    },
+    {
+      "original_name": "octagon_dimensioned.dwg",
+      "package_path": "02_CAD/02_Assembly/Octagon16_3D_Dimensioned.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_dimensioned.dwg",
+      "sha256": "5d0800aa3ef45f80e869647aa1389de43c8ff7554fc6c397a8aeac35e3c489f3"
+    },
+    {
+      "original_name": "A03_Stage3_Engineering_EN.dwg",
+      "package_path": "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dwg",
+      "sha256": "1b8d5e24d70d1c022cdb2de200be6e2ec1c8d7e1a32a0d014aeb42b2662fb031"
+    },
+    {
+      "original_name": "A03_Stage3_Engineering_EN.dxf",
+      "package_path": "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dxf",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dxf",
+      "sha256": "1b2d6cab9ed2599ab0bbc651b536bc5b938057249f4e2a2678b4f5e1f8958b6e"
+    }
+  ]
+}

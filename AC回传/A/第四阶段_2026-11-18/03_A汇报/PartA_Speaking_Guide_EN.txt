@@ -1,0 +1,19 @@
+PART A SPEAKING GUIDE
+CIVL7023 Project 3 | 18 November 2026
+
+340 words. Allow about three minutes, including the handover.
+
+SLIDE 1   0:00–0:55   Lunar block design
+We designed one block that the robot can use in all sixteen positions. Eight blocks form the lower ring, and eight sit directly above them. The two layers occupy a footprint of 182 by 182 millimetres and reach a height of 47 millimetres. Each block centre lies 76 millimetres from the ring centre. We placed the lower eight first so that every upper block has a support before the robot releases it. The target table uses the centre of the bottom face as each block's origin. We matched all sixteen CAD solids to their target positions and orientations. For the dynamics model, our candidate density gives a mass of 72.6 grams per block.
+
+SLIDE 2   0:55–1:52   Gripping and layer alignment
+The block has a 50 by 30 millimetre footprint. Open slots let the two fingers reach the grip faces, which are 22 millimetres apart. They also give the open fingers room to withdraw vertically. In the section below, the lower block has two tapered bosses. Each one enters a socket in the block above. The nominal clearances are one millimetre on each side of the boss base and half a millimetre above its tip. This lets the broad faces carry the upper block's weight at a layer pitch of 22 millimetres. The joints permit upward separation. Our structural assessment covers nominal self-weight on level ground. Strength and manufacturing tolerances would need physical testing.
+
+SLIDE 3   1:52–2:52   Placement within the octagonal ring
+The minimum nominal corner gap between neighbours is about half a millimetre, so horizontal placement matters. In B's two full assemblies, correcting the post-lift grasp offset reduced the largest horizontal error from 0.927 to 0.227 millimetres. Maximum orientation error increased by about 0.031 degrees. Average signed height offsets stayed close to positive 0.040 millimetres on the lower layer and positive 0.130 on the upper layer in both runs. These are measured offsets at a fixed collision margin. The image shows the compensated sixteen-block run. On 17 November, B also reproduced the first placement from a fresh start. I will hand over to B for the controller, torque results and the limits of that test.
+
+GROUP TIMING
+Allow up to three minutes for A and about three and a half minutes for B’s four main slides. C has the remaining three and a half minutes for planning, the selected clip and the closing, including transitions. B’s fifth slide is reserved for questions. Confirm the elapsed time in a timed rehearsal.
+
+RUN IDENTITIES FOR QUESTIONS
+The frame shown on slide 3 is from B’s formal compensated sixteen-block run on 10 November. The paired formal runs each completed sixteen blocks. C’s November Windows result is a separate full reproduction. B’s 17 November macOS reproduction ran one block and six motion segments.

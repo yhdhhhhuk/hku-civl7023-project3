@@ -1,0 +1,333 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "repository": "https://github.com/yhdhhhhuk/hku-civl7023-project3",
+  "files": [
+    {
+      "original_name": "单件_V2.dwg",
+      "package_path": "02_CAD/01_Component/Component_V2.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_V2.dwg",
+      "sha256": "8e66918b5e6495bdd83fdacb31513c6619f34d865a3a9c96b4666bd206222558"
+    },
+    {
+      "original_name": "单件_参数化.FCStd",
+      "package_path": "02_CAD/01_Component/Component_V2_Parametric.FCStd",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_参数化.FCStd",
+      "sha256": "4dcaf2a5b4ad96be79a7ba7bdc7e2e71dcd97cabe52b59855c20acd9d27e0b59"
+    },
+    {
+      "original_name": "单件_mm.step",
+      "package_path": "02_CAD/01_Component/Component_V2_mm.step",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.step",
+      "sha256": "6de4a841eadecf0a22a7ac9329d8386cd40917f4f934484617ddb715b46b9c09"
+    },
+    {
+      "original_name": "单件_mm.stl",
+      "package_path": "02_CAD/01_Component/Component_V2_mm.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_mm.stl",
+      "sha256": "ccd9cfed787ad9c269b4740a90c3c9d46b36e90319e18de506d6fd9bf4a808e7"
+    },
+    {
+      "original_name": "单件_m.stl",
+      "package_path": "02_CAD/01_Component/Component_V2_m.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/单件_m.stl",
+      "sha256": "04dd8ceccf14d8be7df3c3799238f08fc80c33420be702728f4b90f3dc029a9c"
+    },
+    {
+      "original_name": "Octagon16_Candidate.FCStd",
+      "package_path": "02_CAD/02_Assembly/Octagon16_Parametric.FCStd",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate.FCStd",
+      "sha256": "404331299c155c59e28d22d16ddbcee98953e2b021eef949bcbd104afab96af3"
+    },
+    {
+      "original_name": "Octagon16_Candidate_mm.step",
+      "package_path": "02_CAD/02_Assembly/Octagon16_mm.step",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.step",
+      "sha256": "46e8ca9ad64a306c4466c7ae5e397f7355f7ec891ad42420a7f07bfdd8173946"
+    },
+    {
+      "original_name": "Octagon16_Candidate_mm.stl",
+      "package_path": "02_CAD/02_Assembly/Octagon16_mm.stl",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/Octagon16_Candidate_mm.stl",
+      "sha256": "e7e309169f7241c28cfbe8778d611236664f150367138eced667af363724dc12"
+    },
+    {
+      "original_name": "octagon_AutoCAD2027.dwg",
+      "package_path": "02_CAD/02_Assembly/Octagon16_3D.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_AutoCAD2027.dwg",
+      "sha256": "1af962f77c5a9b165f06862ce010850b863b2f8cb9a7436d6ad6ba3b4ecf43e7"
+    },
+    {
+      "original_name": "octagon_dimensioned.dwg",
+      "package_path": "02_CAD/02_Assembly/Octagon16_3D_Dimensioned.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/octagon_dimensioned.dwg",
+      "sha256": "5d0800aa3ef45f80e869647aa1389de43c8ff7554fc6c397a8aeac35e3c489f3"
+    },
+    {
+      "original_name": "A03_Stage3_Engineering_EN.dwg",
+      "package_path": "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dwg",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dwg",
+      "sha256": "1b8d5e24d70d1c022cdb2de200be6e2ec1c8d7e1a32a0d014aeb42b2662fb031"
+    },
+    {
+      "original_name": "A03_Stage3_Engineering_EN.dxf",
+      "package_path": "02_CAD/03_Engineering_Drawing/A03_Engineering_EN.dxf",
+      "git_path": "AC回传/A/第三阶段_2026-11-13/CAD/A03_Stage3_Engineering_EN.dxf",
+      "sha256": "1b2d6cab9ed2599ab0bbc651b536bc5b938057249f4e2a2678b4f5e1f8958b6e"
+    },
+    {
+      "git_path": "README.md",
+      "package_path": "04_一致性检查/Source_Evidence/Repository_README.md",
+      "sha256": "ffe833cfa09dce42fa25553ab17bdd1a3da1271a5fea04ea978b4f67bda29d7a"
+    },
+    {
+      "git_path": "CHANGELOG.md",
+      "package_path": "04_一致性检查/Source_Evidence/Repository_CHANGELOG.md",
+      "sha256": "96dc99fbdcaf55abb35ba58568f9496d5bdf2988c0a8ddb16bee93b5b41494ab"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/experiment_manifest.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Experiment_Manifest.json",
+      "sha256": "28e07859dbacac6cd05c773577db5abb70bfffea5ce44fbfe75151a10f0631de"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/candidate_payload.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Candidate_Payload.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/control_and_model_freeze.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Model_Control_Freeze.json",
+      "sha256": "8729e9cd5379bec6fe5899275d8267dcaa05b7c80bbf3e3328c6de958bf94d9c"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/publication_manifest.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Publication_Manifest.json",
+      "sha256": "2ea49d11b1944e2251d3fd5d3a4dd099d2304297758780efa5d88bd216981c30"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/feedback_calibration.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Feedback_Calibration.json",
+      "sha256": "645b106e662a5d6fbd97f223f20062368eae8a4426b4b98bbe887f0bdf55f0df"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/robot_loaded_dynamics.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Robot_Loaded_Dynamics.json",
+      "sha256": "b793cef4952ebdafe3839f1ea2d2233ae4f51666cabd1016d8e6fdc98636d921"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/condition_summary.csv",
+      "package_path": "04_一致性检查/Source_Evidence/B_Conditions.csv",
+      "sha256": "9a4befe6526126f84704caf18b96dcb08cee7200dd1543ed60abe17b75050276"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/B_第三阶段正式评价/第三阶段结果摘要.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Formal_Results.json",
+      "sha256": "89511b7087f3888a21edd72613456fac7d3f7f20fc0cf5d749bda48b29868e16"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段复核_2026-11-10/独立验收结果.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_Independent_Review.json",
+      "sha256": "f4f670c576a2592b2d51246cff25ef21626dcb9def4e23edd51423c919485634"
+    },
+    {
+      "git_path": "runs/C_stage3/environment_resource_freeze.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Environment_Resources.json",
+      "sha256": "ba91213a869e947099537d3aff242cdef53128fc73290dba2bca7b15d4a0431f"
+    },
+    {
+      "git_path": "runs/C_stage3/calibration/反馈字段独立核对.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Feedback_Calibration.json",
+      "sha256": "1cd3950fc0e041db03fbe78154ca36b9658aee4c1396c69921c0c744cf60a0fc"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/C_independent_audit.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Independent_Audit.json",
+      "sha256": "d4e3d267a4d6e725c2c028186fe6aefc8a7ffb5dc634e8d7b40f0d60c60a5fcb"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/video_lineage.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Video_Lineage.json",
+      "sha256": "b5ca99467aad592fa2f4666cd00749c14194aacc34e002038b0bdcd9f26e5b4d"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/视频核对.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Video_Check.json",
+      "sha256": "35eeae2771f1d41387cc087bcb7ddabd2a8ace1468d68df81582f0c7abb122b9"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/六轴力矩统计.csv",
+      "package_path": "04_一致性检查/Source_Evidence/C_Joint_Torques.csv",
+      "sha256": "bfe130b996f30ae8c5b3bc86466692d891f38dc622e2b1baf2a8000cb67f154c"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/执行命令与环境.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Command_and_Environment.json",
+      "sha256": "5fdb0ab32b99dfd7902b71b7976f9a3fe7152f2dd1d62adddc888df682ac4d34"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/result.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_off_Result.json",
+      "sha256": "7b04d7374b3464e1304f824696f906def07462ea7fc8d4a9d44d6ce0b8432c89"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/loaded_payload.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_off_Loaded_Payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/analysis_summary.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_off_Analysis.json",
+      "sha256": "ecc6840049ca04b52eec78d8e25a39c1570e9e141f0c48a7b662d76633c6acb2"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/torque_full_run.csv",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_off_Torques.csv",
+      "sha256": "31ac1b7cefbb8ba019383f6b3d116729ba86067b7e2bf320e052ecf6864daa2b"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/result.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_on_Result.json",
+      "sha256": "2c9c9011e118a8af32a8a79e819fe65a6328042e9abb9c59bc502de68cc8da45"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/loaded_payload.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_on_Loaded_Payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/analysis_summary.json",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_on_Analysis.json",
+      "sha256": "d4898fed7e94f0d130430b39f4bd5698fddd0d142ef02e31fa635c61064dc212"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/torque_full_run.csv",
+      "package_path": "04_一致性检查/Source_Evidence/B_compensation_on_Torques.csv",
+      "sha256": "c7e558c8d02704f3ff2ded1c24f6f5f6429afc04d4e51abd23d7f04b47600c2a"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/result.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Stage3_Result.json",
+      "sha256": "aab23bad153e9036f0e9223e4009abb6852bf5ca40418da02d49ffbb68bf6695"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/loaded_payload.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Stage3_Loaded_Payload.json",
+      "sha256": "0bf1c37f45be18d92f8b1638835b0acb0ea998d1d5197d5d24725c6a9c38804e"
+    },
+    {
+      "git_path": "runs/C_stage3/full01/分析摘要.json",
+      "package_path": "04_一致性检查/Source_Evidence/C_Stage3_Analysis.json",
+      "sha256": "05084e045af5ed6fe017dbd569b398e2a10ff151575e396becb4a33edb2602a1"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/B_Stage4_Report_Module_EN.md",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/B_Report_Module_EN.md",
+      "sha256": "0a8879b9903f7054d95133112d000296480c470ab9377fae44c5f6d35f652b98"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/参数与环境定稿包.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/B_Parameter_and_Environment_Freeze.json",
+      "sha256": "04ef501bf86165a00a7873f9bbcb36c80e0123e040bac9c5c04e0f8df5f7185d"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/XY与竖向误差分解.csv",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Horizontal_and_Vertical_Errors.csv",
+      "sha256": "55432b9a496d5a1f7b7182e7fca45dc426c56bdf84d42a26e62ae5e742a48f93"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/图表/layer_dz_xy_decomposition.png",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Horizontal_and_Vertical_Errors.png",
+      "sha256": "c5148230a0876fadc937092bf4fbd8306eccf25822f3ef680bc8a849c30c6888"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/第四阶段交叉复现与核对结果.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Reproduction_Results.json",
+      "sha256": "6271ba0de0bb9ca2e40e1df463798a12ffefd71e6e93502dd67764e717b9e2f9"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/历史环境与日志基准.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Historical_Environment_and_Trace_Baseline.json",
+      "sha256": "a89eb1518549f61b13683789fe84cd0939113a2fa68ac5fd2c97a6197f68f7fd"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/calibration01/反馈字段独立核对.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Calibration_6_Tests.json",
+      "sha256": "916f53bf6866a66e8cac5bdf6bcbf561b6c52f82e5ccf373a464317edc5aa347"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/calibration01/执行命令与环境.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Calibration_Execution.json",
+      "sha256": "f96e640034919c636c5e37ca633ace64f8125bf504a298a07670a6b1e32b7c3f"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/result.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Result.json",
+      "sha256": "740a9777a225b62fc89e9f71f42fd8232038dc96614dd34b2c83079b368e75b7"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/执行命令与环境.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Command_and_Environment.json",
+      "sha256": "285307aca712b7c89461e718c21e24de0a5b0259a030e9f1c0fd395958b49e58"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/C独立证据核对.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/C_Audit_of_B_Run.json",
+      "sha256": "345936e2bd8a3f43de352b67b409955ed6f603b880c3bb754a1a058c3c225379"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/视频核对.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Video_Check.json",
+      "sha256": "005db592c1092b216b5b5103e304f756952e45809df82352cb01f51b1b6b0865"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/loaded_payload.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Loaded_Payload.json",
+      "sha256": "82ceb1508d2d4ff8cc1d731dfbeeb22bed3d2ea1a87b8ee21f75467cb1cd95ba"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/run_manifest.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Run_Manifest.json",
+      "sha256": "becc828393ea3035cfc080110eb24a6b36a295b62bee9801a7ced22eb1f03341"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/分析摘要.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Analysis.json",
+      "sha256": "76889c3ea6f13343b6c0c0046873aafb4e2a52ea1a2445d9f40fafa5daf6cf84"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/joint_full_trace.csv.gz",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Joint_Trace.csv.gz",
+      "sha256": "4f4f22fc4112c5c5ee6d16fa56bfb5a459d03f4408bce0137df06bd1d4477a37"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/b_control_trace.csv",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Control_Trace.csv",
+      "sha256": "6df4080aaa2aaa3f66596169445697a4e5c85f7a8ca53412bd9c2c188ecc2d56"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/inventory_trace.csv",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Inventory_Trace.csv",
+      "sha256": "efe9de0a40fbcb26ea625ae8216350b50d061535ed102ab903182c577728fe62"
+    },
+    {
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/assembly.mp4",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/single01/Representative_Single.mp4",
+      "sha256": "cd050bc901a6978f3eb50adbf841a0d184df22ed10da9ec3d729e2f912d606e5"
+    },
+    {
+      "git_path": "evidence_compression.json",
+      "package_path": "04_一致性检查/B_Stage4_Evidence/Current_Compression_Manifest.json",
+      "sha256": "492d4e08fe8ad7496f4024f39366ba9c8ece93a68e4783deee33d18a2803aef5"
+    },
+    {
+      "git_path": "AC回传/A/第三阶段_2026-11-13/数据/质量惯量_候选参数.json",
+      "package_path": "04_一致性检查/Candidate_Payload_Source.json",
+      "sha256": "2cacdba18eb24ca6729b9a6caaa6c11d7dd341ac8c75cae64eb58002d8a4c04d"
+    },
+    {
+      "git_path": "AC回传/A/第三阶段_2026-11-13/数据/16件初始与目标位姿.csv",
+      "package_path": "04_一致性检查/Component_Initial_and_Target_Poses.csv",
+      "sha256": "9fde2670448eb70fa90eb8ae7ddb4ae8448ce72a57aabe563ed3fc9170496309"
+    }
+  ]
+}

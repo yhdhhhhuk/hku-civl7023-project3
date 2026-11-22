@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-18",
+  "source_commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "report_path": "01_Report/CIVL7023_Project3_Final_Report_EN.docx",
+  "report_sha256_at_data_review": "4becd990255b8ca5421dec6a00554ee3e67e0c8ac7f80b838cd683f8d35870fd",
+  "tables_match_exported_structure": true,
+  "tables": 8,
+  "table_cells_checked_against_primary_record_values": 298,
+  "data_and_ID_cells_checked_by_table": {
+    "layout": 40,
+    "urdf": 50,
+    "outcomes": 26,
+    "components": 80,
+    "motion": 24,
+    "torque": 30,
+    "torque_detail": 30,
+    "reproduction": 18
+  },
+  "active_phase_RMS_check": "Recomputed per joint directly from both archived 240 Hz motor logs after excluding initialize and final_settle samples.",
+  "active_joint_samples_off_on": [
+    144476,
+    144512
+  ],
+  "source_coverage": "Nominal poses, supplied URDF checked against frozen SHA, paired and single final records, stage-four decomposition, source motion summaries, torque CSVs, 16-component Windows reproduction, three calibration records.",
+  "figure_captions_and_images": 8,
+  "figures": 8,
+  "title_words": 11,
+  "abstract_words": 189,
+  "keywords": 5,
+  "reference_entries": 12,
+  "font": "Times New Roman 12 pt (Normal paragraph style)",
+  "page_margins_cm": 2.5,
+  "single_line_spacing": true,
+  "author_metadata": "User will provide names, student IDs and group number later",
+  "native_page_layout_review": "See the separate native-render receipt for this revision.",
+  "figure_identity": [
+    {
+      "file": "Fig01_Assembly.png",
+      "embedded_sha256": "9b43ecdbc3a37ed3ba1512aad125b52ebb03aafb74b52d6d14e7706c0a0899c9",
+      "source": "AC回传/A/第三阶段_2026-11-13/图表/A_八边形CAD.png",
+      "check": "Source crop matched pixel for pixel"
+    },
+    {
+      "file": "Fig02_EngineeringDrawing_EN.png",
+      "embedded_sha256": "dcb1cfe2266775a5db45a9893fb6b2c296651def3d84f95e19da4b841293825e",
+      "source": "AC回传/A/第三阶段_2026-11-13/图表/A03_Stage3_Engineering_EN.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig03_PlacementComparison.png",
+      "embedded_sha256": "9d6aac17114ffbf9f88787b0fbc42f512c311f7c4b683b480216ebf0d6471c32",
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_final_errors.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig04_Horizontal_and_Vertical_Error_EN.png",
+      "embedded_sha256": "c5148230a0876fadc937092bf4fbd8306eccf25822f3ef680bc8a849c30c6888",
+      "source": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/图表/layer_dz_xy_decomposition.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig05_CommandTracking.png",
+      "embedded_sha256": "d716cf7e5e5537c9db5554f547f7d90348c1e4d2ad8b347ebaaa92f8e3486adc",
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/command_tracking.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig06_Joint_Limits_and_Conditioning_EN.png",
+      "embedded_sha256": "1de6bec274b854da88c9fe671d77bf7eabe091d459e714d45b809522e2a9cff1",
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/limits_singularity.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig07_TorqueComparison.png",
+      "embedded_sha256": "0568b20bb3c4117845e86f159379a4ed99d9ff36260f8f55719611a885e42d7a",
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/comparison_common_torque.png",
+      "check": "Byte-identical to source"
+    },
+    {
+      "file": "Fig08_Joint_Motion_and_Torque_EN.png",
+      "embedded_sha256": "0d998872975865ea7f050460ff2918c7e360ba9e26e757be0569f79e42ff4835",
+      "source": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_motion_torque.png",
+      "check": "Byte-identical to source"
+    }
+  ]
+}

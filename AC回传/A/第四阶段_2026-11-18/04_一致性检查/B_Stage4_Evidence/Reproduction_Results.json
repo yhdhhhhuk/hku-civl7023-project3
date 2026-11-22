@@ -1,0 +1,40 @@
+{
+  "verified_at_HK": "2026-11-18T17:13:08.700580+08:00",
+  "archived_run_started_HK": "2026-11-17T17:15:44.686246+08:00",
+  "archived_run_environment": {
+    "python": "3.12.14",
+    "system": "Darwin",
+    "machine": "arm64",
+    "pybullet": "3.2.7"
+  },
+  "calibration_passed_6_of_6": true,
+  "calibration_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/calibration01/反馈字段独立核对.json",
+  "single_run_dir": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated",
+  "exit_code": 0,
+  "success": true,
+  "payload_config": "A-candidate",
+  "grasp_offset_compensation": true,
+  "simulated_seconds": 47.083333333333336,
+  "telemetry_rows_240Hz": 11300,
+  "video_frames_5fps": 236,
+  "moves_reached": 6,
+  "planner_methods": {
+    "direct_checked": 4,
+    "cartesian_vertical_checked": 2
+  },
+  "final_position_error_mm": 0.03995772462979174,
+  "final_orientation_error_deg": 0.0009774533449946191,
+  "xy_compensation_applied_mm": 0.020104844028385062,
+  "item1_compensation_vector_diff_vs_stage3_m": 0.0,
+  "item1_post_settle_error_diff_vs_stage3_m": 0.0,
+  "source_hashes_match_frozen": true,
+  "lossless_gzip_trace": {
+    "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/joint_full_trace.csv.gz",
+    "compressed_bytes": 6774371,
+    "raw_sha256": "95a4445044a46fdbcfe2dd79a59b5debd725f8335702957c19cf89101d14e055",
+    "raw_bytes": 18046593,
+    "rows": 11300,
+    "baseline_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/历史环境与日志基准.json",
+    "baseline_sha256": "a89eb1518549f61b13683789fe84cd0939113a2fa68ac5fd2c97a6197f68f7fd"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "files": [
+    {
+      "package_path": "04_一致性检查/Source_logs/compensation_off/joint_full_trace.csv.gz",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv.gz",
+      "compressed_bytes": 95683396,
+      "compressed_sha256": "6e5a92e6ecd804a360e92577cd075b6dcf8cbb78cd87ea96fa7132728bcebfd9",
+      "restored_bytes": 233231077,
+      "restored_sha256": "e3ce1ecf1c402a0f9355803578c300a230d1060d1f0a9e6e73b42b5f084c3c76",
+      "matches_publication_and_compression_manifests": true
+    },
+    {
+      "package_path": "04_一致性检查/Source_logs/compensation_off/b_control_trace.csv.gz",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv.gz",
+      "compressed_bytes": 11172463,
+      "compressed_sha256": "03783da7be87437caf0c65bba41b7b43bda4f80123491b2c2efeb93bc17fe08a",
+      "restored_bytes": 29610249,
+      "restored_sha256": "d241133a7ced95c3fd030abb2af7092a2b5a38aacf4d3633685581156f3523c6",
+      "matches_publication_and_compression_manifests": true
+    },
+    {
+      "package_path": "04_一致性检查/Source_logs/compensation_on/joint_full_trace.csv.gz",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv.gz",
+      "compressed_bytes": 95710200,
+      "compressed_sha256": "ab3475505d50e3e222c46b1dc5940929d18ccd7824bd052a507956608e8e2e51",
+      "restored_bytes": 233296384,
+      "restored_sha256": "046bba8ed5f251fa430ec255f68c951b27be7837a3878c0a71816a429e33968c",
+      "matches_publication_and_compression_manifests": true
+    },
+    {
+      "package_path": "04_一致性检查/Source_logs/compensation_on/b_control_trace.csv.gz",
+      "git_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv.gz",
+      "compressed_bytes": 11216064,
+      "compressed_sha256": "b68ab9377eaa4064ed3ff6ff262ca312eefbdc0f9b2ee668682cac2ed21476cc",
+      "restored_bytes": 29799996,
+      "restored_sha256": "19bd0413e2a8034a09c0dbbbb5663bb36422fd771470ceee3cdb8aa4447d7cdc",
+      "matches_publication_and_compression_manifests": true
+    }
+  ]
+}

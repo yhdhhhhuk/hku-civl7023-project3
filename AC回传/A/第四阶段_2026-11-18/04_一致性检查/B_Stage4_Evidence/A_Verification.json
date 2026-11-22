@@ -1,0 +1,110 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "verification": "Ran the published verify_stage4.py against archived records in an isolated Windows working copy. This local operation regenerated metrics from archived data. B conducted the archived physics run on macOS ARM64.",
+  "published_parameter_freeze_reconciled_except_paths_and_verification_clock": true,
+  "xy_z_rows_verified": 16,
+  "columns_checked_each_row": 14,
+  "formula": "1000 * (settled origin minus target), with mutually orthogonal world axes in metres",
+  "summary": {
+    "csv_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/XY与竖向误差分解.csv",
+    "figure_path": "05_Project3_月面机器人装配/B_第四阶段定稿与汇报/图表/layer_dz_xy_decomposition.png",
+    "off_max_xy_mm": 0.926721179596963,
+    "on_max_xy_mm": 0.2272893269434268,
+    "xy_max_reduction_pct": 75.47381758963614,
+    "off_rms_xy_mm": 0.4110933575200245,
+    "on_rms_xy_mm": 0.10483476302704973,
+    "xy_rms_reduction_pct": 74.49855097161398,
+    "vertical_error_definition": "Signed final block bottom-origin z minus target z after settling.",
+    "vertical_error_by_condition_and_layer": {
+      "off": {
+        "layer1": {
+          "items": 8,
+          "min_mm": 0.03985680747919593,
+          "max_mm": 0.039996058418189165,
+          "mean_mm": 0.0399427614049925
+        },
+        "layer2": {
+          "items": 8,
+          "min_mm": 0.12985078480191176,
+          "max_mm": 0.12999159451921455,
+          "mean_mm": 0.12991805847566196
+        }
+      },
+      "on": {
+        "layer1": {
+          "items": 8,
+          "min_mm": 0.039889579417123205,
+          "max_mm": 0.03999930085043374,
+          "mean_mm": 0.03993875943991937
+        },
+        "layer2": {
+          "items": 8,
+          "min_mm": 0.12978074427687225,
+          "max_mm": 0.12999083932166075,
+          "mean_mm": 0.12990180131945867
+        }
+      }
+    },
+    "interpretation": "Observed settled values for these two runs. The configured collision margin was fixed, so its effect on vertical error is not isolated by this comparison."
+  },
+  "representative_run": {
+    "verified_at_HK": "2026-11-18T17:13:08.700580+08:00",
+    "archived_run_started_HK": "2026-11-17T17:15:44.686246+08:00",
+    "archived_run_environment": {
+      "python": "3.12.14",
+      "system": "Darwin",
+      "machine": "arm64",
+      "pybullet": "3.2.7"
+    },
+    "calibration_passed_6_of_6": true,
+    "calibration_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/calibration01/反馈字段独立核对.json",
+    "single_run_dir": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated",
+    "exit_code": 0,
+    "success": true,
+    "payload_config": "A-candidate",
+    "grasp_offset_compensation": true,
+    "simulated_seconds": 47.083333333333336,
+    "telemetry_rows_240Hz": 11300,
+    "video_frames_5fps": 236,
+    "moves_reached": 6,
+    "planner_methods": {
+      "direct_checked": 4,
+      "cartesian_vertical_checked": 2
+    },
+    "final_position_error_mm": 0.03995772462979174,
+    "final_orientation_error_deg": 0.0009774533449946191,
+    "xy_compensation_applied_mm": 0.020104844028385062,
+    "item1_compensation_vector_diff_vs_stage3_m": 0.0,
+    "item1_post_settle_error_diff_vs_stage3_m": 0.0,
+    "source_hashes_match_frozen": true,
+    "lossless_gzip_trace": {
+      "compressed_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/joint_full_trace.csv.gz",
+      "compressed_bytes": 6774371,
+      "raw_sha256": "95a4445044a46fdbcfe2dd79a59b5debd725f8335702957c19cf89101d14e055",
+      "raw_bytes": 18046593,
+      "rows": 11300,
+      "baseline_json": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/历史环境与日志基准.json",
+      "baseline_sha256": "a89eb1518549f61b13683789fe84cd0939113a2fa68ac5fd2c97a6197f68f7fd"
+    }
+  },
+  "new_run_video_bytes": 511031,
+  "video_sha256": "cd050bc901a6978f3eb50adbf841a0d184df22ed10da9ec3d729e2f912d606e5",
+  "source_hashes_rechecked": 25,
+  "resource_hashes_rechecked": 69,
+  "prior_formal_compressed_and_inflated_logs_rechecked": 4,
+  "manifest_change": "The only previous file entry modified in the B formal publication manifest is the global evidence_compression.json. The four packaged formal traces preserve the published compressed and original byte hashes.",
+  "source_note": "The historical B narrative quotes 18,096,093 raw trace bytes. Decompression and the check against the archived SHA-256 confirm 18,046,593 bytes, including header, for 11,300 samples.",
+  "C_audit_executed_on_archived_one_block_run": {
+    "script_git_path": "AC回传/C/audit_reproduction.py",
+    "status": "PASS",
+    "matches_published_results_in_all_fields": true,
+    "worktree_preparation": "C audit reads the historical manifest source paths and the uncompressed joint trace. The files listed below were restored at their historical paths from byte-identical frozen Git sources, and the committed gzip trace was inflated in the isolated audit copy.",
+    "files_restored_at_recorded_path": {
+      "05_Project3_月面机器人装配/B_第二阶段控制与评价/acceptance.py": {
+        "archived_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/frozen_source/B_第二阶段控制与评价/acceptance.py",
+        "sha256": "d8a68569c6fd86d3588f7ed8a0b6f6eb394a4e0df97ad072c776cd3c916986fa"
+      }
+    },
+    "independent_checks": "Source SHA; relative mass, COM and inertia; nominal target pose; preloaded bodies and inventory; attach and release gates; reached moves; ordered 240 Hz telemetry; sampled collision outcome."
+  }
+}

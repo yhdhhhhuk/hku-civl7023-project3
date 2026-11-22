@@ -1,0 +1,25 @@
+{
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "files": {
+    "B_Stage4_Report_Module_EN.md": {
+      "source": "提交/01_报告/B_Stage4_Report_Module_EN.md",
+      "bytes": 26353,
+      "sha256": "fcd3dbb8dbafdf6862ff68756112a12094744c0c4afa0f60495e98fdd9ac607a"
+    },
+    "B_Stage4_Slides_EN.pptx": {
+      "source": "提交/02_汇报/B_Stage4_Slides_EN.pptx",
+      "bytes": 925446,
+      "sha256": "b4971b25860d1ea71eb019328cab20a6f94797c734b424f5f97c6dd064e25506"
+    },
+    "B_Stage4_Slides_and_QA_EN.md": {
+      "source": "提交/02_汇报/B_Stage4_Slides_and_QA_EN.md",
+      "bytes": 19990,
+      "sha256": "96b963dceeedcae1be8a683ba5305da6a765cf47d802962d195385a0422a42c7"
+    },
+    "Full_Assembly_16_Compensation_On_1x.mp4": {
+      "source": "提交/simulation/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/assembly.mp4",
+      "bytes": 6653610,
+      "sha256": "d2b35855f759a3035551384fc194f5db0a087ce8cf5c88bf38584614c558a1ee"
+    }
+  }
+}

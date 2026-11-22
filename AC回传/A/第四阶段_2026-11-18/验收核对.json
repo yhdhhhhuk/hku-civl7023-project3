@@ -1,0 +1,285 @@
+{
+  "archive_source_commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "package_source_files": 106,
+  "listed_file_hashes_verified": 105,
+  "mapped_source_entries_verified": 63,
+  "video_identity_files": 5,
+  "source_and_target_pose_rows_verified": 16,
+  "full_run_and_reproduction_summary_rows_verified": 4,
+  "nominal_model_mesh_metrics": {
+    "01_Component/Component_V2_mm.stl": {
+      "triangles": 852,
+      "extents": [
+        50.0,
+        30.0,
+        25.0
+      ],
+      "volume": 29042.666666666668,
+      "open_edges": 0
+    },
+    "01_Component/Component_V2_m.stl": {
+      "triangles": 852,
+      "extents": [
+        0.05000000074505806,
+        0.029999999329447746,
+        0.02500000037252903
+      ],
+      "volume": 2.90426666494723e-05,
+      "open_edges": 0
+    },
+    "02_Assembly/Octagon16_mm.stl": {
+      "triangles": 13376,
+      "extents": [
+        182.0,
+        182.0,
+        47.0
+      ],
+      "volume": null,
+      "open_edges": 128
+    }
+  },
+  "recomputed_torque": {
+    "off": {
+      "rows": 145676,
+      "active_rows": 144476,
+      "peaks": [
+        [
+          15.197513322401704,
+          11,
+          "transfer",
+          421.70416666666665
+        ],
+        [
+          13.132433789130188,
+          15,
+          "lift",
+          540.2041666666667
+        ],
+        [
+          8.377653295616927,
+          5,
+          "lift",
+          169.80416666666667
+        ],
+        [
+          2.586912329825025,
+          11,
+          "transfer",
+          421.70416666666665
+        ],
+        [
+          1.4621717299257473,
+          5,
+          "lift",
+          169.7375
+        ],
+        [
+          0.10022429045425023,
+          13,
+          "approach",
+          472.53749999999997
+        ]
+      ],
+      "rms": [
+        2.12606775656997,
+        1.8401807346752372,
+        1.1675430106639972,
+        0.39137817522506385,
+        0.13356496342427707,
+        0.017523466322201482
+      ],
+      "active_rms": [
+        2.1348789277592775,
+        1.8476230171505315,
+        1.1710478502329942,
+        0.3930001558368387,
+        0.13387628717452052,
+        0.01759608939485471
+      ]
+    },
+    "on": {
+      "rows": 145712,
+      "active_rows": 144512,
+      "peaks": [
+        [
+          15.196363589705205,
+          11,
+          "transfer",
+          421.8041666666667
+        ],
+        [
+          13.133410569286065,
+          16,
+          "lift",
+          577.9708333333333
+        ],
+        [
+          8.378968099975596,
+          3,
+          "lift",
+          109.27083333333333
+        ],
+        [
+          2.5861836576565236,
+          11,
+          "transfer",
+          421.8041666666667
+        ],
+        [
+          1.4622034515393858,
+          5,
+          "lift",
+          169.75416666666666
+        ],
+        [
+          0.10022429048322087,
+          13,
+          "approach",
+          472.6375
+        ]
+      ],
+      "rms": [
+        2.1260619340941975,
+        1.8404222648530664,
+        1.1673912664987178,
+        0.3913950645058839,
+        0.13347588869619942,
+        0.01792137844622899
+      ],
+      "active_rms": [
+        2.1348708906992306,
+        1.847863721960774,
+        1.170894432015727,
+        0.3930167118716757,
+        0.13378660402143142,
+        0.01799563214952624
+      ]
+    },
+    "single": {
+      "rows": 11300,
+      "active_rows": 10100,
+      "peaks": [
+        [
+          7.650899793094405,
+          1,
+          "transfer",
+          29.054166666666667
+        ],
+        [
+          12.66361687152916,
+          1,
+          "retreat",
+          42.0875
+        ],
+        [
+          8.373758970357505,
+          1,
+          "lift",
+          17.620833333333334
+        ],
+        [
+          1.4719156769277435,
+          1,
+          "transfer",
+          28.4875
+        ],
+        [
+          1.4604328662419175,
+          1,
+          "lift",
+          17.554166666666667
+        ],
+        [
+          0.09357258795959314,
+          1,
+          "approach",
+          7.154166666666667
+        ]
+      ],
+      "rms": [
+        1.8396387168910344,
+        2.2983144408370944,
+        1.6095719526391012,
+        0.3754088031694696,
+        0.24715814140162595,
+        0.016333232976131484
+      ],
+      "active_rms": [
+        1.945857694219171,
+        2.4165817626505155,
+        1.6890106450629017,
+        0.3970841378370698,
+        0.25964683354352347,
+        0.017276293484900902
+      ]
+    }
+  },
+  "report_abstract_words": 189,
+  "pdf_checks": {
+    "supplied_report_and_local_docx_render_pages": 18,
+    "supplied_slides_and_local_pptx_render_pages": 3
+  },
+  "reused_files": {
+    "04_一致性检查/B_Stage4_Evidence/single01/Joint_Trace.csv.gz": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/joint_full_trace.csv.gz",
+      "bytes": 6774371,
+      "sha256": "4f4f22fc4112c5c5ee6d16fa56bfb5a459d03f4408bce0137df06bd1d4477a37"
+    },
+    "04_一致性检查/B_Stage4_Evidence/single01/Control_Trace.csv": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第四阶段复现_2026-11-17/single01_compensated/b_control_trace.csv",
+      "bytes": 2109730,
+      "sha256": "6df4080aaa2aaa3f66596169445697a4e5c85f7a8ca53412bd9c2c188ecc2d56"
+    },
+    "05_B_Handoff_EN/Full_Assembly_16_Compensation_On_1x.mp4": {
+      "repository_path": "提交/simulation/05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/assembly.mp4",
+      "bytes": 6653610,
+      "sha256": "d2b35855f759a3035551384fc194f5db0a087ce8cf5c88bf38584614c558a1ee"
+    },
+    "05_B_Handoff_EN/B_Stage4_Report_Module_EN.md": {
+      "repository_path": "提交/01_报告/B_Stage4_Report_Module_EN.md",
+      "bytes": 26353,
+      "sha256": "fcd3dbb8dbafdf6862ff68756112a12094744c0c4afa0f60495e98fdd9ac607a"
+    },
+    "05_B_Handoff_EN/B_Stage4_Slides_EN.pptx": {
+      "repository_path": "提交/02_汇报/B_Stage4_Slides_EN.pptx",
+      "bytes": 925446,
+      "sha256": "b4971b25860d1ea71eb019328cab20a6f94797c734b424f5f97c6dd064e25506"
+    },
+    "05_B_Handoff_EN/B_Stage4_Slides_and_QA_EN.md": {
+      "repository_path": "提交/02_汇报/B_Stage4_Slides_and_QA_EN.md",
+      "bytes": 19990,
+      "sha256": "96b963dceeedcae1be8a683ba5305da6a765cf47d802962d195385a0422a42c7"
+    },
+    "04_一致性检查/Source_logs/compensation_off/joint_full_trace.csv.gz": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/joint_full_trace.csv.gz",
+      "bytes": 95683396,
+      "sha256": "6e5a92e6ecd804a360e92577cd075b6dcf8cbb78cd87ea96fa7132728bcebfd9"
+    },
+    "04_一致性检查/Source_logs/compensation_off/b_control_trace.csv.gz": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_off/b_control_trace.csv.gz",
+      "bytes": 11172463,
+      "sha256": "03783da7be87437caf0c65bba41b7b43bda4f80123491b2c2efeb93bc17fe08a"
+    },
+    "04_一致性检查/Source_logs/compensation_on/joint_full_trace.csv.gz": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/joint_full_trace.csv.gz",
+      "bytes": 95710200,
+      "sha256": "ab3475505d50e3e222c46b1dc5940929d18ccd7824bd052a507956608e8e2e51"
+    },
+    "04_一致性检查/Source_logs/compensation_on/b_control_trace.csv.gz": {
+      "repository_path": "05_Project3_月面机器人装配/运行验证/B_第三阶段_2026-11-10/compensation_on/b_control_trace.csv.gz",
+      "bytes": 11216064,
+      "sha256": "b68ab9377eaa4064ed3ff6ff262ca312eefbdc0f9b2ee668682cac2ed21476cc"
+    }
+  },
+  "accepted_HK_date": "2026-11-22",
+  "source_zip_filename": "PartA_第四阶段交付_2026-11-18_B更新版.zip",
+  "source_zip_sha256": "ee428cccc79c367810fb3d71cbca9405570c9ff97f6e42ca707544f0e4efef6a",
+  "source_zip_bytes": 235395521,
+  "integrated_original_files": 96,
+  "limits": [
+    "The assembly STL has 128 open boundary edges. Use STEP or native CAD for solid geometry.",
+    "The native CAD application checks were supplied by A. This review independently checked archived identity, exchange formats and poses.",
+    "The deliverable uses the candidate payload. Team identity fields, final sign-off, actual rehearsals and Moodle similarity receipts were not supplied by Part A.",
+    "The reported physics runs already existed. No new physics run was part of this acceptance."
+  ]
+}

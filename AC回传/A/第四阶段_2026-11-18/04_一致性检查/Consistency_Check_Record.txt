@@ -1,0 +1,37 @@
+A fourth-stage consistency check
+18 November 2026
+Repository https://github.com/yhdhhhhuk/hku-civl7023-project3/tree/628a189f8787efc51759d31595615c4c476aa8fb
+
+1. Four experiments and their scope
+
+The 10 November formal experiment comprises two full 16-component runs on the same host with compensation disabled and enabled. Both runs reached 96 motion targets with 16 releases, 64 direct segments, 32 vertical sampled-IK segments, zero RRT executions and zero recorded collisions outside permitted contact. The maximum 3D position and orientation errors were 0.935791 mm and 0.155598 degrees with compensation disabled, and 0.261732 mm and 0.186519 degrees with compensation enabled.
+
+C published a separate successful 16-component Windows reproduction on 15 November. It reached 96 targets in 607.1833 s and recorded maximum errors of 0.350763 mm and 0.586786 degrees. Its two videos and 12-check independent audit belong to this run.
+
+On 17 November B restarted the recommended configuration on macOS ARM64 using the public entry point. All six feedback calibration tests passed. One representative block traversed six targets (four direct and two vertical), with one release, 11,300 joint samples at 240 Hz, 47.0833 s of simulated time and 236 video frames at 5 fps. C's audit utility recorded 94 inventory observations, and the scene retained all 19 bodies. Maximum final errors were 0.039958 mm and 0.00097745 degrees. The applied XY correction was 0.020105 mm. Its vector and the first component's immediate post-settle error each matched the corresponding 10 November enabled-run measurement to the published precision. Run_Summary_Recomputed.csv lists each run separately.
+
+2. Placement decomposition and torque
+
+For all 16 components in both formal runs, subtracting the target from the settled object origin reproduced the published signed world-axis offsets. The horizontal maximum decreased from 0.926721 to 0.227289 mm (75.474%), and horizontal RMS from 0.411093 to 0.104835 mm (74.499%). The signed mean vertical offset of the lower/upper layer was +0.039943/+0.129918 mm with compensation disabled and +0.039939/+0.129902 mm with compensation enabled. Both conditions used a 50 micrometre collision margin. Isolating its influence would require an experiment varying the margin.
+
+The maximum orientation error increased by 0.030921 degrees. The enabled run's highest sampled equivalent torque was 15.1964 N m on J1 during transfer of component 11. The J6 full-run RMS rose by 2.271%. Reported equivalent torque is four times raw motor feedback, calibrated for the final internal substep observed at each external 240 Hz sample. The loaded robot and gripper mass is 4.67 kg, including a 1.02 kg fixed base. Torque combines gravitational, inertial and contact effects.
+
+3. CAD and payload
+
+Twelve CAD source and exchange files match their Git objects at the pinned revision. The recorded AutoCAD 2027 checks cover the component, 16-part assembly and English engineering drawing. All three drawings returned zero AUDIT errors. The English sheet contains nine editable dimensions and 37 text entities and resolves Arial without substitution. FreeCAD checked the 50 x 30 x 25 mm single part, volume 29042.6666667 mm3, and the 182 x 182 x 47 mm assembly. Reconstructed solids from the A and B/C meshes match the component STEP. All 16 nominal targets match the corresponding assembly placements. See CAD_File_Map.json, Native_DWG_Check.json and CAD_Geometry_and_Mesh_Check.json.
+
+The uniform density of 2500 kg/m3 remains a candidate input by A's instruction. The recorded run payload is 0.0726066666667 kg, with bottom-origin COM z = 0.010566253098889 m. The same candidate mass, COM and inertia apply across the formal experiment, C's Windows reproduction and B's new representative run. The source package preserves the project limitations on ideal simulated pose sensing, assisted grasping and sampled collision checks.
+
+4. Origin of numerical evidence and video
+
+Source_Evidence holds the original results for the full runs. Source_logs contains four B formal joint/control gzip files (213,782,123 compressed bytes), with 145,676/145,712 joint and 32,462/32,465 control samples. The compressed files and inflated originals match the current publication and compression manifests. The formal dataset supplied the original six-axis peak/RMS check in Offline_Log_Recomputation.json. At this revision, the change in B's formal publication manifest records a new SHA and size for the overall evidence_compression.json index. Its formal log entries retain their prior byte hashes. All 25 frozen source hashes and 69 resource hashes were checked from Git.
+
+B_Stage4_Evidence holds the original per-component decomposition, published figure, parameter freeze, calibration, new single-run result, joint/control logs, inventory observations and single-run video. A ran B's published verify_stage4.py in an isolated working copy on Windows. The regenerated 16-row decomposition, frozen numerical fields, calibration status, raw log hash, contiguous steps and two item-1 milestone comparisons matched the published records. B_Stage4_Evidence/A_Verification.json includes the numerical check. B's narrative gives 18,096,093 bytes for the raw single-run joint CSV. Inflating the archived gzip produced 18,046,593 bytes, matching the historical baseline SHA-256 and the machine-readable archive record.
+
+Video_Identity_Map.json records five byte-verified videos. The full-length selected demonstration in 05_B_Handoff_EN shows the enabled 16-component run. B_Stage4_Evidence/single01/Representative_Single.mp4 shows B's new one-component reproduction. The remaining videos are available at their pinned Git paths.
+
+C's independent audit script also passed when run locally against the archived single run. Its result matched every published result field. To repeat this optional archive audit, restore the uncompressed joint CSV and the historical B_第二阶段控制与评价/acceptance.py from the same-revision frozen_source at the path in run_manifest.json. The recorded SHA matches. B_Stage4_Evidence/A_Verification.json gives both Git paths and the hash.
+
+5. Team records and report checks
+
+B's 17 November non-lead restart of C's assembly pipeline and C's 15 November full Windows execution are documented separately. C's proposed fourth-stage Windows quick-run and the two timed group rehearsals are team items without execution records in the reviewed handoff. The user will supply author names, student IDs and the group number. The report and presentation checks for this revision are recorded in the document review files in this directory.

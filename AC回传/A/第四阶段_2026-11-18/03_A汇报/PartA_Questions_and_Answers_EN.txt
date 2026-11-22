@@ -1,0 +1,45 @@
+PART A QUESTIONS AND ANSWERS
+CIVL7023 Project 3
+18 November 2026
+
+Why did you choose sixteen identical blocks?
+The design uses a repeated component to keep the gripping and locating interfaces consistent. Eight positions on each of two layers provide a multi-component assembly that exercises orientation changes and placement above existing obstacles. The component count is a group design choice.
+
+Why is the layer pitch 22 mm when one block is 25 mm high?
+The 3 mm bosses enter the sockets under the upper block. The main body top face provides support at 22 mm, so the upper base lies at that height. The total two-layer height is 47 mm.
+
+How does the robot grip a block?
+Two fingers enter the open side slots and contact faces 22 mm apart. In simulation, bilateral valid contact gates the creation of an auxiliary fixed constraint. The current evaluation represents that assisted grasp model. The upward slot openings give the fingers space to withdraw.
+
+What is the component coordinate origin?
+It is the centre of the base plane. The local X axis follows the block length, Y follows its width and Z points upward. The CAD centre of mass is 10.5663 mm above that geometric origin. The simulation restores the geometric origin from its reported inertial pose when evaluating placement.
+
+How did you choose the material density?
+The effective density of 2500 kg/m³ is a literature-informed candidate assumption for a uniform rigid body. Applying it to the CAD volume of 29,042.6667 mm³ gives 72.6067 g per block. The material adoption remains pending. The report records the source and the corresponding mass, centre of mass and inertia.
+
+What support calculation did you perform?
+For nominal centred placement on a horizontal plane, the upper-to-lower contact area is 1004 mm². Under lunar gravity of 1.62 m/s², one upper block weighs about 0.117623 N, giving approximately 117.15 Pa of average self-weight bearing pressure. Manufacturing variation, contact concentration, strength and overturning require further evaluation.
+
+What does the 0.4934 mm corner gap describe?
+It is the minimum nominal distance between neighbouring same-layer CAD solids. Actual gap during motion depends on pose and gripping offset. The value describes the frozen design geometry. The execution evidence uses the project's discrete collision guards and permitted contact conditions.
+
+Why did you retain V2 geometry in the final CAD package?
+Both formal paired B runs completed the sixteen-component task with the same geometry, target table and candidate payload. The stage-three design decision records this evidence. The demonstrated improvement uses grasp-offset compensation in the XY commands. The report states its position benefit and its orientation and torque tradeoffs.
+
+How does the B experiment compare with C's reproduction?
+B ran each condition once on the same Mac on 10 November. Both completed sixteen blocks. Maximum final 3D position error fell from 0.935791 to 0.261732 mm with compensation. Maximum orientation error rose from 0.155598° to 0.186519°. C's separate compensated Windows run completed sixteen blocks with maximum errors of 0.350763 mm and 0.586786°. The image on slide 3 comes from B's compensated full run.
+
+How do the new measurements relate to the corner gap?
+The CAD gives a nominal corner gap of 0.4934 mm. Across the sixteen blocks, the largest horizontal placement error fell from 0.926721 mm with correction off to 0.227289 mm with it on. These are distances between measured and target block origins. The gap between two actual corners also depends on the directions of their shifts and the final orientations of both blocks.
+
+Why did the upper blocks settle higher than their nominal targets?
+The lower layer averaged about +0.040 mm above target and the upper layer about +0.130 mm in both formal runs. Both runs used the same 50 μm collision margin. Establishing how much of this difference comes from the margin would require a separate test that varies it under the same support and settling conditions.
+
+What exactly did B reproduce on 17 November?
+B started the compensated one-block assembly on macOS, reached all six motion targets and released the block. The run produced 11,300 samples at 240 Hz. The final position and orientation errors were about 0.03996 mm and 0.00098°. B also passed all six motor-feedback calibration tests and ran C's audit program. The sixteen-block figures on slide 3 come from the 10 November paired experiment.
+
+Does the design have lateral or anti-uplift connections?
+The current component has loose-fit vertical location. It permits upward separation, and the octagonal sectors have no lateral connectors. The demonstrated scope is sequential assembly with nominal self-weight support. Stronger connection or enclosure requirements would require a revised design and affected validation.
+
+What requires the team's final confirmation?
+The team must review the report, retain the stated candidate-material status or record a later adoption decision, verify the final combined presentation and run identity, and complete the two group rehearsals with recorded timing and corrections. Names, student numbers and the group number are supplied by the team.

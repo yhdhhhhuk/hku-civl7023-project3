@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-18",
+  "commit": "628a189f8787efc51759d31595615c4c476aa8fb",
+  "cases": {
+    "B_off": {
+      "success": true,
+      "components": 16,
+      "moves": 96,
+      "defined_collisions": 0,
+      "seconds": 606.9833333333333,
+      "telemetry_rows": 145676,
+      "max_final_position_mm": 0.9357910435369245,
+      "max_final_orientation_deg": 0.1555978013132035,
+      "planning_methods": {
+        "direct_checked": 64,
+        "cartesian_vertical_checked": 32
+      },
+      "payload_matches_A": true,
+      "sixteen_final_pose_formulas_recomputed": true,
+      "nominal_targets_match_CAD_table": true
+    },
+    "B_on": {
+      "success": true,
+      "components": 16,
+      "moves": 96,
+      "defined_collisions": 0,
+      "seconds": 607.1333333333333,
+      "telemetry_rows": 145712,
+      "max_final_position_mm": 0.2617316941592188,
+      "max_final_orientation_deg": 0.1865189132999802,
+      "planning_methods": {
+        "direct_checked": 64,
+        "cartesian_vertical_checked": 32
+      },
+      "payload_matches_A": true,
+      "sixteen_final_pose_formulas_recomputed": true,
+      "nominal_targets_match_CAD_table": true
+    },
+    "C_Windows": {
+      "success": true,
+      "components": 16,
+      "moves": 96,
+      "defined_collisions": 0,
+      "seconds": 607.1833333333333,
+      "telemetry_rows": 145724,
+      "max_final_position_mm": 0.3507633416220485,
+      "max_final_orientation_deg": 0.5867857606273305,
+      "planning_methods": {
+        "direct_checked": 64,
+        "cartesian_vertical_checked": 32
+      },
+      "payload_matches_A": true,
+      "sixteen_final_pose_formulas_recomputed": true,
+      "nominal_targets_match_CAD_table": true
+    },
+    "B_stage4_single": {
+      "success": true,
+      "components": 1,
+      "moves": 6,
+      "defined_collisions": 0,
+      "seconds": 47.083333333333336,
+      "telemetry_rows": 11300,
+      "max_final_position_mm": 0.03995772462979174,
+      "max_final_orientation_deg": 0.0009774533449946191,
+      "planning_methods": {
+        "direct_checked": 4,
+        "cartesian_vertical_checked": 2
+      },
+      "payload_matches_A": true,
+      "final_position_recomputed": true,
+      "frozen_source_hashes": 25
+    }
+  },
+  "resource_hashes_verified": 69,
+  "resource_paths": [
+    "PiPER_Load_URDF/demo_load_urdf.py",
+    "PiPER_Load_URDF/piper_description/piper_description_pybullet.urdf",
+    "PiPER_Load_URDF/piper_description/piper_description.urdf",
+    "PiPER_Load_URDF/piper_description/meshes/link8.STL",
+    "PiPER_Load_URDF/piper_description/meshes/gripper_base_100.dae",
+    "PiPER_Load_URDF/piper_description/meshes/gripper_base.STL",
+    "PiPER_Load_URDF/piper_description/meshes/gripper_base_100_v2.dae",
+    "PiPER_Load_URDF/piper_description/meshes/link3.STL",
+    "PiPER_Load_URDF/piper_description/meshes/base_link.STL",
+    "PiPER_Load_URDF/piper_description/meshes/link2.STL",
+    "PiPER_Load_URDF/piper_description/meshes/link1.STL",
+    "PiPER_Load_URDF/piper_description/meshes/gripper_base.dae",
+    "PiPER_Load_URDF/piper_description/meshes/link5.STL",
+    "PiPER_Load_URDF/piper_description/meshes/link4.STL",
+    "PiPER_Load_URDF/piper_description/meshes/link6.STL",
+    "PiPER_Load_URDF/piper_description/meshes/link7.STL",
+    "PiPER_Load_URDF/piper_description/meshes/dae/camera_v2.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/camera_v3.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link4.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link5.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/camera.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link7.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link6.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link2.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/base_link.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link3.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link1.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/gripper_base_100_v2.dae",
+    "PiPER_Load_URDF/piper_description/meshes/dae/link8.dae",
+    "B_工作空间与设计约束/构件模型/parameters.json",
+    "B_工作空间与设计约束/构件模型/groove_key_block_mm.stl",
+    "B_工作空间与设计约束/构件模型/groove_key_block_m.stl",
+    "B_工作空间与设计约束/构件模型/groove_key_block.scad",
+    "B_工作空间与设计约束/构件模型/convex/end_land_1_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/end_land_1_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/guide_boss_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/guide_boss_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/end_land_0_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/end_land_0_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/grip_core.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_4_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_4_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_4_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_0_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_3_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_0_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_1_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_2_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_2_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_1_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_0_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_3_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_2_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_4_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/lower_body.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_4_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_4_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_1_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_2_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_3_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_0_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_0_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_2_1.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_0_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_3_2.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_wall_2_0.stl",
+    "B_工作空间与设计约束/构件模型/convex/socket_mouth_1_0.stl",
+    "A_结构设计与CAD/04_构件参数与文献/质量惯量_候选参数.json",
+    "C_仿真与装配/交接资料/16件初始与目标位姿.csv"
+  ],
+  "C_independent_audit_passed": true,
+  "material_state": "candidate retained by Part A; formal adoption pending",
+  "new_physics_run_performed": false,
+  "archived_feedback_calibration": {
+    "B": {
+      "tests": 6,
+      "passed": 6,
+      "new_execution_by_A": false
+    },
+    "C": {
+      "tests": 6,
+      "passed": 6,
+      "new_execution_by_A": false
+    }
+  },
+  "video_source_bytes_checked": 4,
+  "native_DWG_checks": {
+    "Component_V2": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 1,
+      "dimension_entities": 0,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    },
+    "Octagon16_3D": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 16,
+      "dimension_entities": 0,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    },
+    "A03_Engineering_EN": {
+      "software": "AutoCAD 2027 Core Console",
+      "solids": 0,
+      "dimension_entities": 9,
+      "INSUNITS": 4,
+      "AUDIT_errors": 0,
+      "font_substitution_on_open": false
+    }
+  }
+}
